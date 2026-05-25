@@ -40,6 +40,10 @@ Output: [[3,null],[3,0],[3,null]]
 Node.random is null or is pointing to some node in the linked list.
 ```
 
+**Tags**
+- Hash Table
+- Linked List
+
 ### Solution
 ```
 /**

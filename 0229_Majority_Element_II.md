@@ -1,4 +1,5 @@
 ### 229. Majority Element II
+Medium
 
 Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
 
@@ -15,6 +16,12 @@ Output: [3]
 Input: [1,1,1,3,3,2,2,2]
 Output: [1,2]
 ```
+
+**Tags**
+- Array
+- Hash Table
+- Sorting
+- Counting
 
 ### Solution:
 

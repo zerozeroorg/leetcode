@@ -1,4 +1,5 @@
 ### 680. Valid Palindrome II
+Easy
 
 Given a non-empty string s, you may delete at most one character. Judge whether you can make it a palindrome.
 
@@ -19,6 +20,11 @@ Explanation: You could delete the character 'c'.
 ```
 The string will only contain lowercase characters a-z. The maximum length of the string is 50000.
 ```
+
+**Tags**
+- Two Pointers
+- String
+- Greedy
 
 ### Solution:
 - Just do what you have to do. No special trick.

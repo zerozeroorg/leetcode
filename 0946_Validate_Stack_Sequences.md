@@ -31,6 +31,11 @@ popped.length == pushed.length
 popped is a permutation of pushed.
 ```
 
+**Tags**
+- Array
+- Stack
+- Simulation
+
 ### Solution
 - Add all pushed elements til you push an element that is equal to the first popped element
 - Then try to remove all elements based on the next popped element state until you cannot

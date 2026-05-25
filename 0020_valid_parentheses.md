@@ -44,6 +44,10 @@ Output: true
 s consists of parentheses only '()[]{}'.
 ```
 
+**Tags**
+- String
+- Stack
+
 ### Solution:
 Argh don't forget that a string can just contain opening chars! So you must check at the very end if the stack is full.
 

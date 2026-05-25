@@ -31,6 +31,10 @@ Explanation: [1,3] and [3,1] are both a height-balanced BSTs.
 ``` 
 
 **Tags**
+- Array
+- Divide and Conquer
+- Tree
+- Binary Search Tree
 - Binary Tree
 
 **Constraints:**

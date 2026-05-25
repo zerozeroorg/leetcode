@@ -24,8 +24,12 @@ Output: 5
 ```
 
 **Tags**
+- Array
+- Binary Search
 - Dynamic Programming
-
+- Sliding Window
+- Rolling Hash
+- Hash Function
 
 ### Solution
 ```

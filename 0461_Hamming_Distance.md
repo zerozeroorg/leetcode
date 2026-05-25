@@ -27,6 +27,9 @@ Output: 1
 0 <= x, y <= (2^31) - 1
 ```
 
+**Tags**
+- Bit Manipulation
+
 ### Solution
 ```
 class Solution:

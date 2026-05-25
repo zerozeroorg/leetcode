@@ -34,7 +34,10 @@ num does not have any leading zeros except for the zero itself.
 
 **Tags**
 - Revisit
-- monotonic stack
+- String
+- Stack
+- Greedy
+- Monotonic Stack
 
 ### Solution
 - Solution is written in the comments. Not intuitive. You have to really work it out.

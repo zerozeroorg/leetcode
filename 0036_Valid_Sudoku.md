@@ -54,6 +54,11 @@ board[i].length == 9
 board[i][j] is a digit or '.'.
 ```
 
+**Tags**
+- Array
+- Hash Table
+- Matrix
+
 ### Solution
 - use a set instead of a map to look for repetitions
 ```

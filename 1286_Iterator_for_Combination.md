@@ -36,7 +36,10 @@ It's guaranteed that all calls of the function next are valid.
 
 **Tags**
 - Revisit
-- Combinations
+- String
+- Backtracking
+- Design
+- Iterator
 
 ### Solution
 - Generate all combos, or generate the next one iteratively.

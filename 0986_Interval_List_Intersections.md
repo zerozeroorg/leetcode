@@ -44,6 +44,11 @@ endi < starti+1
 endj < startj+1
 ```
 
+**Tags**
+- Array
+- Two Pointers
+- Sweep Line
+
 ### Solution
 There is a more concise version below provided by LeetCode
 

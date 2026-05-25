@@ -36,7 +36,10 @@ Explanation: 4 boats (3), (3), (4), (5)
 
 **Tags**
 - Revisit
+- Array
+- Two Pointers
 - Greedy
+- Sorting
 
 ### Solution:
 - Edit: just take the heaviest and lightest person

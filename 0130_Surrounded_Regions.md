@@ -36,6 +36,13 @@ n == board[i].length
 board[i][j] is 'X' or 'O'.
 ```
 
+**Tags**
+- Array
+- Depth-First Search
+- Breadth-First Search
+- Union-Find
+- Matrix
+
 ### Solution
 - The key to solving this is this hint: "Any 'O' that is not on the border and it is not connected to an 'O' on the border will be flipped to 'X'"
 - Create a safe matrix that shows which O's are safe from turning into X.

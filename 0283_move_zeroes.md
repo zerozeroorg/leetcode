@@ -1,4 +1,5 @@
 ### 283. Move Zeroes
+Easy
 
 Share
 Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
@@ -14,6 +15,10 @@ Output: [1,3,12,0,0]
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 ```
+
+**Tags**
+- Array
+- Two Pointers
 
 ### Solution:
 - Intuition: find the first non-zero number and move it to the first spot

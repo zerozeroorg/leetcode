@@ -40,7 +40,9 @@ n == dungeon[i].length
 
 **Tags**
 - Revisit
-
+- Array
+- Dynamic Programming
+- Matrix
 
 ### Solution
 ```

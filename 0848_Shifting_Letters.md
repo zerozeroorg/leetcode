@@ -35,6 +35,11 @@ shifts.length == s.length
 ```
 
 
+**Tags**
+- Array
+- String
+- Prefix Sum
+
 ### Solution
 ```
 class Solution:

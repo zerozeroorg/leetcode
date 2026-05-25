@@ -24,6 +24,11 @@ Output: [[1]]
 1 <= n <= 20
 ```
 
+**Tags**
+- Array
+- Matrix
+- Simulation
+
 ### Solution:
 ```
 class Solution:

@@ -44,6 +44,8 @@ Output: 0
 
 **Tags**
 - Revisit
+- Array
+- Dynamic Programming
 
 ### Solution
 There is a faster solution in JS below this one but it is not very intuitive.

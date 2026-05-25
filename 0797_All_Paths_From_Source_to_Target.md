@@ -46,6 +46,12 @@ All the elements of graph[i] are unique.
 The input graph is guaranteed to be a DAG.
 ```
 
+**Tags**
+- Backtracking
+- Depth-First Search
+- Breadth-First Search
+- Graph Theory
+
 ### Solution
 ```
 class Solution:

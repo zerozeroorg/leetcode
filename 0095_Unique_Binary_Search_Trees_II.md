@@ -39,6 +39,13 @@ Output: [[1]]
 1 <= n <= 8
 ``` 
 
+**Tags**
+- Dynamic Programming
+- Backtracking
+- Tree
+- Binary Search Tree
+- Binary Tree
+
 ### Solution
 ```
 # Definition for a binary tree node.

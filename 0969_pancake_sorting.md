@@ -1,4 +1,5 @@
 ### 969. Pancake Sorting
+Medium
 
 Given an array of integers A, We need to sort the array performing a series of pancake flips.
 
@@ -38,6 +39,12 @@ Note that other answers, such as [3, 3], would also be accepted.
 1 <= A[i] <= A.length
 All integers in A are unique (i.e. A is a permutation of the integers from 1 to A.length).
 ```
+
+**Tags**
+- Array
+- Two Pointers
+- Greedy
+- Sorting
 
 ### Solution:
 

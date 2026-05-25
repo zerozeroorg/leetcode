@@ -38,6 +38,9 @@ The number of nodes in the tree is in the range [1, 10^4].
 **Tags**
 - Revisit
 - Dynamic Programming
+- Tree
+- Depth-First Search
+- Binary Tree
 
 ### Solution
 - My solution uses recursion with DP memoization.

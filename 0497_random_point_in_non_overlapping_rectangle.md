@@ -1,4 +1,5 @@
 ### 497. Random Point in Non-overlapping Rectangles
+Medium
 
 Given a list of non-overlapping axis-aligned rectangles rects, write a function pick which randomly and uniformily picks an integer point in the space covered by the rectangles.
 
@@ -35,6 +36,15 @@ Output:
 ```
 The input is two lists: the subroutines called and their arguments. Solution's constructor has one argument, the array of rectangles rects. pick has no arguments. Arguments are always wrapped with a list, even if there aren't any.
 ```
+
+**Tags**
+- Array
+- Math
+- Binary Search
+- Reservoir Sampling
+- Prefix Sum
+- Ordered Set
+- Randomized
 
 ### Solution:
 - compute an array of areas, like [0, 20], [20, 40], [40, 100], [100, 150] and generate a random number between those areas.

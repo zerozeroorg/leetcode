@@ -37,6 +37,11 @@ All the integers in the expression are non-negative integers in the range [0, (2
 The answer is guaranteed to fit in a 32-bit integer.
 ```
 
+**Tags**
+- Math
+- String
+- Stack
+
 ### Solution
 ```
 class Solution:

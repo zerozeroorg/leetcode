@@ -37,6 +37,12 @@ Constraints:
 1 <= profit[i] <= 10^4
 ```
 
+**Tags**
+- Array
+- Binary Search
+- Dynamic Programming
+- Sorting
+
 ### Solution
 ```
 class Solution:

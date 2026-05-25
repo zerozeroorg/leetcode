@@ -32,6 +32,12 @@ Explanation: A valid encoding would be s = "t#" and indices = [0].
 words[i] consists of only lowercase letters.
 ```
 
+**Tags**
+- Array
+- Hash Table
+- String
+- Trie
+
 ### Solution:
 ```
 class Solution:

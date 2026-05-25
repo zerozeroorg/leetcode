@@ -37,8 +37,9 @@ dominoes[i] is either 'L', 'R', or '.'.
 ```
 
 **Tags**
-- Array
+- Two Pointers
 - String
+- Dynamic Programming
 
 ### Solution
 ```

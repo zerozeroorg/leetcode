@@ -48,6 +48,9 @@ newInterval.length == 2
 0 <= start <= end <= 10^5
 ```
 
+**Tags**
+- Array
+
 ### Solution:
 - once you find an overlap, you will need to create a new interval. Take the current new interval and the overlapping interval and create a new one with the min and max
 of those two.

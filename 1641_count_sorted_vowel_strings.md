@@ -33,6 +33,11 @@ Output: 66045
 1 <= n <= 50 
 ```
 
+**Tags**
+- Math
+- Dynamic Programming
+- Combinatorics
+
 ### Solution:
 ```
 class Solution:

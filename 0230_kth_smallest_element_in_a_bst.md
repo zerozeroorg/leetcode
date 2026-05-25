@@ -1,4 +1,5 @@
 ### 230. Kth Smallest Element in a BST
+Medium
 
 Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
 
@@ -73,3 +74,8 @@ var kthSmallest = function(root, k) {
     return result[0].val;
 };
 ```
+**Tags**
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Binary Tree

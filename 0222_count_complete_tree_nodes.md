@@ -1,4 +1,5 @@
 ### 222. Count Complete Tree Nodes
+Easy
 
 Given a complete binary tree, count the number of nodes.
 
@@ -18,6 +19,12 @@ Input:
 
 Output: 6
 ```
+
+**Tags**
+- Binary Search
+- Bit Manipulation
+- Tree
+- Binary Tree
 
 ### Solution:
 - I originally though you had to use BFS to count the number of nodes. But there is an easier way!

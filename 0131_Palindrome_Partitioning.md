@@ -25,8 +25,9 @@ s contains only lowercase English letters.
 
 **Tags**
 - Revisit
-- palindrome
-- backtracking/backtrack
+- String
+- Dynamic Programming
+- Backtracking
 
 ### Solution
 There is a backtracking solution below this one. Also, we can probably use palindrome substrings to build the lookup table

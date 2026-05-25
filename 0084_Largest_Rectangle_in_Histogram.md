@@ -39,7 +39,9 @@ Output: 4
 **Tags**
 - Revisit
 - unsolved
-- stack
+- Array
+- Stack
+- Monotonic Stack
 
 ### Solution
 Brute Force

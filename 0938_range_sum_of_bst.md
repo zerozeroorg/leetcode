@@ -1,4 +1,5 @@
 ### 938. Range Sum of BST
+Easy
 
 Given the root node of a binary search tree, return the sum of values of all nodes with a value in the range [low, high].
 
@@ -28,6 +29,12 @@ The number of nodes in the tree is in the range [1, 2 * 104].
 1 <= low <= high <= 105
 All Node.val are unique.
 ```
+
+**Tags**
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Binary Tree
 
 ### Solution:
 - There is an optimization: you do not need to search in a subtree if that subtree has values less than low or greather than high.

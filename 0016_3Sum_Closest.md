@@ -18,10 +18,9 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ```
 
 **Tags**
-- Arrays
-- 2 pointers two pointers
-- Ksum, 3sum, sum
-
+- Array
+- Two Pointers
+- Sorting
 
 ### Solution
 - Refresher on 3sum https://learnersbucket.com/examples/algorithms/3-sum-problem-algorithm/

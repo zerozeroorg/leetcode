@@ -26,6 +26,10 @@ we combine 1 and 1 to get 0 so the array converts to [1] then that's the value o
 1 <= stones[i] <= 1000
 ```
 
+**Tags**
+- Array
+- Heap (Priority Queue)
+
 ### Solution:
 - Simulate the process. You can use a max-heap.
 ```

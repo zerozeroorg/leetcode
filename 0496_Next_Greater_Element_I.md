@@ -41,8 +41,10 @@ Follow up: Could you find an O(nums1.length + nums2.length) solution?
 
 **Tags**
 - Revisit
+- Array
+- Hash Table
 - Stack
-- monotonic stack
+- Monotonic Stack
 
 ### Solution
 I did the 0(n^2) solution. Below is the linear solution.

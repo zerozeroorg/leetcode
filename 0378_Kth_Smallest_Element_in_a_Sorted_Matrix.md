@@ -29,10 +29,11 @@ All the rows and columns of matrix are guaranteed to be sorted in non-decreasing
 ```
 
 **Tags**
-- heap
-- minheap
-- maxheap
-- binary search
+- Array
+- Binary Search
+- Sorting
+- Heap (Priority Queue)
+- Matrix
 
 ### Solution
 ```

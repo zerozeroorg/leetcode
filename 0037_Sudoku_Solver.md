@@ -26,7 +26,10 @@ It is guaranteed that the input board has only one solution.
 ```
 
 **Tags**
-- backtracking
+- Array
+- Hash Table
+- Backtracking
+- Matrix
 
 ### Solution
 - Must parse string "9" to 9!

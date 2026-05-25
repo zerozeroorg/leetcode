@@ -78,6 +78,11 @@ There will be at most 2 * 10^4 calls in total to checkIn, checkOut, and getAvera
 Answers within 10^-5 of the actual value will be accepted.
 ```
 
+**Tags**
+- Hash Table
+- String
+- Design
+
 ### Solution
 ```
 var UndergroundSystem = function() {

@@ -39,6 +39,13 @@ n == grid[i].length
 grid[i][j] is either 0 or 1.
 ```
 
+**Tags**
+- Array
+- Depth-First Search
+- Breadth-First Search
+- Union-Find
+- Matrix
+
 ### Solution
 ```
 class Solution {

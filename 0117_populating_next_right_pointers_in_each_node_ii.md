@@ -1,4 +1,5 @@
 ### 117. Populating Next Right Pointers in Each Node II
+Medium
 
 Given a binary tree
 ```
@@ -42,6 +43,13 @@ Explanation: Given the above binary tree (Figure A), your function should popula
 The number of nodes in the given tree is less than 6000.
 -100 <= node.val <= 100
 ```
+
+**Tags**
+- Linked List
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 ```

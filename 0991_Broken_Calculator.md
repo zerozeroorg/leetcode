@@ -37,6 +37,8 @@ Explanation: Use double, decrement and double {3 -> 6 -> 5 -> 10}.
 **Tags**
 - Revisit
 - backwards
+- Math
+- Greedy
 
 ### Solution
 ```

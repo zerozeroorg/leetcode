@@ -1,4 +1,5 @@
 ### 605. Can Place Flowers
+Easy
 
 You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
 
@@ -23,6 +24,10 @@ flowerbed[i] is 0 or 1.
 There are no two adjacent flowers in flowerbed.
 0 <= n <= flowerbed.length
 ```
+
+**Tags**
+- Array
+- Greedy
 
 ### Solution:
 

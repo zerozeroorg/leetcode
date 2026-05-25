@@ -44,6 +44,7 @@ Output: 1.00000
 
 **Tags**
 - Revisit
+- Dynamic Programming
 
 ### Solution
 ```

@@ -1,4 +1,5 @@
 ### 198. House Robber
+Medium
 
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
 
@@ -27,6 +28,10 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 0 <= nums.length <= 100
 0 <= nums[i] <= 400
 ```
+
+**Tags**
+- Array
+- Dynamic Programming
 
 ### Solution:
 

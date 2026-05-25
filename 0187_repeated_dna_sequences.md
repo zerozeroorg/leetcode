@@ -1,4 +1,5 @@
 ### 187. Repeated DNA Sequences
+Medium
 
 All DNA is composed of a series of nucleotides abbreviated as 'A', 'C', 'G', and 'T', for example: "ACGAATTCCG". When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.
 
@@ -21,6 +22,14 @@ Output: ["AAAAAAAAAA"]
 0 <= s.length <= 105
 s[i] is 'A', 'C', 'G', or 'T'.
 ```
+
+**Tags**
+- Hash Table
+- String
+- Bit Manipulation
+- Sliding Window
+- Rolling Hash
+- Hash Function
 
 ### Solution:
 ```

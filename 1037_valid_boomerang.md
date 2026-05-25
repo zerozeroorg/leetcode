@@ -1,4 +1,6 @@
 ### 1037. Valid Boomerang
+Easy
+
 A boomerang is a set of 3 points that are all distinct and not in a straight line.
 
 Given a list of three points in the plane, return whether these points are a boomerang.
@@ -21,6 +23,11 @@ points.length == 3
 points[i].length == 2
 0 <= points[i][j] <= 100
 ```
+
+**Tags**
+- Array
+- Math
+- Geometry
 
 ### Solution:
 - If all the numbers have the same slope, then it is not a valid boomerang!

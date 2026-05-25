@@ -48,6 +48,10 @@ Explanation: The first version number does not have a third level revision numbe
 Version strings are composed of numeric strings separated by dots . and this numeric strings may have leading zeroes.
 Version strings do not start or end with dots, and they will not be two consecutive dots.
 
+**Tags**
+- Two Pointers
+- String
+
 ### Solution
 - Ugh, I redeclared let version1!
 ```

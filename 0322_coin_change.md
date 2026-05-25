@@ -43,6 +43,11 @@ Output: 2
 0 <= amount <= 104
 ```
 
+**Tags**
+- Array
+- Dynamic Programming
+- Breadth-First Search
+
 ### Solution:
 ```
 class Solution:

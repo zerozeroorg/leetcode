@@ -32,6 +32,15 @@ Explanation: The answer [[-2,4],[3,3]] would also be accepted.
 -10^4 < xi, yi < 10^4
 ```
 
+**Tags**
+- Array
+- Math
+- Divide and Conquer
+- Geometry
+- Sorting
+- Heap (Priority Queue)
+- Quickselect
+
 ### Solution
 ```
 class Solution:

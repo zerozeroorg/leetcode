@@ -55,6 +55,10 @@ Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is di
 s contains only digits and may contain leading zero(s).
 ```
 
+**Tags**
+- String
+- Dynamic Programming
+
 ### Solution
 ```
 class Solution:

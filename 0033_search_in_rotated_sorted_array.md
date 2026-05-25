@@ -1,4 +1,5 @@
 ### 33. Search in Rotated Sorted Array
+Medium
 
 Medium
 
@@ -34,6 +35,10 @@ All values of nums are unique.
 nums is guranteed to be rotated at some pivot.
 -10^4 <= target <= 10^4
 ```
+
+**Tags**
+- Array
+- Binary Search
 
 ### Solution:
 ```

@@ -1,4 +1,5 @@
 ### 139. Word Break
+Medium
 
 Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
 
@@ -28,6 +29,14 @@ Explanation: Return true because "applepenapple" can be segmented as "apple pen 
 Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
 ```
+
+**Tags**
+- Array
+- Hash Table
+- String
+- Dynamic Programming
+- Trie
+- Memoization
 
 ### Solution:
 * Things I messed up:

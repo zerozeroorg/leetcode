@@ -40,6 +40,13 @@ trips[i].length == 3
 1 <= capacity <= 100000
 ```
 
+**Tags**
+- Array
+- Sorting
+- Heap (Priority Queue)
+- Simulation
+- Prefix Sum
+
 ### Solution:
 - My original solution is a bit much!
 - You can create a list of timestamps and store the +/- at each timestamp. Then, sort the timestamps and process them in order. NOTE: process both pick and dropoff

@@ -45,6 +45,10 @@ ops[i].length == 2
 1 <= bi <= n
 ```
 
+**Tags**
+- Array
+- Math
+
 ### Solution
 ```
 class Solution:

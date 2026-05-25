@@ -29,7 +29,9 @@ Output: [1,1,0]
 
 **Tags**
 - Revisit
+- Array
 - Stack
+- Monotonic Stack
 
 ### Solution
 - Did it the brute force way, but it is too slow. Had to look up the answer.

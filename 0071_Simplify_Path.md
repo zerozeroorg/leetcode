@@ -41,6 +41,10 @@ path consists of English letters, digits, period '.', slash '/' or '_'.
 path is a valid absolute Unix path.
 ```
 
+**Tags**
+- String
+- Stack
+
 ### Solution
 ```
 /**

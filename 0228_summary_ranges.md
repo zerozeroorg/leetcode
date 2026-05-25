@@ -56,6 +56,9 @@ Output: ["0"]
 All the values of nums are unique.
 ```
 
+**Tags**
+- Array
+
 ### Solution:
 ```
 class Solution:

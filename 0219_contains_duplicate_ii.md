@@ -1,4 +1,5 @@
 ### 219. Contains Duplicate II
+Easy
 
 Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] 
 and the absolute difference between i and j is at most k.
@@ -20,6 +21,11 @@ Output: true
 Input: nums = [1,2,3,1,2,3], k = 2
 Output: false
 ```
+
+**Tags**
+- Array
+- Hash Table
+- Sliding Window
 
 ### Solution
 ```

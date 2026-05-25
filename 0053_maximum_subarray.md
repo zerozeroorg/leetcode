@@ -42,6 +42,11 @@ Output: -2147483647
 -231 <= nums[i] <= 231 - 1
 ```
 
+**Tags**
+- Array
+- Divide and Conquer
+- Dynamic Programming
+
 ### Solution:
 - use kadane's algorithm
 

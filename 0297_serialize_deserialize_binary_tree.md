@@ -1,4 +1,5 @@
 ### 297. Serialize and Deserialize Binary Tree
+Hard
 
 Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.
 
@@ -29,6 +30,14 @@ Output: [1]
 Input: root = [1,2]
 Output: [1,2]
 ```
+
+**Tags**
+- String
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Design
+- Binary Tree
 
 ### Solution:
 - I used the heap position strategy

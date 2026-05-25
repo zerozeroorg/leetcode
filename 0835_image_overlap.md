@@ -1,4 +1,5 @@
 ### 835. Image Overlap
+Medium
 
 Two images A and B are given, represented as binary, square matrices of the same size.  (A binary matrix has only 0s and 1s as values.)
 
@@ -24,6 +25,10 @@ Explanation: We slide A to right by 1 unit and down by 1 unit.
 ```
 1 <= A.length = A[0].length = B.length = B[0].length <= 30
 0 <= A[i][j], B[i][j] <= 1
+
+**Tags**
+- Array
+- Matrix
 
 ### Solution
 - Brute force

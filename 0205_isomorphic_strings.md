@@ -1,4 +1,5 @@
 ### 205. Isomorphic Strings
+Easy
 
 Given two strings s and t, determine if they are isomorphic.
 
@@ -30,6 +31,10 @@ Output: true
 t.length == s.length
 s and t consist of any valid ascii character.
 ```
+
+**Tags**
+- Hash Table
+- String
 
 ### Solution
 ```

@@ -1,4 +1,5 @@
 ### 98. Validate Binary Search Tree
+Medium
 
 Given the root of a binary tree, determine if it is a valid binary search tree (BST).
 
@@ -26,6 +27,12 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 The number of nodes in the tree is in the range [1, 104].
 -231 <= Node.val <= 231 - 1
 ```
+
+**Tags**
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Binary Tree
 
 ### Solution:
 - Use inorder traversal with a stack.

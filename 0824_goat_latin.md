@@ -1,4 +1,5 @@
 ### 824. Goat Latin
+Easy
 
 A sentence S is given, composed of words separated by spaces. Each word consists of lowercase and uppercase letters only.
 
@@ -33,6 +34,9 @@ Output: "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaa
 S contains only uppercase, lowercase and spaces. Exactly one space between each word.
 1 <= S.length <= 150.
 ```
+
+**Tags**
+- String
 
 ### Solution:
 ```

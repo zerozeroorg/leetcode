@@ -46,6 +46,11 @@ Output: 6
 It's guaranteed that the answer will be less than or equal to 2 * 109.
 ```
 
+**Tags**
+- Math
+- Dynamic Programming
+- Combinatorics
+
 ### Solution
 ```
 class Solution:

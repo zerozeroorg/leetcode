@@ -1,4 +1,5 @@
 ### 237. Delete Node in a Linked List
+Medium
 
 Medium
 
@@ -42,6 +43,9 @@ The number of the nodes in the given list is in the range [2, 1000].
 The value of each node in the list is unique.
 The node to be deleted is in the list and is not a tail node.
 ```
+
+**Tags**
+- Linked List
 
 ### Solution
 ```

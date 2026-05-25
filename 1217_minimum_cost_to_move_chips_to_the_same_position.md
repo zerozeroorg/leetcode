@@ -45,6 +45,9 @@ Output: 1
 
 **Tags**
 - Revisit
+- Array
+- Math
+- Greedy
 
 ### Solution:
 ```

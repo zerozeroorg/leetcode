@@ -32,7 +32,9 @@ Output: 1
 
 Follow up: Can you come up with an algorithm that runs in O(n log(n)) time complexity?
 
-### Tags
+**Tags**
+- Array
+- Binary Search
 - Dynamic Programming
 
 ### Solution

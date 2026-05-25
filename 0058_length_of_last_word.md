@@ -13,6 +13,9 @@ Input: "Hello World"
 Output: 5
 ```
 
+**Tags**
+- String
+
 ### Solution:
 ```
 /**

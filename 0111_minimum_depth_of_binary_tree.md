@@ -1,4 +1,5 @@
 ### 111. Minimum Depth of Binary Tree
+Easy
 
 Given a binary tree, find its minimum depth.
 
@@ -32,6 +33,12 @@ Output: 5
 The number of nodes in the tree is in the range [0, 105].
 -1000 <= Node.val <= 1000
 ```
+
+**Tags**
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 ```

@@ -41,6 +41,12 @@ lists[i] is sorted in ascending order.
 The sum of lists[i].length won't exceed 10^4.
 ```
 
+**Tags**
+- Linked List
+- Divide and Conquer
+- Heap (Priority Queue)
+- Merge Sort
+
 ### Solution:
 ```
 # Definition for singly-linked list.

@@ -18,7 +18,8 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 ```
 **Tags**
 - Revisit
-- Kadane
+- Array
+- Dynamic Programming
 
 ### Solution:
 - I did not know how to solve this. I knew I had to use some form of Kadane's algorithm but 

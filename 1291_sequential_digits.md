@@ -1,4 +1,5 @@
 ### 1291. Sequential Digits
+Medium
 
 An integer has sequential digits if and only if each digit in the number is one more than the previous digit.
 
@@ -15,6 +16,9 @@ Output: [123,234]
 Input: low = 1000, high = 13000
 Output: [1234,2345,3456,4567,5678,6789,12345]
 ```
+
+**Tags**
+- Enumeration
 
 ### Solution:
 - Gotcha: if low = 10, and high = 10000000,  if you are not careful about what is a valid sequential number, you will generate a number like: 891011 which is wrong!

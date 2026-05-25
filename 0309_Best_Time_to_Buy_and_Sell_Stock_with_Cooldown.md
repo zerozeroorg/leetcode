@@ -29,6 +29,8 @@ Output: 0
 
 **Tags**
 - Revisit
+- Array
+- Dynamic Programming
 
 ### Solution
 ```

@@ -1,4 +1,5 @@
 ### 509. Fibonacci Number
+Easy
 
 The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
 ```
@@ -32,6 +33,12 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 ```
 0 ≤ N ≤ 30.
 ```
+
+**Tags**
+- Math
+- Dynamic Programming
+- Recursion
+- Memoization
 
 ### Solution:
 - Bottom up: keep track of the first and second fibonacci numbers and build up to the final fibonacci number.

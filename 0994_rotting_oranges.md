@@ -37,6 +37,11 @@ Explanation:  Since there are already no fresh oranges at minute 0, the answer i
 grid[i][j] is only 0, 1, or 2.
 ```
 
+**Tags**
+- Array
+- Breadth-First Search
+- Matrix
+
 ### Solution:
 - Push all rotting oranges into the bfs array
 - If not rotting oranges, return 0.

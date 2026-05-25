@@ -31,6 +31,12 @@ All the values of graph[i] are unique.
 The graph is guaranteed to be undirected. 
 ```
 
+**Tags**
+- Depth-First Search
+- Breadth-First Search
+- Union-Find
+- Graph Theory
+
 ### Solution:
 - Use Graph coloring.
 ```

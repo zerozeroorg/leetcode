@@ -1,4 +1,5 @@
 ### 103. Binary Tree Zigzag Level Order Traversal
+Medium
 
 Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
 
@@ -18,6 +19,11 @@ return its zigzag level order traversal as:
   [15,7]
 ]
 ```
+
+**Tags**
+- Tree
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 - Use BFS to traverse the tree

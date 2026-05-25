@@ -1,4 +1,5 @@
 ### 1283. Find the Smallest Divisor Given a Threshold
+Medium
 
 Given an array of integers nums and an integer threshold, we will choose a positive integer divisor and divide all the array by it and sum the result of the division. Find the smallest divisor such that the result mentioned above is less than or equal to threshold.
 
@@ -32,6 +33,10 @@ Output: 4
 1 <= nums[i] <= 10^6
 nums.length <= threshold <= 10^6
 ```
+
+**Tags**
+- Array
+- Binary Search
 
 ### Solution:
 ```

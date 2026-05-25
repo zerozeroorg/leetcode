@@ -27,7 +27,8 @@ Output: 10
 
 **Tags**
 - Revisit
-- Binary search
+- Array
+- Binary Search
 
 ### Solution
 ```

@@ -64,6 +64,12 @@ root is guaranteed to be a valid binary search tree.
 ```
 
 
+**Tags**
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Binary Tree
+
 ### Solution:
 the JS solution is cleaner and more "elegant"
 ```

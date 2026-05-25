@@ -39,7 +39,9 @@ matrix[i][j] is '0' or '1'.
 
 **Tags**
 - Revisit
+- Array
 - Dynamic Programming
+- Matrix
 
 ### Solution
 ```

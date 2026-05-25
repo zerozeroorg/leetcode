@@ -42,7 +42,9 @@ root is a valid binary search tree.
 
 **Tags**
 - Revisit
-- Binary Search Tree, BST
+- Tree
+- Binary Search Tree
+- Binary Tree
 
 ### Solution:
 - There are three cases:

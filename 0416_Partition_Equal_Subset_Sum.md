@@ -25,6 +25,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 **Tags**
 - Revisit
+- Array
 - Dynamic Programming
 
 ### Solution

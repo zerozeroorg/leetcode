@@ -41,6 +41,11 @@ The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
 instructions[i] is in {'G', 'L', 'R'}
 ```
 
+**Tags**
+- Math
+- String
+- Simulation
+
 ### Solution:
 The problem gave two hints that was SUPER HELPFUL:
 - Calculate the final vector of how the robot travels after executing all instructions once - it consists of a change in position plus a change in direction.

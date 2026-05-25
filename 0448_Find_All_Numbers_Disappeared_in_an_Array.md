@@ -26,6 +26,8 @@ Follow up: Could you do it without extra space and in O(n) runtime? You may assu
 
 **Tags**
 - Revisit
+- Array
+- Hash Table
 
 ### Solution
 ```

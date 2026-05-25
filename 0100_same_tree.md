@@ -1,4 +1,5 @@
 ### 100. Same Tree
+Easy
 
 Given two binary trees, write a function to check if they are the same or not.
 
@@ -36,6 +37,12 @@ Input:     1         1
 
 Output: false
 ```
+
+**Tags**
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 - Gotcha! If both trees are null, then they are equal!

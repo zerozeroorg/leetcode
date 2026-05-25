@@ -27,6 +27,10 @@ s1 and s2 consist of lowercase English letters.
 
 **Tags**
 - Revisit
+- Hash Table
+- Two Pointers
+- String
+- Sliding Window
 
 ### Solution
 The tricky part is knowing how to update the window. One might think you can just move the left and right pointers while updating the counters. When moving the left pointer, just need to subtract count then move left pointer. For right pointer, move pointer then add count. 

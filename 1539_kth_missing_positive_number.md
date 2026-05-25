@@ -1,4 +1,5 @@
 ### 1539. Kth Missing Positive Number
+Easy
 
 Given an array arr of positive integers sorted in a strictly increasing order, and an integer k.
 
@@ -26,6 +27,10 @@ Explanation: The missing positive integers are [5,6,7,...]. The 2nd missing posi
 arr[i] < arr[j] for 1 <= i < j <= arr.length
 ```
 
+
+**Tags**
+- Array
+- Binary Search
 
 ### Solution:
 ```

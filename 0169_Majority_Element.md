@@ -26,6 +26,13 @@ n == nums.length
 
 Follow-up: Could you solve the problem in linear time and in O(1) space?
 
+**Tags**
+- Array
+- Hash Table
+- Divide and Conquer
+- Sorting
+- Counting
+
 ### Solution
 - Below is the hashmap solution
 - The linear time, constant space uses Boyer-Moore Voting Algorithm

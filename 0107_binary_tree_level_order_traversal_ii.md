@@ -1,4 +1,5 @@
 ### 107. Binary Tree Level Order Traversal II
+Medium
 
 Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
 
@@ -17,6 +18,11 @@ return its bottom-up level order traversal as:
   [3]
 ]
 ```
+
+**Tags**
+- Tree
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 - Use BFS.

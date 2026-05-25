@@ -44,6 +44,13 @@ Input: nums = [-1,-2,-3], k = 1
 Output: 2
 ```
 
+**Tags**
+- Array
+- Hash Table
+- Two Pointers
+- Binary Search
+- Sorting
+
 ### Solution:
 - What i did was create a map of numbers to the list of numbers themselves.
 - Then I iterate through the numbers and add k to each number. If the sum appears in the map, then it is a legit pair. Add it to the set.

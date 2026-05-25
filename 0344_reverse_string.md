@@ -1,4 +1,5 @@
 ### 344. Reverse String
+Easy
 
 Write a function that reverses a string. The input string is given as an array of characters char[].
 
@@ -17,6 +18,10 @@ Output: ["o","l","l","e","h"]
 Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 ```
+
+**Tags**
+- Two Pointers
+- String
 
 ### Solution:
 ```

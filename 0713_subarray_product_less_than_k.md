@@ -1,4 +1,5 @@
 ### 713. Subarray Product Less Than K
+Medium
 
 Your are given an array of positive integers nums.
 
@@ -18,6 +19,12 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 0 < nums[i] < 1000.
 0 <= k < 10^6
 ```
+
+**Tags**
+- Array
+- Binary Search
+- Sliding Window
+- Prefix Sum
 
 ### Solution:
 - I had to cheat. My O(n^2) solution did not work (TLE).

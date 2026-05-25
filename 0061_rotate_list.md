@@ -23,6 +23,10 @@ rotate 3 steps to the right: 0->1->2->NULL
 rotate 4 steps to the right: 2->0->1->NULL
 ```
 
+**Tags**
+- Linked List
+- Two Pointers
+
 ### Solution:
 - I messed up on zero rotations. When that happened, I still rotated the head element with the last element. Just do an early return.
 - I messed up on my rotation calculation. Once you have the number of rotations, you need to find the node to move the elements. 

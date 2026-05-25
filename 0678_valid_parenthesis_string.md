@@ -1,4 +1,5 @@
 ### 678. Valid Parenthesis String
+Medium
 
 Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
 
@@ -27,6 +28,12 @@ Output: True
 **Note:**
 The string size will be in the range [1, 100].
 
+
+**Tags**
+- String
+- Dynamic Programming
+- Stack
+- Greedy
 
 ### Solution:
 - The intuition: let's ignore the stars for a second.

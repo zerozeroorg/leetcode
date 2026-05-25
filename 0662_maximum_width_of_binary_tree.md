@@ -69,6 +69,12 @@ Explanation:The maximum width existing in the fourth level with the length 8 (6,
 The given binary tree will have between 1 and 3000 nodes.
 ```
 
+**Tags**
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
+
 ### Solution:
 - Ok, first we need to record the position of each node. Root has position 1, and left is 2n and right is 2n + 1. Set the position for each node.
 - The intuition: the width of each level measured by the distance between the node position at the farthest left and the node position at the farthest right.
@@ -158,4 +164,3 @@ class Solution:
         return max_width
         
 ```
-

@@ -29,7 +29,7 @@ Output: 0
 
 **Tags**
 - Revisit
-- Bit manipulation
+- Bit Manipulation
 
 ### Solution
 ```

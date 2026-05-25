@@ -30,6 +30,12 @@ Output: [["a"]]
 strs[i] consists of lower-case English letters.
 ```
 
+**Tags**
+- Array
+- Hash Table
+- String
+- Sorting
+
 ### Solution:
 - create a map
 - for each word:

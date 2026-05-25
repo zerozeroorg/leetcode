@@ -22,6 +22,10 @@ The number of nodes in the list is in the range [0, 300].
 The list is guaranteed to be sorted in ascending order.
 ```
 
+**Tags**
+- Linked List
+- Two Pointers
+
 ### Solution:
 ```
 # Definition for singly-linked list.

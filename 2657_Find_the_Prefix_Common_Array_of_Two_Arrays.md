@@ -1,4 +1,5 @@
 ### 2657. Find the Prefix Common Array of Two Arrays
+Medium
 
 Medium
 
@@ -35,6 +36,11 @@ Constraints:
 1 <= A[i], B[i] <= n
 It is guaranteed that A and B are both a permutation of n integers.
 ```
+
+**Tags**
+- Array
+- Hash Table
+- Bit Manipulation
 
 ### Solution
 ```

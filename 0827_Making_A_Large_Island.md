@@ -38,11 +38,11 @@ grid[i][j] is either 0 or 1.
 ```
 
 **Tags**
-- array
-- matrix
-- depth first search
-- breadth first search
-- connected components
+- Array
+- Depth-First Search
+- Breadth-First Search
+- Union-Find
+- Matrix
 
 ### Solution
 ```

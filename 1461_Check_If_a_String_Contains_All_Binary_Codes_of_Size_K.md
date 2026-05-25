@@ -50,6 +50,13 @@ s consists of 0's and 1's only.
 - We need only to check all sub-strings of length k.
 - The number of distinct sub-strings should be exactly 2^k.
 
+**Tags**
+- Hash Table
+- String
+- Bit Manipulation
+- Rolling Hash
+- Hash Function
+
 ### Solution:
 ```
 class Solution:

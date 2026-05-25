@@ -35,8 +35,73 @@ All the words in wordList are unique.
 
 **Tags**
 - Revisit
+- Hash Table
+- String
+- Breadth-First Search
 
-### Solution
+### Solution (pattern graph + count map)
+```
+class Solution:
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        """
+            If the end word is not in word list, then return False
+            
+            We have to create a graph using a hash map where:
+            - the key is the pattern like "d*t"
+            - and the value is the list of words that fit that pattern: [dot]
+            
+            After building this graph, use BFS to traverse the graph
+            and see if you reach the endWord.
+            
+            To efficiently do this, have a count[word] -> # of words from beginWord to reach word
+            Seed it with count[beginWord] = 1 which is 1 transformation to beginWord -> beginWord
+            
+            Pop the element from the queue
+            Then generate patterns for that element and check if those patterns are in the 
+            graph.
+            
+            Use the count map as a way to skip traversing already traversed steps 
+            
+            At the end of BFS, return count[endWord]
+        """
+        if endWord not in wordList:
+            return 0
+        
+        # build the graph
+        patterns = collections.defaultdict(list)
+        for word in wordList:
+            length = len(word)
+            for i in range(length):
+                pattern = word[:i] + '*' + word[i+1:]
+                patterns[pattern].append(word)
+        
+        queue = collections.deque([beginWord])
+        count = collections.defaultdict(int)
+        
+        # seed the beginWord
+        count[beginWord] = 1
+        
+        while queue:
+            word = queue.popleft()
+            
+            if word == endWord:
+                break
+                
+            n = count[word]
+            
+            length = len(word)
+            for i in range(length):
+                pattern = word[:i] + '*' + word[i+1:]
+                if pattern in patterns:
+                    for candidate in patterns[pattern]:
+                        if candidate not in count:
+                            count[candidate] = n + 1
+                            queue.append(candidate)
+        
+        return count[endWord]
+```
+
+### Solution (generic pattern graph + visited)
 ```
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
@@ -101,6 +166,4 @@ class Solution:
                         queue.append((word, level + 1))
                 all_combo_dict[intermediate_word] = []
         return 0
-            
-            
 ```

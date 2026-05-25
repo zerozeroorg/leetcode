@@ -27,6 +27,11 @@ nums2.length == n
 -109 <= nums1[i], nums2[i] <= 109
 ```
 
+**Tags**
+- Array
+- Two Pointers
+- Sorting
+
 ### Solution:
 ```
 class Solution:

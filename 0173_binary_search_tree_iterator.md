@@ -1,4 +1,5 @@
 ### 173. Binary Search Tree Iterator
+Medium
 
 Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST):
 
@@ -47,6 +48,14 @@ At most 105 calls will be made to hasNext, and next.
 ```
 Could you implement next() and hasNext() to run in average O(1) time and use O(h) memory, where h is the height of the tree?
 ```
+
+**Tags**
+- Stack
+- Tree
+- Design
+- Binary Search Tree
+- Binary Tree
+- Iterator
 
 ### Solution:
 - My initial solution is straightforward. There is a better solution below that uses controlled recurison to solve this.

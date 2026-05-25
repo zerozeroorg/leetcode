@@ -35,9 +35,10 @@ The number of nodes in the tree is in the range [0, 5000].
 ```
 
 **Tags**
-- binary tree
-- depth first search
-- backtracking
+- Backtracking
+- Tree
+- Depth-First Search
+- Binary Tree
 
 ### Solution
 - I changed my implementation from recursively sending paths to just storing the paths in a global variable.

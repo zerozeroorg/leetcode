@@ -45,6 +45,13 @@ The number of nodes in the given tree is less than 4096.
 -1000 <= node.val <= 1000
 ```
 
+**Tags**
+- Linked List
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
+
 ### Solution:
 ```
 """

@@ -112,3 +112,6 @@ var maxProfit = function(prices) {
     return maxProfit;
 };
 ```
+**Tags**
+- Array
+- Dynamic Programming

@@ -47,10 +47,13 @@ s only contains lower case English letters.
 
 **Tags**
 - revisit
-- connected components
-- disjoint set
-- union find
-- graph
+- Array
+- Hash Table
+- String
+- Depth-First Search
+- Breadth-First Search
+- Union-Find
+- Sorting
 
 ### Solution
 - This solution using DFS to find connected components

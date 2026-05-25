@@ -1,4 +1,5 @@
 ### 202. Happy Number
+Easy
 
 Write an algorithm to determine if a number n is "happy".
 
@@ -16,6 +17,11 @@ Explanation:
 6^2 + 8^2 = 100
 1^2 + 0^2 + 0^2 = 1
 ```
+
+**Tags**
+- Hash Table
+- Math
+- Two Pointers
 
 ### Solution:
 - Compute the sum of squares of its digits

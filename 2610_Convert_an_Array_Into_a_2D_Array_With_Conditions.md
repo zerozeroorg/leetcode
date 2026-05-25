@@ -1,4 +1,5 @@
 ### 2610. Convert an Array Into a 2D Array With Conditions
+Medium
 
 Medium
 
@@ -37,6 +38,10 @@ Explanation: All elements of the array are distinct, so we can keep all of them 
 1 <= nums.length <= 200
 1 <= nums[i] <= nums.length
 ```
+
+**Tags**
+- Array
+- Hash Table
 
 ### Solution
 - 1st approach: create a frequency table. Then iterate nums and count the frequency. Then create a matrix bucket the numbers based on frequency. This is O(nk) where n is the length of nums and k is the highest frequency value.

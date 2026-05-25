@@ -42,10 +42,10 @@ n == nums.length
 
 **Tags**
 - Revisit
-- Priority queue
-- max heap
-- sorted list
-
+- Array
+- Greedy
+- Heap (Priority Queue)
+- Ordered Set
 
 ### Solution
 ```

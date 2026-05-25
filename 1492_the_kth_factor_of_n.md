@@ -1,4 +1,5 @@
 ### 1492. The kth Factor of n
+Medium
 
 Given two positive integers n and k.
 
@@ -45,6 +46,10 @@ Explanation: Factors list is [1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 100, 125, 200, 
 ```
 1 <= k <= n <= 1000
 ```
+
+**Tags**
+- Math
+- Number Theory
 
 ### Solution:
 ```

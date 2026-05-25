@@ -1,4 +1,5 @@
 ### 876. Middle of the Linked List
+Easy
 
 Given a non-empty, singly linked list with head node head, return a middle node of linked list.
 
@@ -24,6 +25,10 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 ```
 The number of nodes in the given list will be between 1 and 100.
 ```
+
+**Tags**
+- Linked List
+- Two Pointers
 
 ### Solution:
 ```

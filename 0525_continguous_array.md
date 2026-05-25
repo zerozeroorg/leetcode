@@ -20,7 +20,9 @@ Note: The length of the given binary array will not exceed 50,000.
 
 **Tags**
 - Revisit
-
+- Array
+- Hash Table
+- Prefix Sum
 
 ### Solution:
 - create an array that will keep track of 1s and 0s at each point. If you see a zero, subtract from count. If you see a one, add to count.

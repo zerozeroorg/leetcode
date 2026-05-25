@@ -44,6 +44,10 @@ Follow-up: Can you solve the problem in O(1) extra memory space?
 ### Tags:
 - linked list
 
+**Tags**
+- Linked List
+- Recursion
+
 ### Solution
 - Basically, remove the the first k nodes to its own list, shouldn't take extra memory as you are just detaching
 - Then reverse that list

@@ -36,6 +36,11 @@ and two 2s from [2,2,2,2] in 6 ways.
 
 **Tags**
 - revisit
+- Array
+- Hash Table
+- Two Pointers
+- Sorting
+- Counting
 
 ### Solution
 ```

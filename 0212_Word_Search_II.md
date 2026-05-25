@@ -39,6 +39,11 @@ All the strings of words are unique.
 
 **Tags**
 - Revisit
+- Array
+- String
+- Backtracking
+- Trie
+- Matrix
 
 ### Solution
 I have posted two solutions: one TLE and the other barely passed.

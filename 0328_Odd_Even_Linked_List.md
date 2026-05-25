@@ -28,6 +28,9 @@ n == number of nodes in the linked list
 -10^6 <= Node.val <= 10^6
 ```
 
+**Tags**
+- Linked List
+
 ### Solution
 ```
 # Definition for singly-linked list.

@@ -40,6 +40,8 @@ Output: [1,5,1]
 **Tags**
 - Revisit
 - non-intuitive
+- Array
+- Two Pointers
 
 ### Solution
 ```

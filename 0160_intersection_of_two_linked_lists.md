@@ -1,4 +1,5 @@
 ### 160. Intersection of Two Linked Lists
+Easy
 
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
@@ -31,6 +32,11 @@ Explanation: The two lists do not intersect, so return null.
 - Each value on each linked list is in the range [1, 10^9].
 - Your code should preferably run in O(n) time and use only O(1) memory.
 
+
+**Tags**
+- Hash Table
+- Linked List
+- Two Pointers
 
 ### Solution:
 My solution:

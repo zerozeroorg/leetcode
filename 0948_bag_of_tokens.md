@@ -1,4 +1,5 @@
 ### 948. Bag of Tokens
+Medium
 
 You have an initial power of P, an initial score of 0, and a bag of tokens where tokens[i] is the value of the ith token (0-indexed).
 
@@ -42,6 +43,12 @@ Explanation: Play the tokens in this order to get a score of 2:
 0 <= tokens[i], P < 104
 ```
 
+**Tags**
+- Array
+- Two Pointers
+- Greedy
+- Sorting
+
 ### Solution:
 
 ```
@@ -81,6 +88,3 @@ class Solution:
         
         return increase_score(tokens, P, score)
 ```
-             
-                
-        

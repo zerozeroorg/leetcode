@@ -20,6 +20,10 @@ solution.getRandom();
 
 **Tags**
 - Revisit
+- Linked List
+- Math
+- Reservoir Sampling
+- Randomized
 
 ### Solution:
 - I decided to get the size first, then randomly select an element within that size.

@@ -37,6 +37,10 @@ Explanation: An empty string is also valid.
 1 <= s.length <= 10^5
 s[i] is either'(' , ')', or lowercase English letter.
 ```
+**Tags**
+- String
+- Stack
+
 ### Solution
 ```
 /**

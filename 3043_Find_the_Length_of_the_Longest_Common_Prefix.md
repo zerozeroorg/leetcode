@@ -38,6 +38,12 @@ Constraints:
 1 <= arr1[i], arr2[i] <= 10^8
 ```
 
+**Tags**
+- Array
+- Hash Table
+- String
+- Trie
+
 ### Solution
 There are 2 solutions:
 - Use a hash set to store all prefixes of arr1. Then go through all prefixes of arr2 and check it against the hashset to find the longest common prefix.

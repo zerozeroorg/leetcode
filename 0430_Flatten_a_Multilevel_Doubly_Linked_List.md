@@ -66,6 +66,11 @@ Merging the serialization of each level and removing trailing nulls we obtain:
 The number of Nodes will not exceed 1000.
 1 <= Node.val <= 10^5
 ```
+**Tags**
+- Linked List
+- Depth-First Search
+- Doubly-Linked List
+
 ### Solution
 ```
 """

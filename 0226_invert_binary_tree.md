@@ -1,4 +1,5 @@
 ### 226. Invert Binary Tree
+Easy
 
 Invert a binary tree.
 
@@ -26,6 +27,12 @@ This problem was inspired by this original tweet by Max Howell:
 
 Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
 ```
+
+**Tags**
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 - If my root is null, return

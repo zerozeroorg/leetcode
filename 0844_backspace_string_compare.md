@@ -1,4 +1,5 @@
 ### 844. Backspace String Compare
+Easy
 
 Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
 
@@ -42,6 +43,12 @@ S and T only contain lowercase letters and '#' characters.
 ```
 Can you solve it in O(N) time and O(1) space?
 ```
+
+**Tags**
+- Two Pointers
+- String
+- Stack
+- Simulation
 
 ### Solution:
 - Use two stacks: one for S and the other for T

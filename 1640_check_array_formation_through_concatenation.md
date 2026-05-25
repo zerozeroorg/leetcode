@@ -1,4 +1,5 @@
 ### 1640. Check Array Formation Through Concatenation
+Easy
 
 You are given an array of distinct integers arr and an array of integer arrays pieces, where the integers in pieces are distinct. Your goal is to form arr by concatenating the arrays in pieces in any order. However, you are not allowed to reorder the integers in each array pieces[i].
 
@@ -46,6 +47,10 @@ sum(pieces[i].length) == arr.length
 The integers in arr are distinct.
 The integers in pieces are distinct (i.e., If we flatten pieces in a 1D array, all the integers in this array are distinct).
 ```
+
+**Tags**
+- Array
+- Hash Table
 
 ### Solution:
 - use a hashmap to store the location of a beginning piece -> the piece array (elements are distinct!)

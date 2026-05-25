@@ -70,6 +70,12 @@ The Graph is connected and all nodes can be visited starting from the given node
 ```
 
 
+**Tags**
+- Hash Table
+- Depth-First Search
+- Breadth-First Search
+- Graph Theory
+
 ### Solution:
 ```
 """

@@ -58,6 +58,15 @@ The total cost is 0 + 0 + 0 + 0 + 1 + 0 + 1 + 0 + 2 = 4.
 1 <= instructions[i] <= 105
 ```
 
+**Tags**
+- Array
+- Binary Search
+- Divide and Conquer
+- Binary Indexed Tree
+- Segment Tree
+- Merge Sort
+- Ordered Set
+
 ### Solution:
 - No idea how to solve this.
 - Initially, I had to insert the elements into the array in O(log n) time, but finding the left and right count still will take linear time.

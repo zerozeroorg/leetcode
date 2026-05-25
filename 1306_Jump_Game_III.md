@@ -40,9 +40,9 @@ Explanation: There is no way to reach at index 1 with value 0.
 
 **Tags**
 - Revisit
-- Dynamic Programming
-- DFS (Depth first search)
-
+- Array
+- Depth-First Search
+- Breadth-First Search
 
 ### Solution
 - I messed up where I had only a visited array that only recorded if you visited in any direction. I have to record visited going from the left, or going from the right.

@@ -1,4 +1,5 @@
 ### 1304. Find N Unique Integers Sum up to Zero
+Easy
 
 Given an integer n, return any array containing n unique integers such that they add up to 0.
 
@@ -25,6 +26,10 @@ Output: [0]
 ```
 1 <= n <= 1000
 ```
+
+**Tags**
+- Array
+- Math
 
 ### Solution:
 **My thinking:**

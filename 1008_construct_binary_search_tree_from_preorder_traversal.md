@@ -1,4 +1,5 @@
 ### 1008. Construct Binary Search Tree from Preorder Traversal
+Medium
 
 Return the root node of a binary search tree that matches the given preorder traversal.
 
@@ -24,9 +25,13 @@ The values of preorder are distinct.
 ```
 
 **Tags**
-- Trees
 - Revisit
-- Need to account for no split point!
+- Array
+- Stack
+- Tree
+- Binary Search Tree
+- Monotonic Stack
+- Binary Tree
 
 ### Solution:
 The python solution has linear run time. It uses the idea of a max value.

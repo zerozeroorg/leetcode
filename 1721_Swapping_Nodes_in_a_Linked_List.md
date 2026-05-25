@@ -24,6 +24,10 @@ The number of nodes in the list is n.
 0 <= Node.val <= 100
 ```
 
+**Tags**
+- Linked List
+- Two Pointers
+
 ### Solution
 ```
 # Definition for singly-linked list.

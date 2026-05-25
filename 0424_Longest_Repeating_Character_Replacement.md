@@ -1,4 +1,5 @@
 ### 424. Longest Repeating Character Replacement
+Medium
 
 Medium
 
@@ -37,6 +38,11 @@ substring - max_repeating_char_count <= k
 ```
 
 We only care about the max repeating char count, and not the actual max repeating char because there could be ties like A vs B but it doesn't matter.
+
+**Tags**
+- Hash Table
+- String
+- Sliding Window
 
 ### Solution
 ```

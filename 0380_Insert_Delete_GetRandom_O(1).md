@@ -35,6 +35,13 @@ At most 2 * 10^5 calls will be made to insert, remove, and getRandom.
 There will be at least one element in the data structure when getRandom is called.
 ```
 
+**Tags**
+- Array
+- Hash Table
+- Math
+- Design
+- Randomized
+
 ### Solution
 To solve for insert and remove in O(1) time, we should use a map to quickly find the element we need and do the necessary inserts/deletes from the map.
 

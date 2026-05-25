@@ -1,4 +1,5 @@
 ### 147. Insertion Sort List
+Medium
 
 Sort a linked list using insertion sort.
 
@@ -22,6 +23,10 @@ Output: 1->2->3->4
 Input: -1->5->3->4->0
 Output: -1->0->3->4->5
 ```
+
+**Tags**
+- Linked List
+- Sorting
 
 ### Solution:
 - What made this more difficult is that this is a linked list.

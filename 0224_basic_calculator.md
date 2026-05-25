@@ -1,4 +1,5 @@
 ### 224. Basic Calculator
+Hard
 
 Implement a basic calculator to evaluate a simple expression string.
 
@@ -24,6 +25,12 @@ Note:
 You may assume that the given expression is always valid.
 Do not use the eval built-in library function.
 ```
+
+**Tags**
+- Math
+- String
+- Stack
+- Recursion
 
 ### Solution:
 - Use a stack

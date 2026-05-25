@@ -1,4 +1,5 @@
 ### 389. Find the Difference
+Easy
 
 Given two strings s and t which consist of only lowercase letters.
 
@@ -18,6 +19,12 @@ e
 Explanation:
 'e' is the letter that was added.
 ```
+
+**Tags**
+- Hash Table
+- String
+- Bit Manipulation
+- Sorting
 
 ### Solution:
 - Sort both strings, then iterate t to find the difference. O(n log n) time.

@@ -43,6 +43,10 @@ Number of nodes will not exceed 30.
 Each node's value is either 0 or 1.
 ```
 
+**Tags**
+- Linked List
+- Math
+
 ### Solution:
 - There is a better solution below this one!
 

@@ -24,7 +24,9 @@ Output: [[],[0]]
 All the numbers of nums are unique.
 ```
 **Tags**
-- subsets
+- Array
+- Backtracking
+- Bit Manipulation
 
 ### Solution
 ```

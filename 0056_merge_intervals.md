@@ -24,6 +24,10 @@ intervals[i].length == 2
 0 <= starti <= endi <= 104
 ```
 
+**Tags**
+- Array
+- Sorting
+
 ### Solution:
 - if the last element's end is greater than the next element's first, then we have an overlap!
 ```

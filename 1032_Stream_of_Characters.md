@@ -45,7 +45,11 @@ At most 4 * 10^4 calls will be made to query.
 
 **Tags**
 - Revisit
-
+- Array
+- String
+- Design
+- Trie
+- Data Stream
 
 ### Solution
 - The most straightforward solution is to create a trie, and for each query letter you have a list of candidates and check if a candiate has that character suffix. If there are no candidates or is not a word yet, then return False. If any candidate reaches a word, return True.

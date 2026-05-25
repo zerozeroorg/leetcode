@@ -31,6 +31,7 @@ n <= k <= 26 * n
 
 **Tags**
 - Revisit
+- String
 - Greedy
 
 ### Solution

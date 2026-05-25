@@ -50,6 +50,11 @@ There is exactly one starting cell and one ending cell.
 
 **Tags**
 - Revisit
+- Array
+- Backtracking
+- Bit Manipulation
+- Matrix
+
 ### Solution:
 - Python version is the latest version
 - JS version is my original version

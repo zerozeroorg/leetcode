@@ -34,6 +34,9 @@ Output: 3086
 
 **Tags**
 - Revisit
+- Array
+- Greedy
+- Sorting
 
 ### Solution:
 I used DP but the easiest solution is in the JS code below.

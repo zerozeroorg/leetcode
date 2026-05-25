@@ -1,4 +1,5 @@
 ### 134. Gas Station
+Medium
 
 There are N gas stations along a circular route, where the amount of gas at station i is gas[i].
 
@@ -46,6 +47,10 @@ Travel to station 1. Your tank = 3 - 3 + 3 = 3
 You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
 Therefore, you can't travel around the circuit once no matter where you start.
 ```
+
+**Tags**
+- Array
+- Greedy
 
 ### Solution:
 - My solution is naive, runs in O(n^2) time
@@ -115,4 +120,3 @@ var canCompleteCircuit = function(gas, cost) {
     return sum < 0 ? -1 : start;
 };
 ```
-

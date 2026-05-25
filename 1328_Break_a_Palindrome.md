@@ -40,6 +40,10 @@ Output: "abb"
 palindrome consists of only lowercase English letters.
 ```
 
+**Tags**
+- String
+- Greedy
+
 ### Solution
 ```
 class Solution:
@@ -96,4 +100,3 @@ class Solution:
 1. If the length of the string is 11, return an empty string since we cannot create a non-palindromic string in this case.
 1. Iterate over the string from left to the middle of the string: if the character is not aa, change it to aa and return the string.
 1. If we traversed over the whole left part of the string and still haven't got a non-palindromic string, it means the string has only aa's. Hence, change the last character to bb and return the obtained string.
-

@@ -50,6 +50,10 @@ Constraints:
 0 <= nums[i] <= 50
 0 <= val <= 100
 
+**Tags**
+- Array
+- Two Pointers
+
 ### Solution
 The brute force approach is to manipulate the array. If you find a match, move it to the end by array splicing and pushing to the end. This takes O(n^2) time if we have to move a bunch of elements to the end.
 

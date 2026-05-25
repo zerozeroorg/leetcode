@@ -1,4 +1,5 @@
 ### 142. Linked List Cycle II
+Medium
 
 Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
 
@@ -39,6 +40,11 @@ The number of the nodes in the list is in the range [0, 104].
 -105 <= Node.val <= 105
 pos is -1 or a valid index in the linked-list.
 ```
+
+**Tags**
+- Hash Table
+- Linked List
+- Two Pointers
 
 ### Solution:
 - The solution I went with a O(n^2) time, and O(n) space solution. There is a O(n) time, O(1) space solution below mine.

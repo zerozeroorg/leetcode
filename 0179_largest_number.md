@@ -1,4 +1,5 @@
 ### 179. Largest Number
+Medium
 
 Given a list of non negative integers, arrange them such that they form the largest number.
 
@@ -14,6 +15,12 @@ Input: [3,30,34,5,9]
 Output: "9534330"
 Note: The result may be very large, so you need to return a string instead of an integer.
 ```
+
+**Tags**
+- Array
+- String
+- Greedy
+- Sorting
 
 ### Solution:
 - I messed up so many times.

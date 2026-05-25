@@ -1,4 +1,5 @@
 ### 987. Vertical Order Traversal of a Binary Tree
+Hard
 
 Given a binary tree, return the vertical order traversal of its nodes values.
 
@@ -37,6 +38,14 @@ However, in the report "[1,5,6]", the node value of 5 comes first since 5 is sma
 The tree will have between 1 and 1000 nodes.
 Each node's value will be between 0 and 1000.
 ```
+
+**Tags**
+- Hash Table
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Sorting
+- Binary Tree
 
 ### Solution:
 - create an array and traverse the tree. At each node, push the value, and their (x,y) coords.

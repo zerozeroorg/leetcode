@@ -40,6 +40,11 @@ Output: 1
 0 <= arr[i] <= 109
 ```
 
+**Tags**
+- Array
+- Dynamic Programming
+- Sliding Window
+
 ### Solution
 ```
 class Solution:

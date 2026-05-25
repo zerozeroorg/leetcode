@@ -1,4 +1,5 @@
 ### 1510. Stone Game IV
+Hard
 
 Alice and Bob take turns playing a game, with Alice starting first.
 
@@ -49,6 +50,11 @@ Explanation: Alice can't win the game if Bob plays optimally.
 ```
 1 <= n <= 10^5
 ```
+
+**Tags**
+- Math
+- Dynamic Programming
+- Game Theory
 
 ### Solution:
 ```

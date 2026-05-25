@@ -36,6 +36,9 @@ Output: 90
 
 **Tags**
 - Revisit
+- Math
+- Dynamic Programming
+- Combinatorics
 
 ### Solution
 ```

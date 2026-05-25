@@ -1,4 +1,5 @@
 ### 1009. Complement of Base 10 Integer
+Easy
 
 Every non-negative integer N has a binary representation.  For example, 5 can be represented as "101" in binary, 11 as "1011" in binary, and so on.  Note that except for N = 0, there are no leading zeroes in any binary representation.
 
@@ -32,6 +33,9 @@ Explanation: 10 is "1010" in binary, with complement "0101" in binary, which is 
 0 <= N < 10^9
 This question is the same as 476: https://leetcode.com/problems/number-complement/
 ```
+
+**Tags**
+- Bit Manipulation
 
 ### Solution:
 - My solution: divide by 2 and see if you get a remainder. That remainder is the right most bit. 

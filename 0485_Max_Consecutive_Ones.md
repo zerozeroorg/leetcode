@@ -22,6 +22,9 @@ Output: 2
 nums[i] is either 0 or 1.
 ```
 
+**Tags**
+- Array
+
 ### Solution
 ```
 class Solution:

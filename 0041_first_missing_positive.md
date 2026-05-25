@@ -1,4 +1,5 @@
 ### 41. First Missing Positive
+Hard
 
 Hard
 
@@ -30,6 +31,10 @@ Your algorithm should run in O(n) time and uses constant extra space.
 1 <= nums.length <= 5 * 10^5
 -2^31 <= nums[i] <= 2^31 - 1
 ```
+
+**Tags**
+- Array
+- Hash Table
 
 ### Solution:
 This was hard. My solution did not work for [-999, -998, 1]. I also did not use constant extra space.

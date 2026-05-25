@@ -33,7 +33,12 @@ Output: 0
 Follow up: Can you solve it in O(n) time complexity?
 
 **Tags**
-- stack
+- Array
+- Two Pointers
+- Stack
+- Greedy
+- Sorting
+- Monotonic Stack
 
 ### Solution
 I solved it with sorting. You can solve it with a stack. Don't know how though.

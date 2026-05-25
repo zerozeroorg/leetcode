@@ -64,6 +64,12 @@ There are no repeated elements on moves.
 moves follow the rules of tic tac toe.
 ```
 
+**Tags**
+- Array
+- Hash Table
+- Matrix
+- Simulation
+
 ### Solution
 ```
 class Solution:

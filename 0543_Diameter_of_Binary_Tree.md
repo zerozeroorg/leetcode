@@ -35,6 +35,9 @@ The number of nodes in the tree is in the range [1, 104].
 
 **Tags**
 - Revisit
+- Tree
+- Depth-First Search
+- Binary Tree
 
 ### Solution
 ```

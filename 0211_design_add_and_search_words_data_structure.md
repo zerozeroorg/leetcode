@@ -36,6 +36,12 @@ word in search consist of  '.' or lower-case English letters.
 At most 50000 calls will be made to addWord and search.
 ```
 
+**Tags**
+- String
+- Depth-First Search
+- Design
+- Trie
+
 ### Solution:
 - Use a trie data structure.
 

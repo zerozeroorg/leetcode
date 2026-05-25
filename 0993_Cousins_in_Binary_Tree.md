@@ -47,6 +47,12 @@ x != y
 x and y are exist in the tree.
 ```
 
+**Tags**
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
+
 ### Solution
 ```
 # Definition for a binary tree node.

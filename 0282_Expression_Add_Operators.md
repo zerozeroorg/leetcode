@@ -40,8 +40,10 @@ num consists of only digits.
 -2^31 <= target <= 2^31 - 1
 ```
 
-### Tags
-- Backtracking, Recursion
+**Tags**
+- Math
+- String
+- Backtracking
 
 ### Solution
 ```

@@ -58,6 +58,8 @@ Output: [1,1,0,1,1,null,1]
 ``` 
 
 **Tags**
+- Tree
+- Depth-First Search
 - Binary Tree
 
 **Constraints:**

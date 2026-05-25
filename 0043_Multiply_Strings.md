@@ -27,6 +27,9 @@ Both num1 and num2 do not contain any leading zero, except the number 0 itself.
 
 **Tags**
 - Revisit
+- Math
+- String
+- Simulation
 
 ### Solution
 - This was annoying problem

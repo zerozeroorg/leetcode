@@ -35,8 +35,9 @@ You earn a total of 9 points.
 
 **Tags**
 - Revisit
-- Dynamic programming
-- house robber
+- Array
+- Hash Table
+- Dynamic Programming
 
 ### Solution
 - Took several tries but the idea is that you have two choices: choose the current and skip any num + 1 and num -1, or choose the next one.

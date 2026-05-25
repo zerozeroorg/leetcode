@@ -45,6 +45,10 @@ intervals[i].length == 2
 0 <= intervals[i][0] < intervals[i][1] <= 10^5
 All the intervals are unique.
 ```
+**Tags**
+- Array
+- Sorting
+
 ### Solution:
 - This is a typical interval problem:
 - Sort the intervals

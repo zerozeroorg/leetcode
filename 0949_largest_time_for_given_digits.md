@@ -1,4 +1,5 @@
 ### 949. Largest Time for Given Digits
+Medium
 
 Given an array of 4 digits, return the largest 24 hour time that can be made.
 
@@ -25,6 +26,12 @@ A.length == 4
 0 <= A[i] <= 9
 ```
 
+
+**Tags**
+- Array
+- String
+- Backtracking
+- Enumeration
 
 ### Solution:
 You can either generate all the permutations then check if it is valid or do this:

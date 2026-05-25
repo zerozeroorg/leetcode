@@ -36,6 +36,12 @@ The number of nodes in the binary tree is in the range [1, 10^5].
 Each node's value is between [-10^4, 10^4].
 ```
 
+**Tags**
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
+
 ### Solution
 ```
 # Definition for a binary tree node.

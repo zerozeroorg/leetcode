@@ -21,7 +21,8 @@ Output: 4
 
 **Tags**
 - Revisit
-- Bit manipulation
+- Array
+- Bit Manipulation
 
 ### Solution:
 

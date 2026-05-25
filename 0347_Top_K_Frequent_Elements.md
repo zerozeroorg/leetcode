@@ -24,6 +24,16 @@ It is guaranteed that the answer is unique.
 
 Follow up: Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
 
+**Tags**
+- Array
+- Hash Table
+- Divide and Conquer
+- Sorting
+- Heap (Priority Queue)
+- Bucket Sort
+- Counting
+- Quickselect
+
 ### Solution
 I did not beat the O(n log n). To beat O(n log n), you can use a max heap of size k, to get it down to O(n log k)
 ```

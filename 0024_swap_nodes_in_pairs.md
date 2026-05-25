@@ -1,4 +1,5 @@
 ### 24. Swap Nodes in Pairs
+Medium
 
 Medium
 
@@ -32,6 +33,10 @@ Output: [1]
 The number of nodes in the list is in the range [0, 100].
 0 <= Node.val <= 100
 ```
+
+**Tags**
+- Linked List
+- Recursion
 
 ### Solution:
 - Have a left and right pointer that is eligible for swapping. This is linear time.

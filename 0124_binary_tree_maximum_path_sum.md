@@ -1,4 +1,5 @@
 ### 124. Binary Tree Maximum Path Sum
+Hard
 
 Given a non-empty binary tree, find the maximum path sum.
 
@@ -27,6 +28,12 @@ Input: [-10,9,20,null,null,15,7]
 
 Output: 42
 ```
+
+**Tags**
+- Dynamic Programming
+- Tree
+- Depth-First Search
+- Binary Tree
 
 ### Solution:
 ```

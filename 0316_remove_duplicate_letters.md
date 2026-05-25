@@ -1,4 +1,5 @@
 ### 316. Remove Duplicate Letters
+Medium
 
 Given a string s, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.
 
@@ -21,6 +22,12 @@ Output: "acdb"
 1 <= s.length <= 104
 s consists of lowercase English letters.
 ```
+
+**Tags**
+- String
+- Stack
+- Greedy
+- Monotonic Stack
 
 ### Solution:
 - The idea is to greedily process each character and take the lexicographically smallest character and push it into a result array.

@@ -35,6 +35,10 @@ It is guaranteed that the queue can be reconstructed.
 
 **Tags**
 - Revisit
+- Array
+- Binary Indexed Tree
+- Segment Tree
+- Sorting
 
 ### Solution
 ```

@@ -32,8 +32,10 @@ All pairs (xi, yi) are distinct.
 
 **Tags**
 - revisit
-- prim's algorithm
-- minimum spanning tree, MST
+- Array
+- Union-Find
+- Graph Theory
+- Minimum Spanning Tree
 
 ### Solution
 ```

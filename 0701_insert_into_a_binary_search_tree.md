@@ -33,6 +33,11 @@ All the values Node.val are unique.
 It's guaranteed that val does not exist in the original BST.
 ```
 
+**Tags**
+- Tree
+- Binary Search Tree
+- Binary Tree
+
 ### Solution:
 - Use recursion. 
 

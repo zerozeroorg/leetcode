@@ -1,4 +1,5 @@
 ## 28. Implement strStr()
+Easy
 
 Easy
 
@@ -68,3 +69,7 @@ var strStr = function(haystack, needle) {
   return index;
 };
 ```
+**Tags**
+- Two Pointers
+- String
+- String Matching

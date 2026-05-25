@@ -1,4 +1,5 @@
 ### 39. Combination Sum
+Medium
 
 Medium
 
@@ -47,6 +48,10 @@ Output: [[1,1]]
 All elements of candidates are distinct.
 1 <= target <= 500
 ```
+
+**Tags**
+- Array
+- Backtracking
 
 ### Solution:
 - Just generate all the combos. No other way to do it.

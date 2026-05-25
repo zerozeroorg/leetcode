@@ -1,4 +1,5 @@
 ### 845. Longest Mountain in Array
+Medium
 
 Let's call any (contiguous) subarray B (of A) a mountain if the following properties hold:
 
@@ -34,6 +35,12 @@ Explanation: There is no mountain.
 - Can you solve it using only one pass?
 - Can you solve it in O(1) space?
 
+
+**Tags**
+- Array
+- Two Pointers
+- Dynamic Programming
+- Enumeration
 
 ### Solution:
 ```

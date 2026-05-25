@@ -1,4 +1,5 @@
 ### 234. Palindrome Linked List
+Easy
 
 Given a singly linked list, determine if it is a palindrome.
 
@@ -15,6 +16,12 @@ Output: true
 
 Follow up:
 Could you do it in O(n) time and O(1) space?
+
+**Tags**
+- Linked List
+- Two Pointers
+- Stack
+- Recursion
 
 ### Solution:
 ```

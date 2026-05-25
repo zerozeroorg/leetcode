@@ -32,4 +32,8 @@ The input graph is always connected.
 **Tags**
 - Revisit
 - unsolved
-- floyd warshall or breadth first search
+- Dynamic Programming
+- Bit Manipulation
+- Breadth-First Search
+- Graph Theory
+- Bitmask

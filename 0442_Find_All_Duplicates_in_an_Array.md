@@ -32,6 +32,11 @@ n == nums.length
 Each element in nums appears once or twice.
 ```
 
+**Tags**
+- Array
+- Hash Table
+- Sorting
+
 ### Solution
 - There is a more clever solution below this one.
 ```

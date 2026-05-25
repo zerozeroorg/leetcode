@@ -1,4 +1,5 @@
 ### 435. Non-overlapping Intervals
+Medium
 
 Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
 
@@ -28,6 +29,12 @@ Explanation: You don't need to remove any of the intervals since they're already
 You may assume the interval's end point is always bigger than its start point.
 Intervals like [1,2] and [2,3] have borders "touching" but they don't overlap each other.
 ```
+
+**Tags**
+- Array
+- Dynamic Programming
+- Greedy
+- Sorting
 
 ### Solution:
 - Sort the intervals.

@@ -24,6 +24,11 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 The input string length won't exceed 1000.
 ```
 
+**Tags**
+- Two Pointers
+- String
+- Dynamic Programming
+
 ### Solution:
 ```
 class Solution:

@@ -33,6 +33,12 @@ Output: 26
 arr[i] contains only lower case English letters.
 ```
 
+**Tags**
+- Array
+- String
+- Backtracking
+- Bit Manipulation
+
 ### Solution
 ```
 class Solution:

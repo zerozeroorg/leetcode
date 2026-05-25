@@ -25,6 +25,10 @@ Try to greedily choose the smallest partition that includes the first letter. If
 
 **Tags**
 - Revisit
+- Hash Table
+- Two Pointers
+- String
+- Greedy
 
 ### Solution:
 

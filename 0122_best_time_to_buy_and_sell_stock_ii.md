@@ -1,4 +1,5 @@
 ### 122. Best Time to Buy and Sell Stock II
+Medium
 
 Say you have an array prices for which the ith element is the price of a given stock on day i.
 
@@ -35,6 +36,11 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 1 <= prices.length <= 3 * 10 ^ 4
 0 <= prices[i] <= 10 ^ 4
 ```
+
+**Tags**
+- Array
+- Dynamic Programming
+- Greedy
 
 ### Solution:
 - We want to buy from a valley and sell at a peak

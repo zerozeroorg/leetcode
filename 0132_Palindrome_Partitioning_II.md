@@ -31,9 +31,8 @@ s consists of lower-case English letters only.
 ```
 
 **Tags**
-- string
-- dynamic programming
-- palindrome
+- String
+- Dynamic Programming
 
 ### Solution
 - Freaking hard problem

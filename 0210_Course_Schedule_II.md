@@ -39,7 +39,9 @@ All the pairs [ai, bi] are distinct.
 
 **Tags**
 - Revisit
-- Graph
+- Depth-First Search
+- Breadth-First Search
+- Graph Theory
 - Topological Sort
 
 ### Solution

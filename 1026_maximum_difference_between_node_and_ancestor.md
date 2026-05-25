@@ -39,8 +39,9 @@ The number of nodes in the tree is in the range [2, 5000].
 
 **Tags**
 - Revisit
+- Tree
+- Depth-First Search
 - Binary Tree
-- Binary Search Tree
 
 ```
 

@@ -1,4 +1,5 @@
 ### 399. Evaluate Division
+Medium
 
 You are given equations in the format A / B = k, where A and B are variables represented as strings, and k is a real number (floating-point number). Given some queries, return the answers. If the answer does not exist, return -1.0.
 
@@ -25,6 +26,15 @@ Output: [3.75000,0.40000,5.00000,0.20000]
 Input: equations = [["a","b"]], values = [0.5], queries = [["a","b"],["b","a"],["a","c"],["x","y"]]
 Output: [0.50000,2.00000,-1.00000,-1.00000]
 ```
+
+**Tags**
+- Array
+- String
+- Depth-First Search
+- Breadth-First Search
+- Union-Find
+- Graph Theory
+- Shortest Path
 
 ### Solution:
 - I am very weak with graph algorithms and have no idea how you would intuitively use a floyd warshall to solve this problem.

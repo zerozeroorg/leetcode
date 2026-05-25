@@ -33,6 +33,9 @@ The number of nodes in the list is in the range [0, 1000].
 1 <= k <= 50
 ```
 
+**Tags**
+- Linked List
+
 ### Solution
 ```
 # Definition for singly-linked list.

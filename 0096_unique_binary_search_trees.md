@@ -23,6 +23,13 @@ Given n = 3, there are a total of 5 unique BST's:
 
 `1 <= n <= 19`
 
+**Tags**
+- Math
+- Dynamic Programming
+- Tree
+- Binary Search Tree
+- Binary Tree
+
 ### Solution:
 Fastest solution: use math (Catalan numbers) to solve it.
 

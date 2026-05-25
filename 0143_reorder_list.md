@@ -16,6 +16,12 @@ Given 1->2->3->4, reorder it to 1->4->2->3.
 Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 ```
 
+**Tags**
+- Linked List
+- Two Pointers
+- Stack
+- Recursion
+
 ### Solution:
 - Find the halfway point.
 - Break it from the main list and reverse that half.

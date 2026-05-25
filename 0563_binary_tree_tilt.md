@@ -55,6 +55,11 @@ The number of nodes in the tree is in the range [0, 104].
 -1000 <= Node.val <= 1000
 ```
 
+**Tags**
+- Tree
+- Depth-First Search
+- Binary Tree
+
 ### Solution:
 ```
 # Definition for a binary tree node.

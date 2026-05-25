@@ -33,6 +33,11 @@ numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
 At most 104 calls will be made to sumRange.
 ```
 
+**Tags**
+- Array
+- Design
+- Prefix Sum
+
 ### Solution
 ```
 class NumArray:

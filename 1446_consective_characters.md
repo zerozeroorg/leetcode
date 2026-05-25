@@ -1,4 +1,5 @@
 ### 1446. Consecutive Characters
+Easy
 
 Given a string s, the power of the string is the maximum length of a non-empty substring that contains only one unique character.
 
@@ -41,6 +42,9 @@ Output: 1
 1 <= s.length <= 500
 s contains only lowercase English letters.
 ```
+
+**Tags**
+- String
 
 ### Solution:
 

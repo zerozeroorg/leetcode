@@ -38,6 +38,11 @@ The root-to-leaf path 4->0 represents the number 40.
 Therefore, sum = 495 + 491 + 40 = 1026.
 ```
 
+**Tags**
+- Tree
+- Depth-First Search
+- Binary Tree
+
 ### Solution:
 - 11/3/2021 update: got a clean python solution
 - GOTCHA: need to do parseInt base 10 in case of leading zeroes!

@@ -32,6 +32,11 @@ rotate 2 steps to the right: [3,99,-1,-100]
 - It's guaranteed that nums[i] fits in a 32 bit-signed integer.
 - k >= 0
 
+**Tags**
+- Array
+- Math
+- Two Pointers
+
 ### Solution:
 
 I did not use this solution, but you can do this:

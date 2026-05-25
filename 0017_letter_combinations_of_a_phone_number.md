@@ -30,6 +30,11 @@ digits[i] is a digit in the range ['2', '9'].
 ```
 
 
+**Tags**
+- Hash Table
+- String
+- Backtracking
+
 ### Solution:
 ```
 class Solution:

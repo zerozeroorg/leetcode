@@ -40,7 +40,9 @@ s and t consist of uppercase and lowercase English letters.
 **Follow up: Could you find an algorithm that runs in O(m + n) time?**
 
 **Tags**
-- sliding window
+- Hash Table
+- String
+- Sliding Window
 
 **Note:**
 - If there is no such window in `S` that covers all characters in `T`, return the empty string `""`.

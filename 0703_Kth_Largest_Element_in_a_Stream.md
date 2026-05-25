@@ -36,6 +36,14 @@ At most 10^4 calls will be made to add.
 It is guaranteed that there will be at least k elements in the array when you search for the kth element.
 ```
 
+**Tags**
+- Tree
+- Design
+- Binary Search Tree
+- Heap (Priority Queue)
+- Binary Tree
+- Data Stream
+
 ### Solution
 ```
 class KthLargest:

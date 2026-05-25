@@ -46,6 +46,10 @@ Note: This question is the same as 1038: https://leetcode.com/problems/binary-se
 
 **Tags**
 - revisit
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Binary Tree
 
 ### Solution
 ```

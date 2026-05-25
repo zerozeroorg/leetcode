@@ -1,4 +1,5 @@
 ### 933. Number of Recent Calls
+Easy
 
 You have a RecentCounter class which counts the number of recent requests within a certain time frame.
 
@@ -30,6 +31,11 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002], range is [2,3002]
 Each test case will call ping with strictly increasing values of t.
 At most 104 calls will be made to ping.
 ```
+
+**Tags**
+- Design
+- Queue
+- Data Stream
 
 ### Solution:
 - Kinda over complicated the problem. My idea is to store all the calls, then do binary search to find the range of calls that fall into [t - 3000, t]
@@ -121,4 +127,3 @@ RecentCounter.prototype.ping = function(t) {
  * var param_1 = obj.ping(t)
  */
 ```
-

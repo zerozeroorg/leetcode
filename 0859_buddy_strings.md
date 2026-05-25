@@ -1,4 +1,5 @@
 ### 859. Buddy Strings
+Easy
 
 Given two strings A and B of lowercase letters, return true if you can swap two letters in A so the result is equal to B, otherwise, return false.
 
@@ -44,6 +45,10 @@ Output: false
 0 <= B.length <= 20000
 A and B consist of lowercase letters.
 ```
+
+**Tags**
+- Hash Table
+- String
 
 ### Solution:
 ```

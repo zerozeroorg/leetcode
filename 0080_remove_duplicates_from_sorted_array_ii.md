@@ -44,6 +44,10 @@ Explanation: Your function should return length = 7, with the first seven elemen
 nums is sorted in ascending order.
 ```
 
+**Tags**
+- Array
+- Two Pointers
+
 ### Solution:
 ```
 class Solution:

@@ -39,6 +39,11 @@ At most 1000 calls will be made to next, hasNext, and peek.
 
 Follow up: How would you extend your design to be generic and work with all types, not just integer?
 
+**Tags**
+- Array
+- Design
+- Iterator
+
 ### Solution
 ```
 /**

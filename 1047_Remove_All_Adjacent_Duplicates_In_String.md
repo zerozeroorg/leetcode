@@ -1,4 +1,5 @@
 ### 1047. Remove All Adjacent Duplicates In String
+Easy
 
 You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.
 
@@ -26,6 +27,10 @@ Output: "ay"
 1 <= s.length <= 10^5
 s consists of lowercase English letters.
 ```
+
+**Tags**
+- String
+- Stack
 
 ### Solution
 Python:

@@ -1,4 +1,5 @@
 ### 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+Easy
 
 Given two binary trees original and cloned and given a reference to a node target in the original tree.
 
@@ -47,6 +48,12 @@ The number of nodes in the tree is in the range [1, 10^4].
 The values of the nodes of the tree are unique.
 target node is a node from the original tree and is not null.
 ```
+
+**Tags**
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 ```

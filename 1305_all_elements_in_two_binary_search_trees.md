@@ -42,8 +42,12 @@ Each node's value is between [-10^5, 10^5].
 
 **Tags**
 - Revisit
-- Binary tree 
-- Binary search tree
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Sorting
+- Binary Tree
+
 ```
 
 ### Solution

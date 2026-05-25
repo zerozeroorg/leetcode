@@ -42,6 +42,10 @@ It is guaranteed that there will be at least one element in the stack before cal
 
 **Tags**
 - revisit
+- Hash Table
+- Stack
+- Design
+- Ordered Set
 
 ### Solution
 My first intuition was to use a heap, but not sure how to handle ordering of elements in the event of a tie

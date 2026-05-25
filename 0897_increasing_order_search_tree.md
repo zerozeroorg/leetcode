@@ -1,4 +1,5 @@
 ### 897. Increasing Order Search Tree
+Easy
 
 Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child. 
 
@@ -43,6 +44,13 @@ Output: [1,null,5,null,7]
 The number of nodes in the given tree will be in the range [1, 100].
 0 <= Node.val <= 1000
 ```
+
+**Tags**
+- Stack
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Binary Tree
 
 ### Solution:
 - I had a slow solution: I had to create a storage list to store the nodes, then traverse it to link them correctly.

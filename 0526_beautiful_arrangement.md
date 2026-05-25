@@ -1,4 +1,5 @@
 ### 526. Beautiful Arrangement
+Medium
 
 Suppose you have n integers from 1 to n. We define a beautiful arrangement as an array that is constructed by these n numbers successfully if one of the following is true for the ith position (1 <= i <= n) in this array:
 
@@ -29,6 +30,13 @@ Output: 1
 ```
 1 <= n <= 15
 ```
+
+**Tags**
+- Array
+- Dynamic Programming
+- Backtracking
+- Bit Manipulation
+- Bitmask
 
 ### Solution:
 ```

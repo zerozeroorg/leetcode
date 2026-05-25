@@ -35,9 +35,11 @@ p != q
 p and q will exist in the BST.
 ```
 
-### Tags
-- Binary tree
-- Binary tree traversal
+**Tags**
+- Tree
+- Depth-First Search
+- Binary Search Tree
+- Binary Tree
 
 ### Solution
 I went with the most inefficient way to solve it. The most efficient way to solve it is as follows:

@@ -1,4 +1,5 @@
 ### 865. Smallest Subtree with all the Deepest Nodes
+Medium
 
 Given the root of a binary tree, the depth of each node is the shortest distance to the root.
 
@@ -47,6 +48,13 @@ The number of nodes in the tree will be in the range [1, 500].
 0 <= Node.val <= 500
 The values of the nodes in the tree are unique.
 ```
+
+**Tags**
+- Hash Table
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Tree
 
 ### Solution:
 ```

@@ -1,4 +1,5 @@
 ### 213. House Robber II
+Medium
 
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have a security system connected, and it will automatically contact the police if two adjacent houses were broken into on the same night.
 
@@ -30,6 +31,10 @@ Output: 0
 1 <= nums.length <= 100
 0 <= nums[i] <= 1000
 ```
+
+**Tags**
+- Array
+- Dynamic Programming
 
 ### Solution:
 - This was tough. I needed a hint.

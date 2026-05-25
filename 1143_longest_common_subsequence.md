@@ -1,4 +1,5 @@
 ### 1143. Longest Common Subsequence
+Medium
 
 Given two strings `text1` and `text2`, return the length of their longest common subsequence.
 
@@ -34,6 +35,10 @@ Explanation: There is no such common subsequence, so the result is 0.
 1 <= text1.length <= 1000
 1 <= text2.length <= 1000
 The input strings consist of lowercase English characters only.
+
+**Tags**
+- String
+- Dynamic Programming
 
 ### Solution
 
@@ -115,4 +120,3 @@ class Solution:
         return lcs(text1, text2, 0, 0)
         
 ```
-

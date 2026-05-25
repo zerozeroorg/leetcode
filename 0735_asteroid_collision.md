@@ -1,4 +1,5 @@
 ### 735. Asteroid Collision
+Medium
 
 We are given an array asteroids of integers representing asteroids in a row.
 
@@ -40,6 +41,11 @@ Explanation: The -2 and -1 are moving left, while the 1 and 2 are moving right. 
 -1000 <= asteroids[i] <= 1000
 asteroids[i] != 0
 ```
+
+**Tags**
+- Array
+- Stack
+- Simulation
 
 ### Solution:
 - Very good problem!

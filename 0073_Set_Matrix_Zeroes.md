@@ -53,6 +53,11 @@ Could you devise a constant space solution?
 ```
 
 
+**Tags**
+- Array
+- Hash Table
+- Matrix
+
 ### Solution
 ```
 class Solution:

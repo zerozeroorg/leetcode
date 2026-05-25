@@ -33,7 +33,7 @@ The total number of nodes is between [0, 104]
 
 **Tags**
 - Tree
-- BFS 
+- Breadth-First Search
 
 ### Solution
 ```

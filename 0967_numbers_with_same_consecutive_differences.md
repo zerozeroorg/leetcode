@@ -1,4 +1,5 @@
 ### 967. Numbers With Same Consecutive Differences
+Medium
 
 Return all non-negative integers of length n such that the absolute difference between every two consecutive digits is k.
 
@@ -42,6 +43,10 @@ Output: [13,20,24,31,35,42,46,53,57,64,68,75,79,86,97]
 2 <= n <= 9
 0 <= k <= 9
 ```
+
+**Tags**
+- Backtracking
+- Breadth-First Search
 
 ### Solution:
 - Create a list of lists: [[0],[1],[2]...[9]]

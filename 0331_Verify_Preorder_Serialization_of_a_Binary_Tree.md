@@ -42,6 +42,12 @@ Output: false
 preoder consist of integers in the range [0, 100] and '#' separated by commas ','.
 ```
 
+**Tags**
+- String
+- Stack
+- Tree
+- Binary Tree
+
 ### Solution
 ```
 class Solution:

@@ -24,9 +24,11 @@ n == height.length
 ```
 
 **Tags**
+- Array
+- Two Pointers
 - Dynamic Programming
-- two pointer
-- array
+- Stack
+- Monotonic Stack
 
 ### Solution
 The amount of water that can be trapped is determined by the left wall, right wall, and current height.

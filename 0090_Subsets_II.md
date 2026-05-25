@@ -24,8 +24,9 @@ Output: [[],[0]]
 ```
 
 **Tags**
-- backtracking
-- bit manipulation
+- Array
+- Backtracking
+- Bit Manipulation
 
 ### Solution
 - To generate a power set, simply do the following:

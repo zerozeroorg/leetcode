@@ -37,8 +37,11 @@ Output: 4
 
 **Tags**
 - Revisit
-- dynamic programming
-- binary search
+- Array
+- Binary Search
+- Dynamic Programming
+- Greedy
+- Prefix Sum
 
 ### Solution
 - There are two solutions: DP and Binary Search

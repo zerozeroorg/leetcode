@@ -27,6 +27,11 @@ Output: 0
 -1000 <= nums[i] <= 1000
 ```
 
+**Tags**
+- Array
+- Dynamic Programming
+- Sliding Window
+
 ### Solution
 - there is a linear solution, but I don't know what the exact implementation looks like
 - brute force get every subarray and check for arithmetic sequence. O(n^2) time, constant space

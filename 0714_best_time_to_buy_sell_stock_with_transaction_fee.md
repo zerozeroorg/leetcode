@@ -31,6 +31,11 @@ Output: 6
 0 < prices[i], fee < 5 * 104
 ```
 
+**Tags**
+- Array
+- Dynamic Programming
+- Greedy
+
 ### Solution:
 ```
 class Solution:

@@ -39,6 +39,11 @@ n == grid[i].length
 0 <= k <= 100
 ```
 
+**Tags**
+- Array
+- Matrix
+- Simulation
+
 ### Solution
 ```
 /**

@@ -43,6 +43,13 @@ The number of nodes in the tree is in the range [0, 2000].
 
 Follow up: Can you flatten the tree in-place (with O(1) extra space)?
 
+**Tags**
+- Linked List
+- Stack
+- Tree
+- Depth-First Search
+- Binary Tree
+
 ### Solution:
 ```
 # Definition for a binary tree node.

@@ -1,4 +1,5 @@
 ### 128. Longest Consecutive Sequence
+Medium
 
 Medium
 
@@ -27,6 +28,11 @@ Constraints:
 0 <= nums.length <= 10^5
 -10^9 <= nums[i] <= 10^9
 ```
+
+**Tags**
+- Array
+- Hash Table
+- Union-Find
 
 ### Solution
 Naive solution:

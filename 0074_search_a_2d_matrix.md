@@ -40,6 +40,11 @@ n == matrix[i].length
 -104 <= matrix[i][j], target <= 104
 ```
 
+**Tags**
+- Array
+- Binary Search
+- Matrix
+
 ### Solution:
 - Binary Search the rows
 - Then binary search that particular row

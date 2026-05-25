@@ -33,7 +33,9 @@ Each integer in nums will appear twice, only two integers will appear once.
 
 **Tags**
 - Revisit
-- Bit manipulation
+- Array
+- Bit Manipulation
+
 ### Solution
 - I only solved it via hashmap.
 - Below this one will be an explanation on how to solve this in linear time with constant extra space.

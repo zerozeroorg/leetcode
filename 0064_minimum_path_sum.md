@@ -17,6 +17,11 @@ Output: 7
 Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 ```
 
+**Tags**
+- Array
+- Dynamic Programming
+- Matrix
+
 ### Solution:
 - Use DP
 - Take the best path between the left and right paths

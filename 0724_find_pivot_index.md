@@ -1,4 +1,5 @@
 ### 724. Find Pivot Index
+Easy
 
 Given an array of integers nums, write a method that returns the "pivot" index of this array.
 
@@ -30,6 +31,10 @@ There is no index that satisfies the conditions in the problem statement.
 The length of nums will be in the range [0, 10000].
 Each element nums[i] will be an integer in the range [-1000, 1000].
 ```
+
+**Tags**
+- Array
+- Prefix Sum
 
 ### Solution:
 - You can use prefix sums: one prefix sum coming from the left, and another prefix sum coming from the right.

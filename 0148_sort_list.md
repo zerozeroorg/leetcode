@@ -31,6 +31,13 @@ The number of nodes in the list is in the range [0, 5 * 10^4].
 -10^5 <= Node.val <= 10^5
 ```
 
+**Tags**
+- Linked List
+- Two Pointers
+- Divide and Conquer
+- Sorting
+- Merge Sort
+
 ### Solution:
 - Update: Python solution using merge sort and recursion so hope that counts as constant space.
 - My solution did not take constant space. It takes O(n) space.

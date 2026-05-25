@@ -33,6 +33,12 @@ There are no more pairs that sum up to 6, hence a total of 1 operation.
 1 <= k <= 10^9
 ```
 
+**Tags**
+- Array
+- Hash Table
+- Two Pointers
+- Sorting
+
 ### Solution:
 - My solution is O(n log n) time, but O(1) constant space.
 - The fastest solution is O(n) time, but with O(n) space. It is below mine.

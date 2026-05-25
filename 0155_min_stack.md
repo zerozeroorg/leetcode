@@ -34,6 +34,10 @@ minStack.getMin(); // return -2
 Methods pop, top and getMin operations will always be called on non-empty stacks.
 ```
 
+**Tags**
+- Stack
+- Design
+
 ### Solution:
 - Push a tuple of value and minimum at this point so far
 

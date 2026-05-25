@@ -40,6 +40,15 @@ The number of nodes in the tree is in the range [1, 104].
 root is guaranteed to be a valid binary search tree.
 -105 <= k <= 105
 
+**Tags**
+- Hash Table
+- Two Pointers
+- Tree
+- Depth-First Search
+- Breadth-First Search
+- Binary Search Tree
+- Binary Tree
+
 ### Solution
 - You can do it in one pass! I did this in 3 passes.
 - When I ran with test case [2,2,2] it wasn't a valid input meaning the nodes are definitely unique!

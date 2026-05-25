@@ -1,4 +1,5 @@
 ### 1662. Check If Two String Arrays are Equivalent
+Easy
 
 Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
 
@@ -33,6 +34,10 @@ Output: true
 1 <= sum(word1[i].length), sum(word2[i].length) <= 103
 word1[i] and word2[i] consist of lowercase letters.
 ```
+
+**Tags**
+- Array
+- String
 
 ### Solution:
 - This was classified as an easy problem, so I should have done the one liner solution!

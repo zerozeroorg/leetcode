@@ -1,4 +1,5 @@
 ### 3. Longest Substring Without Repeating Characters
+Medium
 
 Medium
 
@@ -43,6 +44,11 @@ s consists of English letters, digits, symbols and spaces.
 "aabaab!bb"
 "abba"
 ```
+**Tags**
+- Hash Table
+- String
+- Sliding Window
+
 ### Solution:
 ```
 class Solution:

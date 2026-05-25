@@ -30,7 +30,9 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 
 **Tags**
 - Revisit
-- hashmap
+- Array
+- Hash Table
+- Counting
 
 ### Solution:
 ```

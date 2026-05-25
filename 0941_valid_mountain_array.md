@@ -1,4 +1,5 @@
 ### 941. Valid Mountain Array
+Easy
 
 Given an array of integers arr, return true if and only if it is a valid mountain array.
 
@@ -37,6 +38,9 @@ Output: true
 0 <= arr[i] <= 104
 ```
 
+
+**Tags**
+- Array
 
 ### Solution:
 - Simpler solution: walk up the array until you can't. Then walk down the array.

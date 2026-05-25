@@ -33,6 +33,10 @@ Output: 1
 All the values of nums are unique.
 ```
 
+**Tags**
+- Array
+- Depth-First Search
+
 ### Solution
 ```
 class Solution:

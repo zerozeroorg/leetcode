@@ -59,6 +59,11 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 1 <= num <= 3999
 ```
 
+**Tags**
+- Hash Table
+- Math
+- String
+
 ### Solution:
 ```
 class Solution:

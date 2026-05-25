@@ -35,6 +35,8 @@ Follow up: This problem is similar to Find Minimum in Rotated Sorted Array, but 
 
 **Tags**
 - Revisit
+- Array
+- Binary Search
 
 ### Solution
 ```

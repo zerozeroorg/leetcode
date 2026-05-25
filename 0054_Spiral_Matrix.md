@@ -31,6 +31,11 @@ n == matrix[i].length
 -100 <= matrix[i][j] <= 100
 ```
 
+**Tags**
+- Array
+- Matrix
+- Simulation
+
 ### Solution
 ```
 class Solution:

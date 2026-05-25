@@ -35,6 +35,10 @@ s consists of only '(' and ')'.
 s is a balanced parentheses string.
 ```
 
+**Tags**
+- String
+- Stack
+
 ### Solution
 - This is a O(n) space, O(n) time solution
 - There is a O(1) space, O(n) time solution, provided by LeetCode. This page will not cover this.

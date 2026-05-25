@@ -28,6 +28,10 @@ The number of nodes in both lists is in the range [0, 50].
 Both l1 and l2 are sorted in non-decreasing order.
 ```
 
+**Tags**
+- Linked List
+- Recursion
+
 ### Solution:
 ```
 # Definition for singly-linked list.

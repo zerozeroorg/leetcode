@@ -25,6 +25,11 @@ Explanation: There is no common prefix among the input strings.
 strs[i] consists of only lower-case English letters.
 ```
 
+**Tags**
+- Array
+- String
+- Trie
+
 ### Solution:
 - My idea is to take the first character of each word and compare them. If they match, put them in the result array and increment pointer.
 - If they do not match, return result array.

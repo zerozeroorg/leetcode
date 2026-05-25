@@ -19,6 +19,13 @@ Return the following binary tree:
    15   7
 ```
 
+**Tags**
+- Array
+- Hash Table
+- Divide and Conquer
+- Tree
+- Binary Tree
+
 ### Solution:
 There is a O(n) time, O(n) space solution which I have not attempted:
 - Use a hashmap to map the location of the inorder nodes -> index

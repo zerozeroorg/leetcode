@@ -36,6 +36,8 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 ```
 **Tags**
 - revisit
+- Array
+- Greedy
 
 ### Solution:
 - This is a very good problem!

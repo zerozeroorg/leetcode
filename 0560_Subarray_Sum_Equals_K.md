@@ -23,6 +23,9 @@ Output: 2
 ```
 **Tags**
 - Revisit
+- Array
+- Hash Table
+- Prefix Sum
 
 ### Solution
 - Build every subarray, add there sums. This is O(n^2) to get every subarray and O(n) to add each of them so the total run time is O(n^3). Too slow.

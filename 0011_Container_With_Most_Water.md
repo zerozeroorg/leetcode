@@ -32,7 +32,9 @@ n == height.length
 
 **Tags**
 - revisit
-- two pointer
+- Array
+- Two Pointers
+- Greedy
 
 ### Solution
 Realize that you can choose any two heights and ignore any heights in between to form your container.

@@ -26,7 +26,9 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 
 **Tags**
 - Revisit
-- sliding window
+- Hash Table
+- String
+- Sliding Window
 
 **Constraints:**
 ```

@@ -1,4 +1,5 @@
 ### 299. Bulls and Cows
+Medium
 
 You are playing the following Bulls and Cows game with your friend: You write down a number and ask your friend to guess what the number is. Each time your friend makes a guess, you provide a hint that indicates how many digits in said guess match your secret number exactly in both digit and position (called "bulls") and how many digits match the secret number but locate in the wrong position (called "cows"). Your friend will use successive guesses and hints to eventually derive the secret number.
 
@@ -25,6 +26,11 @@ Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
 ```
 
 Note: You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
+
+**Tags**
+- Hash Table
+- String
+- Counting
 
 ### Solution:
 - There are two solutions. My solution and an optimial solution:
@@ -108,4 +114,3 @@ class Solution {
     }
 }
 ```
-

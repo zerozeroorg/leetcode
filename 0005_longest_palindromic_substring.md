@@ -34,6 +34,11 @@ Output: "a"
 s consist of only digits and English letters (lower-case and/or upper-case),
 ```
 
+**Tags**
+- Two Pointers
+- String
+- Dynamic Programming
+
 ### Solution:
 ```
 class Solution:

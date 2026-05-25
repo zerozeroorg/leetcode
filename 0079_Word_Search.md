@@ -49,6 +49,11 @@ Follow up: Could you use search pruning to make your solution faster with a larg
 
 **Tags**
 - Revisit
+- Array
+- String
+- Backtracking
+- Depth-First Search
+- Matrix
 
 ### Solution
 Very hard problem for me, will need to revisit
