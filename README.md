@@ -8,6 +8,10 @@ Over a course of 2 years, I recorded as many leetcode problems to help me in cod
 
 Use these for coding interview prep. If you have questions, comments or suggestions feel free to post an issue in github!
 
+**Study guides:**
+- [STUDY_INDEX.md](STUDY_INDEX.md) — all 310 problems grouped by topic and difficulty
+- [docs/interview_techniques.md](docs/interview_techniques.md) — must-know patterns and algorithms for interviews
+
 ## Overall Approach
 
 - Go with the naive algorithm first! You want to gain some intuition and make sure you understand the problem fully.

@@ -1,0 +1,230 @@
+{
+  "Array": {
+    "techniques": ["Hash map for complement/frequency", "Two pointers on sorted arrays", "In-place marking for O(1) space"],
+    "doc_anchor": "hash-map-lookup"
+  },
+  "Backtracking": {
+    "techniques": ["Choose / explore / unchoose", "Prune early with constraints", "Use visited set or restore state"],
+    "doc_anchor": "backtracking"
+  },
+  "Binary Indexed Tree": {
+    "techniques": ["Fenwick tree for range sum updates", "Index as 1-based in implementation"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Binary Search": {
+    "techniques": ["Search on sorted value", "Search on answer space (min/max feasible)", "Handle rotated or boundary duplicates"],
+    "doc_anchor": "binary-search"
+  },
+  "Binary Search Tree": {
+    "techniques": ["Inorder traversal gives sorted order", "Validate with min/max bounds", "Recursive structure for insert/search"],
+    "doc_anchor": "bst-properties"
+  },
+  "Binary Tree": {
+    "techniques": ["DFS recursion (pre/in/postorder)", "BFS level-order with queue", "Divide tree into left/right subproblems"],
+    "doc_anchor": "tree-dfs-bfs"
+  },
+  "Bit Manipulation": {
+    "techniques": ["XOR cancels pairs", "n & (n-1) clears lowest set bit", "Check power of 2: n & (n-1) == 0"],
+    "doc_anchor": "bit-manipulation"
+  },
+  "Bitmask": {
+    "techniques": ["Enumerate subsets with bit masks", "DP over state represented as bitmask"],
+    "doc_anchor": "bit-manipulation"
+  },
+  "Breadth-First Search": {
+    "techniques": ["Queue for level-by-level traversal", "Shortest path in unweighted graphs", "Track visited to avoid cycles"],
+    "doc_anchor": "graph-bfs-dfs"
+  },
+  "Bucket Sort": {
+    "techniques": ["Bucket by frequency or range", "Use when values bounded or small domain"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Combinatorics": {
+    "techniques": ["Count with formula or DP", "Stars and bars / permutation vs combination"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Counting": {
+    "techniques": ["Frequency map or array", "Prefix counts for range queries"],
+    "doc_anchor": "hash-map-lookup"
+  },
+  "Data Stream": {
+    "techniques": ["Heap for running top-k or median", "Hash map + linked list for LRU-style access"],
+    "doc_anchor": "heap-quickselect"
+  },
+  "Depth-First Search": {
+    "techniques": ["Recursion or explicit stack", "Backtrack on return", "Mark visited, unmark when done"],
+    "doc_anchor": "graph-bfs-dfs"
+  },
+  "Design": {
+    "techniques": ["Hash map + doubly linked list (LRU)", "Array + hash map for O(1) random access", "Trie or heap for specialized queries"],
+    "doc_anchor": "design-patterns"
+  },
+  "Divide and Conquer": {
+    "techniques": ["Split problem in half", "Merge results from subproblems", "Merge sort on linked lists or arrays"],
+    "doc_anchor": "divide-and-conquer"
+  },
+  "Doubly-Linked List": {
+    "techniques": ["Dummy head/tail nodes", "Splice nodes in O(1) with prev pointers"],
+    "doc_anchor": "linked-list-patterns"
+  },
+  "Dynamic Programming": {
+    "techniques": ["Define state and recurrence", "Bottom-up table or top-down memo", "State machine for buy/sell stock variants"],
+    "doc_anchor": "dynamic-programming"
+  },
+  "Enumeration": {
+    "techniques": ["Try all candidates with pruning", "Nested loops with early exit"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Game Theory": {
+    "techniques": ["Win/lose states via DP", "Optimal play = min/max of opponent outcomes"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Geometry": {
+    "techniques": ["Slope and cross product for orientation", "Sort points before sweep"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Graph Theory": {
+    "techniques": ["Adjacency list representation", "BFS/DFS for connectivity", "Color nodes to detect bipartite"],
+    "doc_anchor": "graph-bfs-dfs"
+  },
+  "Greedy": {
+    "techniques": ["Sort then make locally optimal choice", "Prove greedy choice stays safe", "Interval scheduling by end time"],
+    "doc_anchor": "greedy"
+  },
+  "Hash Function": {
+    "techniques": ["Rolling hash for substring compare", "Mod prime to reduce collisions"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Hash Table": {
+    "techniques": ["Map value → index or frequency", "Two-sum complement lookup", "Group by normalized key (sorted string)"],
+    "doc_anchor": "hash-map-lookup"
+  },
+  "Heap (Priority Queue)": {
+    "techniques": ["Min/max heap for top-k", "Push all then pop k times", "Two heaps for streaming median"],
+    "doc_anchor": "heap-quickselect"
+  },
+  "Iterator": {
+    "techniques": ["Stack simulates inorder traversal", "Lazy evaluation with internal pointer"],
+    "doc_anchor": "bst-properties"
+  },
+  "Linked List": {
+    "techniques": ["Dummy sentinel node", "Slow/fast (tortoise/hare) pointers", "In-place reverse and merge"],
+    "doc_anchor": "linked-list-patterns"
+  },
+  "Math": {
+    "techniques": ["Modular arithmetic for overflow", "GCD/Euclidean algorithm", "Detect cycles with Floyd (happy number)"],
+    "doc_anchor": "math-patterns"
+  },
+  "Matrix": {
+    "techniques": ["Row/column as 1D array tricks", "BFS from all border cells", "Spiral with direction vectors"],
+    "doc_anchor": "matrix-patterns"
+  },
+  "Memoization": {
+    "techniques": ["Cache recursive subproblem results", "Same recurrence as DP, top-down"],
+    "doc_anchor": "dynamic-programming"
+  },
+  "Merge Sort": {
+    "techniques": ["Split list/array, merge sorted halves", "Find middle with slow/fast pointers on lists"],
+    "doc_anchor": "linked-list-patterns"
+  },
+  "Minimum Spanning Tree": {
+    "techniques": ["Prim's with min-heap", "Kruskal's with union-find + sorted edges"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Monotonic Stack": {
+    "techniques": ["Maintain increasing/decreasing stack", "Pop when current breaks monotonicity", "Next greater/smaller element"],
+    "doc_anchor": "monotonic-stack"
+  },
+  "Number Theory": {
+    "techniques": ["Prime sieve or trial division", "Factor counting with sqrt(n) loop"],
+    "doc_anchor": "math-patterns"
+  },
+  "Ordered Set": {
+    "techniques": ["TreeMap / sorted container for range queries", "Lower_bound for successor"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Prefix Sum": {
+    "techniques": ["Cumulative sum for O(1) range query", "Prefix + hash map for subarray sum k"],
+    "doc_anchor": "prefix-suffix-sums"
+  },
+  "Queue": {
+    "techniques": ["BFS level order", "Deque for sliding window max"],
+    "doc_anchor": "graph-bfs-dfs"
+  },
+  "Quickselect": {
+    "techniques": ["Partition like quicksort", "Recurse on one side only for kth element"],
+    "doc_anchor": "heap-quickselect"
+  },
+  "Randomized": {
+    "techniques": ["Reservoir sampling for unknown length", "Random index with prefix sum weights"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Recursion": {
+    "techniques": ["Base case + smaller subproblem", "Trust recursive call returns correct result"],
+    "doc_anchor": "tree-dfs-bfs"
+  },
+  "Reservoir Sampling": {
+    "techniques": ["Single pass, O(1) space random pick", "Replace with probability k/i at step i"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Rolling Hash": {
+    "techniques": ["Hash = hash * base + new_char", "Remove left char when window shrinks"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Segment Tree": {
+    "techniques": ["Range query + point/range update in O(log n)", "Build tree from array bottom-up"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Shortest Path": {
+    "techniques": ["BFS for unweighted shortest path", "Dijkstra with heap for weighted"],
+    "doc_anchor": "graph-bfs-dfs"
+  },
+  "Simulation": {
+    "techniques": ["Follow problem rules step by step", "Use queue or array as game board state"],
+    "doc_anchor": "simulation-patterns"
+  },
+  "Sliding Window": {
+    "techniques": ["Expand right, shrink left while invalid", "Track counts in hash map or array", "Fixed vs variable window size"],
+    "doc_anchor": "sliding-window"
+  },
+  "Sorting": {
+    "techniques": ["Custom comparator for greedy", "Sort + two pointers", "Counting sort when range is small"],
+    "doc_anchor": "greedy"
+  },
+  "Stack": {
+    "techniques": ["Matching parentheses", "Monotonic stack for next greater", "Evaluate expressions left-to-right"],
+    "doc_anchor": "stack-queue-parsing"
+  },
+  "String": {
+    "techniques": ["Two pointers for palindrome", "Hash map for character counts", "Sliding window for substrings"],
+    "doc_anchor": "string-patterns"
+  },
+  "String Matching": {
+    "techniques": ["KMP or rolling hash", "Build failure function for pattern"],
+    "doc_anchor": "advanced-patterns"
+  },
+  "Sweep Line": {
+    "techniques": ["Sort events by coordinate", "Process start/end to track active count"],
+    "doc_anchor": "intervals"
+  },
+  "Topological Sort": {
+    "techniques": ["Kahn's BFS (indegree queue)", "DFS post-order + reverse", "Detect cycle if not all nodes processed"],
+    "doc_anchor": "topological-sort"
+  },
+  "Tree": {
+    "techniques": ["Recursive DFS on subtrees", "Pass down path/state from parent", "BFS for level problems"],
+    "doc_anchor": "tree-dfs-bfs"
+  },
+  "Trie": {
+    "techniques": ["Prefix tree with 26 children", "Insert/search by character index", "One shared trie for word search II"],
+    "doc_anchor": "trie"
+  },
+  "Two Pointers": {
+    "techniques": ["Opposite ends on sorted array", "Same direction read/write", "Fast/slow on linked lists"],
+    "doc_anchor": "two-pointers"
+  },
+  "Union-Find": {
+    "techniques": ["Path compression on find", "Union by rank or size", "Count components after merges"],
+    "doc_anchor": "union-find"
+  }
+}

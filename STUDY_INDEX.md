@@ -2,9 +2,13 @@
 
 Problems grouped by topic and difficulty for interview prep.
 
+See also: [Interview Techniques](docs/interview_techniques.md) — must-know patterns and algorithms.
+
 Total problems: 310
 
 ## Array
+
+**Must-know:** Hash map for complement/frequency · Two pointers on sorted arrays · In-place marking for O(1) space — [details](docs/interview_techniques.md#hash-map-lookup)
 
 ### Easy
 - [1. Two Sum](0001_Two_Sum.md)
@@ -93,7 +97,7 @@ Total problems: 310
 - [334. Increasing Triplet Subsequence](0334_increasing_triplet_subsequence.md)
 - [347. Top K Frequent Elements](0347_Top_K_Frequent_Elements.md)
 - [378. Kth Smallest Element in a Sorted Matrix](0378_Kth_Smallest_Element_in_a_Sorted_Matrix.md)
-- [380. Insert Delete GetRandom O(1)](0380_Insert_Delete_GetRandom_O(1).md)
+- [380. Insert Delete GetRandom O(1)](<0380_Insert_Delete_GetRandom_O(1).md>)
 - [399. Evaluate Division](0399_evaluate_divison.md)
 - [406. Queue Reconstruction by Height](0406_Queue_Reconstruction_by_Height.md)
 - [413. Arithmetic Slices](0413_Arithmetic_Slices.md)
@@ -170,6 +174,8 @@ Total problems: 310
 
 ## Backtracking
 
+**Must-know:** Choose / explore / unchoose · Prune early with constraints · Use visited set or restore state — [details](docs/interview_techniques.md#backtracking)
+
 ### Medium
 - [17. Letter Combinations of a Phone Number](0017_letter_combinations_of_a_phone_number.md)
 - [39. Combination Sum](0039_combination_sum.md)
@@ -196,6 +202,8 @@ Total problems: 310
 
 ## Binary Indexed Tree
 
+**Must-know:** Fenwick tree for range sum updates · Index as 1-based in implementation — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Medium
 - [406. Queue Reconstruction by Height](0406_Queue_Reconstruction_by_Height.md)
 
@@ -203,6 +211,8 @@ Total problems: 310
 - [1649. Create Sorted Array through Instructions](1649_create_sorted_array_through_instructions.md)
 
 ## Binary Search
+
+**Must-know:** Search on sorted value · Search on answer space (min/max feasible) · Handle rotated or boundary duplicates — [details](docs/interview_techniques.md#binary-search)
 
 ### Easy
 - [222. Count Complete Tree Nodes](0222_count_complete_tree_nodes.md)
@@ -231,6 +241,8 @@ Total problems: 310
 
 ## Binary Search Tree
 
+**Must-know:** Inorder traversal gives sorted order · Validate with min/max bounds · Recursive structure for insert/search — [details](docs/interview_techniques.md#bst-properties)
+
 ### Easy
 - [108. Convert Sorted Array to Binary Search Tree](0108_Convert_Sorted_Array_to_Binary_Search_Tree.md)
 - [235. Lowest Common Ancestor of a Binary Search Tree](0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md)
@@ -255,6 +267,8 @@ Total problems: 310
 - [1305. All Elements in Two Binary Search Trees](1305_all_elements_in_two_binary_search_trees.md)
 
 ## Binary Tree
+
+**Must-know:** DFS recursion (pre/in/postorder) · BFS level-order with queue · Divide tree into left/right subproblems — [details](docs/interview_techniques.md#tree-dfs-bfs)
 
 ### Easy
 - [100. Same Tree](0100_same_tree.md)
@@ -315,6 +329,8 @@ Total problems: 310
 
 ## Bit Manipulation
 
+**Must-know:** XOR cancels pairs · n & (n-1) clears lowest set bit · Check power of 2: n & (n-1) == 0 — [details](docs/interview_techniques.md#bit-manipulation)
+
 ### Easy
 - [136. Single Number](0136_single_number.md)
 - [222. Count Complete Tree Nodes](0222_count_complete_tree_nodes.md)
@@ -341,6 +357,8 @@ Total problems: 310
 
 ## Bitmask
 
+**Must-know:** Enumerate subsets with bit masks · DP over state represented as bitmask — [details](docs/interview_techniques.md#bit-manipulation)
+
 ### Medium
 - [526. Beautiful Arrangement](0526_beautiful_arrangement.md)
 
@@ -348,6 +366,8 @@ Total problems: 310
 - [847. Shortest Path Visiting All Nodes](0847_Shortest_Path_Visiting_All_Nodes.md)
 
 ## Breadth-First Search
+
+**Must-know:** Queue for level-by-level traversal · Shortest path in unweighted graphs · Track visited to avoid cycles — [details](docs/interview_techniques.md#graph-bfs-dfs)
 
 ### Easy
 - [100. Same Tree](0100_same_tree.md)
@@ -392,11 +412,15 @@ Total problems: 310
 
 ## Bucket Sort
 
+**Must-know:** Bucket by frequency or range · Use when values bounded or small domain — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Medium
 - [347. Top K Frequent Elements](0347_Top_K_Frequent_Elements.md)
 - [451. Sort Characters By Frequency](0451_Sort_Characters_By_Frequency.md)
 
 ## Combinatorics
+
+**Must-know:** Count with formula or DP · Stars and bars / permutation vs combination — [details](docs/interview_techniques.md#advanced-patterns)
 
 ### Medium
 - [62. Unique Paths](0062_Unique_Paths.md)
@@ -406,6 +430,8 @@ Total problems: 310
 - [1359. Count All Valid Pickup and Delivery Options](1359_Count_All_Valid_Pickup_and_Delivery_Options.md)
 
 ## Counting
+
+**Must-know:** Frequency map or array · Prefix counts for range queries — [details](docs/interview_techniques.md#hash-map-lookup)
 
 ### Easy
 - [169. Majority Element](0169_Majority_Element.md)
@@ -420,6 +446,8 @@ Total problems: 310
 
 ## Data Stream
 
+**Must-know:** Heap for running top-k or median · Hash map + linked list for LRU-style access — [details](docs/interview_techniques.md#heap-quickselect)
+
 ### Easy
 - [703. Kth Largest Element in a Stream](0703_Kth_Largest_Element_in_a_Stream.md)
 - [933. Number of Recent Calls](0933_number_of_recent_calls.md)
@@ -428,6 +456,8 @@ Total problems: 310
 - [1032. Stream of Characters](1032_Stream_of_Characters.md)
 
 ## Depth-First Search
+
+**Must-know:** Recursion or explicit stack · Backtrack on return · Mark visited, unmark when done — [details](docs/interview_techniques.md#graph-bfs-dfs)
 
 ### Easy
 - [100. Same Tree](0100_same_tree.md)
@@ -489,6 +519,8 @@ Total problems: 310
 
 ## Design
 
+**Must-know:** Hash map + doubly linked list (LRU) · Array + hash map for O(1) random access · Trie or heap for specialized queries — [details](docs/interview_techniques.md#design-patterns)
+
 ### Easy
 - [155. Min Stack](0155_min_stack.md)
 - [303. Range Sum Query - Immutable](0303_Range_Sum_Query-Immutable.md)
@@ -497,10 +529,10 @@ Total problems: 310
 
 ### Medium
 - [173. Binary Search Tree Iterator](0173_binary_search_tree_iterator.md)
-- [208. Implement Trie (Prefix Tree)](0208_Implement_Trie_(Prefix_Tree).md)
+- [208. Implement Trie (Prefix Tree)](<0208_Implement_Trie_(Prefix_Tree).md>)
 - [211. Design Add and Search Words Data Structure](0211_design_add_and_search_words_data_structure.md)
 - [284. Peeking Iterator](0284_Peeking_Iterator.md)
-- [380. Insert Delete GetRandom O(1)](0380_Insert_Delete_GetRandom_O(1).md)
+- [380. Insert Delete GetRandom O(1)](<0380_Insert_Delete_GetRandom_O(1).md>)
 - [1286. Iterator for Combination](1286_Iterator_for_Combination.md)
 - [1396. Design Underground System](1396_Design_Underground_System.md)
 
@@ -510,6 +542,8 @@ Total problems: 310
 - [1032. Stream of Characters](1032_Stream_of_Characters.md)
 
 ## Divide and Conquer
+
+**Must-know:** Split problem in half · Merge results from subproblems · Merge sort on linked lists or arrays — [details](docs/interview_techniques.md#divide-and-conquer)
 
 ### Easy
 - [53. Maximum Subarray](0053_maximum_subarray.md)
@@ -528,10 +562,14 @@ Total problems: 310
 
 ## Doubly-Linked List
 
+**Must-know:** Dummy head/tail nodes · Splice nodes in O(1) with prev pointers — [details](docs/interview_techniques.md#linked-list-patterns)
+
 ### Medium
 - [430. Flatten a Multilevel Doubly Linked List](0430_Flatten_a_Multilevel_Doubly_Linked_List.md)
 
 ## Dynamic Programming
+
+**Must-know:** Define state and recurrence · Bottom-up table or top-down memo · State machine for buy/sell stock variants — [details](docs/interview_techniques.md#dynamic-programming)
 
 ### Easy
 - [53. Maximum Subarray](0053_maximum_subarray.md)
@@ -593,6 +631,8 @@ Total problems: 310
 
 ## Enumeration
 
+**Must-know:** Try all candidates with pruning · Nested loops with early exit — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Medium
 - [845. Longest Mountain in Array](0845_longest_mountain_in_array.md)
 - [949. Largest Time for Given Digits](0949_largest_time_for_given_digits.md)
@@ -600,10 +640,14 @@ Total problems: 310
 
 ## Game Theory
 
+**Must-know:** Win/lose states via DP · Optimal play = min/max of opponent outcomes — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Hard
 - [1510. Stone Game IV](1510_stone_game_iv.md)
 
 ## Geometry
+
+**Must-know:** Slope and cross product for orientation · Sort points before sweep — [details](docs/interview_techniques.md#advanced-patterns)
 
 ### Easy
 - [1037. Valid Boomerang](1037_valid_boomerang.md)
@@ -613,6 +657,8 @@ Total problems: 310
 - [973. K Closest Points to Origin](0973_K_Closest_Points_to_Origin.md)
 
 ## Graph Theory
+
+**Must-know:** Adjacency list representation · BFS/DFS for connectivity · Color nodes to detect bipartite — [details](docs/interview_techniques.md#graph-bfs-dfs)
 
 ### Easy
 - [997. Find the Town Judge](0997_Find_the_Town_Judge.md)
@@ -629,6 +675,8 @@ Total problems: 310
 - [847. Shortest Path Visiting All Nodes](0847_Shortest_Path_Visiting_All_Nodes.md)
 
 ## Greedy
+
+**Must-know:** Sort then make locally optimal choice · Prove greedy choice stays safe · Interval scheduling by end time — [details](docs/interview_techniques.md#greedy)
 
 ### Easy
 - [605. Can Place Flowers](0605_can_place_flowers.md)
@@ -665,12 +713,16 @@ Total problems: 310
 
 ## Hash Function
 
+**Must-know:** Rolling hash for substring compare · Mod prime to reduce collisions — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Medium
 - [187. Repeated DNA Sequences](0187_repeated_dna_sequences.md)
 - [718. Maximum Length of Repeated Subarray](0718_Maximum_Length_of_Repeated_Subarray.md)
 - [1461. Check If a String Contains All Binary Codes of Size K](1461_Check_If_a_String_Contains_All_Binary_Codes_of_Size_K.md)
 
 ## Hash Table
+
+**Must-know:** Map value → index or frequency · Two-sum complement lookup · Group by normalized key (sorted string) — [details](docs/interview_techniques.md#hash-map-lookup)
 
 ### Easy
 - [1. Two Sum](0001_Two_Sum.md)
@@ -705,11 +757,11 @@ Total problems: 310
 - [139. Word Break](0139_word_break.md)
 - [142. Linked List Cycle II](0142_linked_list_cycle_ii.md)
 - [187. Repeated DNA Sequences](0187_repeated_dna_sequences.md)
-- [208. Implement Trie (Prefix Tree)](0208_Implement_Trie_(Prefix_Tree).md)
+- [208. Implement Trie (Prefix Tree)](<0208_Implement_Trie_(Prefix_Tree).md>)
 - [229. Majority Element II](0229_Majority_Element_II.md)
 - [299. Bulls and Cows](0299_bulls_and_cows.md)
 - [347. Top K Frequent Elements](0347_Top_K_Frequent_Elements.md)
-- [380. Insert Delete GetRandom O(1)](0380_Insert_Delete_GetRandom_O(1).md)
+- [380. Insert Delete GetRandom O(1)](<0380_Insert_Delete_GetRandom_O(1).md>)
 - [424. Longest Repeating Character Replacement](0424_Longest_Repeating_Character_Replacement.md)
 - [438. Find All Anagrams in a String](0438_Find_All_Anagrams_in_a_String.md)
 - [442. Find All Duplicates in an Array](0442_Find_All_Duplicates_in_an_Array.md)
@@ -743,6 +795,8 @@ Total problems: 310
 
 ## Heap (Priority Queue)
 
+**Must-know:** Min/max heap for top-k · Push all then pop k times · Two heaps for streaming median — [details](docs/interview_techniques.md#heap-quickselect)
+
 ### Easy
 - [703. Kth Largest Element in a Stream](0703_Kth_Largest_Element_in_a_Stream.md)
 - [1046. Last Stone Weight](1046_last_stone_weight.md)
@@ -760,12 +814,16 @@ Total problems: 310
 
 ## Iterator
 
+**Must-know:** Stack simulates inorder traversal · Lazy evaluation with internal pointer — [details](docs/interview_techniques.md#bst-properties)
+
 ### Medium
 - [173. Binary Search Tree Iterator](0173_binary_search_tree_iterator.md)
 - [284. Peeking Iterator](0284_Peeking_Iterator.md)
 - [1286. Iterator for Combination](1286_Iterator_for_Combination.md)
 
 ## Linked List
+
+**Must-know:** Dummy sentinel node · Slow/fast (tortoise/hare) pointers · In-place reverse and merge — [details](docs/interview_techniques.md#linked-list-patterns)
 
 ### Easy
 - [21. Merge Two Sorted Lists](0021_merge_two_sorted_lists.md)
@@ -802,6 +860,8 @@ Total problems: 310
 
 ## Math
 
+**Must-know:** Modular arithmetic for overflow · GCD/Euclidean algorithm · Detect cycles with Floyd (happy number) — [details](docs/interview_techniques.md#math-patterns)
+
 ### Easy
 - [13. Roman to Integer](0013_roman_to_integer.md)
 - [70. Climbing Stairs](0070_Climbing_Stairs.md)
@@ -821,7 +881,7 @@ Total problems: 310
 - [96. Unique Binary Search Trees](0096_unique_binary_search_trees.md)
 - [189. Rotate Array](0189_rotate_array.md)
 - [227. Basic Calculator II](0227_Basic_Calculator_II.md)
-- [380. Insert Delete GetRandom O(1)](0380_Insert_Delete_GetRandom_O(1).md)
+- [380. Insert Delete GetRandom O(1)](<0380_Insert_Delete_GetRandom_O(1).md>)
 - [382. Linked List Random Node](0382_linked_list_random_node.md)
 - [445. Add Two Numbers II](0445_add_two_numbers_ii.md)
 - [497. Random Point in Non-overlapping Rectangles](0497_random_point_in_non_overlapping_rectangle.md)
@@ -839,6 +899,8 @@ Total problems: 310
 - [1510. Stone Game IV](1510_stone_game_iv.md)
 
 ## Matrix
+
+**Must-know:** Row/column as 1D array tricks · BFS from all border cells · Spiral with direction vectors — [details](docs/interview_techniques.md#matrix-patterns)
 
 ### Easy
 - [832. Flipping an Image](0832_flipping_an_image.md)
@@ -872,6 +934,8 @@ Total problems: 310
 
 ## Memoization
 
+**Must-know:** Cache recursive subproblem results · Same recurrence as DP, top-down — [details](docs/interview_techniques.md#dynamic-programming)
+
 ### Easy
 - [70. Climbing Stairs](0070_Climbing_Stairs.md)
 - [509. Fibonacci Number](0509_fibonacci_number.md)
@@ -880,6 +944,8 @@ Total problems: 310
 - [139. Word Break](0139_word_break.md)
 
 ## Merge Sort
+
+**Must-know:** Split list/array, merge sorted halves · Find middle with slow/fast pointers on lists — [details](docs/interview_techniques.md#linked-list-patterns)
 
 ### Medium
 - [148. Sort List](0148_sort_list.md)
@@ -890,10 +956,14 @@ Total problems: 310
 
 ## Minimum Spanning Tree
 
+**Must-know:** Prim's with min-heap · Kruskal's with union-find + sorted edges — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Medium
 - [1584. Min Cost to Connect All Points](1584_Min_Cost_to_Connect_All_Points.md)
 
 ## Monotonic Stack
+
+**Must-know:** Maintain increasing/decreasing stack · Pop when current breaks monotonicity · Next greater/smaller element — [details](docs/interview_techniques.md#monotonic-stack)
 
 ### Easy
 - [496. Next Greater Element I](0496_Next_Greater_Element_I.md)
@@ -912,10 +982,14 @@ Total problems: 310
 
 ## Number Theory
 
+**Must-know:** Prime sieve or trial division · Factor counting with sqrt(n) loop — [details](docs/interview_techniques.md#math-patterns)
+
 ### Medium
 - [1492. The kth Factor of n](1492_the_kth_factor_of_n.md)
 
 ## Ordered Set
+
+**Must-know:** TreeMap / sorted container for range queries · Lower_bound for successor — [details](docs/interview_techniques.md#advanced-patterns)
 
 ### Medium
 - [456. 132 Pattern](0456_132_pattern.md)
@@ -927,6 +1001,8 @@ Total problems: 310
 - [1675. Minimize Deviation in Array](1675_Minimize_Deviation_in_Array.md)
 
 ## Prefix Sum
+
+**Must-know:** Cumulative sum for O(1) range query · Prefix + hash map for subarray sum k — [details](docs/interview_techniques.md#prefix-suffix-sums)
 
 ### Easy
 - [303. Range Sum Query - Immutable](0303_Range_Sum_Query-Immutable.md)
@@ -946,10 +1022,14 @@ Total problems: 310
 
 ## Queue
 
+**Must-know:** BFS level order · Deque for sliding window max — [details](docs/interview_techniques.md#graph-bfs-dfs)
+
 ### Easy
 - [933. Number of Recent Calls](0933_number_of_recent_calls.md)
 
 ## Quickselect
+
+**Must-know:** Partition like quicksort · Recurse on one side only for kth element — [details](docs/interview_techniques.md#heap-quickselect)
 
 ### Medium
 - [347. Top K Frequent Elements](0347_Top_K_Frequent_Elements.md)
@@ -957,12 +1037,16 @@ Total problems: 310
 
 ## Randomized
 
+**Must-know:** Reservoir sampling for unknown length · Random index with prefix sum weights — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Medium
-- [380. Insert Delete GetRandom O(1)](0380_Insert_Delete_GetRandom_O(1).md)
+- [380. Insert Delete GetRandom O(1)](<0380_Insert_Delete_GetRandom_O(1).md>)
 - [382. Linked List Random Node](0382_linked_list_random_node.md)
 - [497. Random Point in Non-overlapping Rectangles](0497_random_point_in_non_overlapping_rectangle.md)
 
 ## Recursion
+
+**Must-know:** Base case + smaller subproblem · Trust recursive call returns correct result — [details](docs/interview_techniques.md#tree-dfs-bfs)
 
 ### Easy
 - [21. Merge Two Sorted Lists](0021_merge_two_sorted_lists.md)
@@ -981,11 +1065,15 @@ Total problems: 310
 
 ## Reservoir Sampling
 
+**Must-know:** Single pass, O(1) space random pick · Replace with probability k/i at step i — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Medium
 - [382. Linked List Random Node](0382_linked_list_random_node.md)
 - [497. Random Point in Non-overlapping Rectangles](0497_random_point_in_non_overlapping_rectangle.md)
 
 ## Rolling Hash
+
+**Must-know:** Hash = hash * base + new_char · Remove left char when window shrinks — [details](docs/interview_techniques.md#advanced-patterns)
 
 ### Medium
 - [187. Repeated DNA Sequences](0187_repeated_dna_sequences.md)
@@ -993,6 +1081,8 @@ Total problems: 310
 - [1461. Check If a String Contains All Binary Codes of Size K](1461_Check_If_a_String_Contains_All_Binary_Codes_of_Size_K.md)
 
 ## Segment Tree
+
+**Must-know:** Range query + point/range update in O(log n) · Build tree from array bottom-up — [details](docs/interview_techniques.md#advanced-patterns)
 
 ### Medium
 - [406. Queue Reconstruction by Height](0406_Queue_Reconstruction_by_Height.md)
@@ -1002,10 +1092,14 @@ Total problems: 310
 
 ## Shortest Path
 
+**Must-know:** BFS for unweighted shortest path · Dijkstra with heap for weighted — [details](docs/interview_techniques.md#graph-bfs-dfs)
+
 ### Medium
 - [399. Evaluate Division](0399_evaluate_divison.md)
 
 ## Simulation
+
+**Must-know:** Follow problem rules step by step · Use queue or array as game board state — [details](docs/interview_techniques.md#simulation-patterns)
 
 ### Easy
 - [495. Teemo Attacking](0495_teemo_attacking.md)
@@ -1026,6 +1120,8 @@ Total problems: 310
 
 ## Sliding Window
 
+**Must-know:** Expand right, shrink left while invalid · Track counts in hash map or array · Fixed vs variable window size — [details](docs/interview_techniques.md#sliding-window)
+
 ### Easy
 - [219. Contains Duplicate II](0219_contains_duplicate_ii.md)
 
@@ -1044,6 +1140,8 @@ Total problems: 310
 - [76. Minimum Window Substring](0076_minimum_window_substring.md)
 
 ## Sorting
+
+**Must-know:** Custom comparator for greedy · Sort + two pointers · Counting sort when range is small — [details](docs/interview_techniques.md#greedy)
 
 ### Easy
 - [88. Merge Sorted Array](0088_mergd_sorted_array.md)
@@ -1088,6 +1186,8 @@ Total problems: 310
 
 ## Stack
 
+**Must-know:** Matching parentheses · Monotonic stack for next greater · Evaluate expressions left-to-right — [details](docs/interview_techniques.md#stack-queue-parsing)
+
 ### Easy
 - [20. Valid Parentheses](0020_valid_parentheses.md)
 - [155. Min Stack](0155_min_stack.md)
@@ -1127,11 +1227,13 @@ Total problems: 310
 
 ## String
 
+**Must-know:** Two pointers for palindrome · Hash map for character counts · Sliding window for substrings — [details](docs/interview_techniques.md#string-patterns)
+
 ### Easy
 - [13. Roman to Integer](0013_roman_to_integer.md)
 - [14. Longest Common Prefix](0014_longest_common_prefix.md)
 - [20. Valid Parentheses](0020_valid_parentheses.md)
-- [28. Implement strStr()](0028_implement_strstr().md)
+- [28. Implement strStr()](<0028_implement_strstr().md>)
 - [58. Length of Last Word](0058_length_of_last_word.md)
 - [205. Isomorphic Strings](0205_isomorphic_strings.md)
 - [290. Word Pattern](0290_word_pattern.md)
@@ -1162,7 +1264,7 @@ Total problems: 310
 - [165. Compare Version Numbers](0165_compare_version_numbers.md)
 - [179. Largest Number](0179_largest_number.md)
 - [187. Repeated DNA Sequences](0187_repeated_dna_sequences.md)
-- [208. Implement Trie (Prefix Tree)](0208_Implement_Trie_(Prefix_Tree).md)
+- [208. Implement Trie (Prefix Tree)](<0208_Implement_Trie_(Prefix_Tree).md>)
 - [211. Design Add and Search Words Data Structure](0211_design_add_and_search_words_data_structure.md)
 - [227. Basic Calculator II](0227_Basic_Calculator_II.md)
 - [299. Bulls and Cows](0299_bulls_and_cows.md)
@@ -1208,21 +1310,29 @@ Total problems: 310
 
 ## String Matching
 
+**Must-know:** KMP or rolling hash · Build failure function for pattern — [details](docs/interview_techniques.md#advanced-patterns)
+
 ### Easy
-- [28. Implement strStr()](0028_implement_strstr().md)
+- [28. Implement strStr()](<0028_implement_strstr().md>)
 - [459. Repeated Substring Pattern](0459_repeated_substring_pattern.md)
 
 ## Sweep Line
+
+**Must-know:** Sort events by coordinate · Process start/end to track active count — [details](docs/interview_techniques.md#intervals)
 
 ### Medium
 - [986. Interval List Intersections](0986_Interval_List_Intersections.md)
 
 ## Topological Sort
 
+**Must-know:** Kahn's BFS (indegree queue) · DFS post-order + reverse · Detect cycle if not all nodes processed — [details](docs/interview_techniques.md#topological-sort)
+
 ### Medium
 - [210. Course Schedule II](0210_Course_Schedule_II.md)
 
 ## Tree
+
+**Must-know:** Recursive DFS on subtrees · Pass down path/state from parent · BFS for level problems — [details](docs/interview_techniques.md#tree-dfs-bfs)
 
 ### Easy
 - [100. Same Tree](0100_same_tree.md)
@@ -1284,12 +1394,14 @@ Total problems: 310
 
 ## Trie
 
+**Must-know:** Prefix tree with 26 children · Insert/search by character index · One shared trie for word search II — [details](docs/interview_techniques.md#trie)
+
 ### Easy
 - [14. Longest Common Prefix](0014_longest_common_prefix.md)
 
 ### Medium
 - [139. Word Break](0139_word_break.md)
-- [208. Implement Trie (Prefix Tree)](0208_Implement_Trie_(Prefix_Tree).md)
+- [208. Implement Trie (Prefix Tree)](<0208_Implement_Trie_(Prefix_Tree).md>)
 - [211. Design Add and Search Words Data Structure](0211_design_add_and_search_words_data_structure.md)
 - [820. Short Encoding of Words](0820_short_encoding_of_words.md)
 - [3043. Find the Length of the Longest Common Prefix](3043_Find_the_Length_of_the_Longest_Common_Prefix.md)
@@ -1300,10 +1412,12 @@ Total problems: 310
 
 ## Two Pointers
 
+**Must-know:** Opposite ends on sorted array · Same direction read/write · Fast/slow on linked lists — [details](docs/interview_techniques.md#two-pointers)
+
 ### Easy
 - [26. Remove Duplicates from Sorted Array](0026_Remove_Duplicates_from_Sorted_Array.md)
 - [27. Remove Element](0027_Remove Element.md)
-- [28. Implement strStr()](0028_implement_strstr().md)
+- [28. Implement strStr()](<0028_implement_strstr().md>)
 - [88. Merge Sorted Array](0088_mergd_sorted_array.md)
 - [141. Linked List Cycle](0141_linked_list_cycle.md)
 - [160. Intersection of Two Linked Lists](0160_intersection_of_two_linked_lists.md)
@@ -1352,6 +1466,8 @@ Total problems: 310
 - [42. Trapping Rain Water](0042_Trapping_Rain_Water.md)
 
 ## Union-Find
+
+**Must-know:** Path compression on find · Union by rank or size · Count components after merges — [details](docs/interview_techniques.md#union-find)
 
 ### Medium
 - [128. Longest Consecutive Sequence](0128_Longest_Consecutive_Sequence.md)

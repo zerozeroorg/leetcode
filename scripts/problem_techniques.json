@@ -1,0 +1,3265 @@
+[
+  {
+    "number": 1,
+    "title": "Two Sum",
+    "filename": "0001_Two_Sum.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Add Two Numbers",
+    "filename": "0002_add_two_numbers.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Math patterns",
+      "Recursion / DFS"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Longest Substring Without Repeating Characters",
+    "filename": "0003_longest_substring_without_repeating_characters.md",
+    "difficulty": "Medium",
+    "primary": "Sliding window",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Longest Palindromic Substring",
+    "filename": "0005_longest_palindromic_substring.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Two pointers",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Container With Most Water",
+    "filename": "0011_Container_With_Most_Water.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers (opposite ends)",
+    "secondary": [
+      "Two pointers",
+      "Greedy"
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Integer to Roman",
+    "filename": "0012_integer_to_roman.md",
+    "difficulty": "Medium",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "String patterns",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Roman to Integer",
+    "filename": "0013_roman_to_integer.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "String patterns",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Longest Common Prefix",
+    "filename": "0014_longest_common_prefix.md",
+    "difficulty": "Easy",
+    "primary": "Trie",
+    "secondary": [
+      "String patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 15,
+    "title": "3Sum",
+    "filename": "0015_3Sum.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers (opposite ends)",
+    "secondary": [
+      "Two pointers",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 16,
+    "title": "3Sum Closest",
+    "filename": "0016_3Sum_Closest.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers (opposite ends)",
+    "secondary": [
+      "Two pointers",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 17,
+    "title": "Letter Combinations of a Phone Number",
+    "filename": "0017_letter_combinations_of_a_phone_number.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 20,
+    "title": "Valid Parentheses",
+    "filename": "0020_valid_parentheses.md",
+    "difficulty": "Easy",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 21,
+    "title": "Merge Two Sorted Lists",
+    "filename": "0021_merge_two_sorted_lists.md",
+    "difficulty": "Easy",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Recursion / DFS"
+    ]
+  },
+  {
+    "number": 23,
+    "title": "Merge k Sorted Lists",
+    "filename": "0023_merge_k_sorted_lists.md",
+    "difficulty": "Hard",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Heap / quickselect",
+      "Divide and conquer"
+    ]
+  },
+  {
+    "number": 24,
+    "title": "Swap Nodes in Pairs",
+    "filename": "0024_swap_nodes_in_pairs.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Recursion / DFS"
+    ]
+  },
+  {
+    "number": 25,
+    "title": "Reverse Nodes in k-Group",
+    "filename": "0025_Reverse_Nodes_in_k_Group.md",
+    "difficulty": "Hard",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Recursion / DFS"
+    ]
+  },
+  {
+    "number": 26,
+    "title": "Remove Duplicates from Sorted Array",
+    "filename": "0026_Remove_Duplicates_from_Sorted_Array.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 27,
+    "title": "Remove Element",
+    "filename": "0027_Remove Element.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 28,
+    "title": "Implement strStr()",
+    "filename": "0028_implement_strstr().md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "String patterns",
+      "String matching (advanced)"
+    ]
+  },
+  {
+    "number": 31,
+    "title": "Next Permutation",
+    "filename": "0031_Next_Permutation.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 33,
+    "title": "Search in Rotated Sorted Array",
+    "filename": "0033_search_in_rotated_sorted_array.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 36,
+    "title": "Valid Sudoku",
+    "filename": "0036_Valid_Sudoku.md",
+    "difficulty": "Medium",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Matrix patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 37,
+    "title": "Sudoku Solver",
+    "filename": "0037_Sudoku_Solver.md",
+    "difficulty": "Hard",
+    "primary": "Backtracking",
+    "secondary": [
+      "Hash map lookup",
+      "Matrix patterns"
+    ]
+  },
+  {
+    "number": 39,
+    "title": "Combination Sum",
+    "filename": "0039_combination_sum.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 41,
+    "title": "First Missing Positive",
+    "filename": "0041_first_missing_positive.md",
+    "difficulty": "Hard",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 42,
+    "title": "Trapping Rain Water",
+    "filename": "0042_Trapping_Rain_Water.md",
+    "difficulty": "Hard",
+    "primary": "Two pointers (opposite ends)",
+    "secondary": [
+      "Monotonic stack",
+      "Dynamic programming"
+    ]
+  },
+  {
+    "number": 43,
+    "title": "Multiply Strings",
+    "filename": "0043_Multiply_Strings.md",
+    "difficulty": "Medium",
+    "primary": "String patterns",
+    "secondary": [
+      "Math patterns",
+      "Simulation"
+    ]
+  },
+  {
+    "number": 47,
+    "title": "Permutations II",
+    "filename": "0047_permutations_ii.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Sorting + greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 49,
+    "title": "Group Anagrams",
+    "filename": "0049_group_anagrams.md",
+    "difficulty": "Medium",
+    "primary": "Sorting + greedy",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 53,
+    "title": "Maximum Subarray",
+    "filename": "0053_maximum_subarray.md",
+    "difficulty": "Easy",
+    "primary": "Dynamic programming (Kadane's)",
+    "secondary": [
+      "Dynamic programming",
+      "Divide and conquer"
+    ]
+  },
+  {
+    "number": 54,
+    "title": "Spiral Matrix",
+    "filename": "0054_Spiral_Matrix.md",
+    "difficulty": "Medium",
+    "primary": "Matrix patterns",
+    "secondary": [
+      "Simulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 55,
+    "title": "Jump Game",
+    "filename": "0055_Jump_Game.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 56,
+    "title": "Merge Intervals",
+    "filename": "0056_merge_intervals.md",
+    "difficulty": "Medium",
+    "primary": "Intervals",
+    "secondary": [
+      "Sorting + greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 57,
+    "title": "Insert Interval",
+    "filename": "0057_insert_interval.md",
+    "difficulty": "Medium",
+    "primary": "Array fundamentals",
+    "secondary": []
+  },
+  {
+    "number": 58,
+    "title": "Length of Last Word",
+    "filename": "0058_length_of_last_word.md",
+    "difficulty": "Easy",
+    "primary": "String patterns",
+    "secondary": []
+  },
+  {
+    "number": 59,
+    "title": "Spiral Matrix II",
+    "filename": "0059_spiral_matrix_ii.md",
+    "difficulty": "Medium",
+    "primary": "Matrix patterns",
+    "secondary": [
+      "Simulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 61,
+    "title": "Rotate List",
+    "filename": "0061_rotate_list.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers"
+    ]
+  },
+  {
+    "number": 62,
+    "title": "Unique Paths",
+    "filename": "0062_Unique_Paths.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Math patterns",
+      "Combinatorics"
+    ]
+  },
+  {
+    "number": 64,
+    "title": "Minimum Path Sum",
+    "filename": "0064_minimum_path_sum.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Matrix patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 70,
+    "title": "Climbing Stairs",
+    "filename": "0070_Climbing_Stairs.md",
+    "difficulty": "Easy",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 71,
+    "title": "Simplify Path",
+    "filename": "0071_Simplify_Path.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 73,
+    "title": "Set Matrix Zeroes",
+    "filename": "0073_Set_Matrix_Zeroes.md",
+    "difficulty": "Medium",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Matrix patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 74,
+    "title": "Search a 2D Matrix",
+    "filename": "0074_search_a_2d_matrix.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Matrix patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 76,
+    "title": "Minimum Window Substring",
+    "filename": "0076_minimum_window_substring.md",
+    "difficulty": "Hard",
+    "primary": "Sliding window",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 78,
+    "title": "Subsets",
+    "filename": "0078_Subsets.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Bit manipulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 79,
+    "title": "Word Search",
+    "filename": "0079_Word_Search.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Graph DFS",
+      "Matrix patterns"
+    ]
+  },
+  {
+    "number": 80,
+    "title": "Remove Duplicates from Sorted Array II",
+    "filename": "0080_remove_duplicates_from_sorted_array_ii.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 82,
+    "title": "Remove Duplicates from Sorted List II",
+    "filename": "0082_remove_duplicates_from_sorted_list_ii.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers"
+    ]
+  },
+  {
+    "number": 84,
+    "title": "Largest Rectangle in Histogram",
+    "filename": "0084_Largest_Rectangle_in_Histogram.md",
+    "difficulty": "Hard",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "Stack / parsing",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 88,
+    "title": "Merge Sorted Array",
+    "filename": "0088_mergd_sorted_array.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "Sorting + greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 90,
+    "title": "Subsets II",
+    "filename": "0090_Subsets_II.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Bit manipulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 91,
+    "title": "Decode Ways",
+    "filename": "0091_Decode_Ways.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 95,
+    "title": "Unique Binary Search Trees II",
+    "filename": "0095_Unique_Binary_Search_Trees_II.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Backtracking",
+      "BST properties"
+    ]
+  },
+  {
+    "number": 96,
+    "title": "Unique Binary Search Trees",
+    "filename": "0096_unique_binary_search_trees.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 98,
+    "title": "Validate Binary Search Tree",
+    "filename": "0098_validate_binary_search_tree.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 99,
+    "title": "Recover Binary Search Tree",
+    "filename": "0099_Recover_Binary_Search_Tree.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 100,
+    "title": "Same Tree",
+    "filename": "0100_same_tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 103,
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "filename": "0103_binary_tree_zigzag_level_order_traversal.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 104,
+    "title": "Maximum Depth of Binary Tree",
+    "filename": "0104_maximum_depth_of_binary_tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 106,
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "filename": "0106_construct_binary_tree_from_inorder_and_postorder_traversal.md",
+    "difficulty": "Medium",
+    "primary": "Tree DFS / BFS",
+    "secondary": [
+      "Hash map lookup",
+      "Divide and conquer"
+    ]
+  },
+  {
+    "number": 107,
+    "title": "Binary Tree Level Order Traversal II",
+    "filename": "0107_binary_tree_level_order_traversal_ii.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 108,
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "filename": "0108_Convert_Sorted_Array_to_Binary_Search_Tree.md",
+    "difficulty": "Easy",
+    "primary": "BST properties",
+    "secondary": [
+      "Tree DFS / BFS",
+      "Divide and conquer"
+    ]
+  },
+  {
+    "number": 110,
+    "title": "Balanced Binary Tree",
+    "filename": "0110_balanced_binary_tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 111,
+    "title": "Minimum Depth of Binary Tree",
+    "filename": "0111_minimum_depth_of_binary_tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 113,
+    "title": "Path Sum II",
+    "filename": "0113_Path_Sum_II.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 114,
+    "title": "Flatten Binary Tree to Linked List",
+    "filename": "0114_Flatten_Binary_Tree_to_Linked_List.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 116,
+    "title": "Populating Next Right Pointers in Each Node",
+    "filename": "0116_populating_next_right_pointers_in_each_node.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 117,
+    "title": "Populating Next Right Pointers in Each Node II",
+    "filename": "0117_populating_next_right_pointers_in_each_node_ii.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 121,
+    "title": "Best Time to Buy and Sell Stock",
+    "filename": "0121_best_time_to_buy_and_sell_stock.md",
+    "difficulty": "Easy",
+    "primary": "Dynamic programming (state machine)",
+    "secondary": [
+      "Dynamic programming",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 122,
+    "title": "Best Time to Buy and Sell Stock II",
+    "filename": "0122_best_time_to_buy_and_sell_stock_ii.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 123,
+    "title": "Best Time to Buy and Sell Stock III",
+    "filename": "0123_Best_Time_to_Buy_and_Sell_Stock_III.md",
+    "difficulty": "Hard",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 124,
+    "title": "Binary Tree Maximum Path Sum",
+    "filename": "0124_binary_tree_maximum_path_sum.md",
+    "difficulty": "Hard",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 127,
+    "title": "Word Ladder",
+    "filename": "0127_Word_Ladder.md",
+    "difficulty": "Hard",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 128,
+    "title": "Longest Consecutive Sequence",
+    "filename": "0128_Longest_Consecutive_Sequence.md",
+    "difficulty": "Medium",
+    "primary": "Union-Find",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 129,
+    "title": "Sum Root to Leaf Numbers",
+    "filename": "0129_sum_root_to_leaf_numbers.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 130,
+    "title": "Surrounded Regions",
+    "filename": "0130_Surrounded_Regions.md",
+    "difficulty": "Medium",
+    "primary": "Union-Find",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 131,
+    "title": "Palindrome Partitioning",
+    "filename": "0131_Palindrome_Partitioning.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Backtracking",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 132,
+    "title": "Palindrome Partitioning II",
+    "filename": "0132_Palindrome_Partitioning_II.md",
+    "difficulty": "Hard",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 133,
+    "title": "Clone Graph",
+    "filename": "0133_clone_graph.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Graph BFS/DFS"
+    ]
+  },
+  {
+    "number": 134,
+    "title": "Gas Station",
+    "filename": "0134_gas_station.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 136,
+    "title": "Single Number",
+    "filename": "0136_single_number.md",
+    "difficulty": "Easy",
+    "primary": "Bit manipulation",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 138,
+    "title": "Copy List with Random Pointer",
+    "filename": "0138_Copy_List_with_Random_Pointer.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 139,
+    "title": "Word Break",
+    "filename": "0139_word_break.md",
+    "difficulty": "Medium",
+    "primary": "Trie",
+    "secondary": [
+      "Dynamic programming",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 141,
+    "title": "Linked List Cycle",
+    "filename": "0141_linked_list_cycle.md",
+    "difficulty": "Easy",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 142,
+    "title": "Linked List Cycle II",
+    "filename": "0142_linked_list_cycle_ii.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 143,
+    "title": "Reorder List",
+    "filename": "0143_reorder_list.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Stack / parsing",
+      "Two pointers"
+    ]
+  },
+  {
+    "number": 147,
+    "title": "Insertion Sort List",
+    "filename": "0147_insertion_sort_list.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 148,
+    "title": "Sort List",
+    "filename": "0148_sort_list.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 152,
+    "title": "Maximum Product Subarray",
+    "filename": "0152_maximum_product_subarray.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 153,
+    "title": "Find Minimum in Rotated Sorted Array",
+    "filename": "0153_Find_Minimum_in_Rotated_Sorted_Array.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 154,
+    "title": "Find Minimum in Rotated Sorted Array II",
+    "filename": "0154_Find_Minimum_in_Rotated_Sorted_Array_II.md",
+    "difficulty": "Hard",
+    "primary": "Binary search",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 155,
+    "title": "Min Stack",
+    "filename": "0155_min_stack.md",
+    "difficulty": "Easy",
+    "primary": "Design (hash + structure)",
+    "secondary": [
+      "Stack / parsing"
+    ]
+  },
+  {
+    "number": 160,
+    "title": "Intersection of Two Linked Lists",
+    "filename": "0160_intersection_of_two_linked_lists.md",
+    "difficulty": "Easy",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 165,
+    "title": "Compare Version Numbers",
+    "filename": "0165_compare_version_numbers.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 169,
+    "title": "Majority Element",
+    "filename": "0169_Majority_Element.md",
+    "difficulty": "Easy",
+    "primary": "Sorting + greedy",
+    "secondary": [
+      "Hash map lookup",
+      "Hash map / counting"
+    ]
+  },
+  {
+    "number": 173,
+    "title": "Binary Search Tree Iterator",
+    "filename": "0173_binary_search_tree_iterator.md",
+    "difficulty": "Medium",
+    "primary": "Design (hash + structure)",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 174,
+    "title": "Dungeon Game",
+    "filename": "0174_Dungeon_Game.md",
+    "difficulty": "Hard",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Matrix patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 179,
+    "title": "Largest Number",
+    "filename": "0179_largest_number.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "Sorting + greedy",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 187,
+    "title": "Repeated DNA Sequences",
+    "filename": "0187_repeated_dna_sequences.md",
+    "difficulty": "Medium",
+    "primary": "Rolling hash (advanced)",
+    "secondary": [
+      "Sliding window",
+      "Bit manipulation"
+    ]
+  },
+  {
+    "number": 189,
+    "title": "Rotate Array",
+    "filename": "0189_rotate_array.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Math patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 198,
+    "title": "House Robber",
+    "filename": "0198_house_robber.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 200,
+    "title": "Number of Islands",
+    "filename": "0200_number_of_islands.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Union-Find",
+      "Graph BFS"
+    ]
+  },
+  {
+    "number": 201,
+    "title": "Bitwise AND of Numbers Range",
+    "filename": "0201_Bitwise_AND_of_Numbers_Range.md",
+    "difficulty": "Medium",
+    "primary": "Bit manipulation",
+    "secondary": []
+  },
+  {
+    "number": 202,
+    "title": "Happy Number",
+    "filename": "0202_happy_number.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "Hash map lookup",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 205,
+    "title": "Isomorphic Strings",
+    "filename": "0205_isomorphic_strings.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 208,
+    "title": "Implement Trie (Prefix Tree)",
+    "filename": "0208_Implement_Trie_(Prefix_Tree).md",
+    "difficulty": "Medium",
+    "primary": "Trie",
+    "secondary": [
+      "Design (hash + structure)",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 210,
+    "title": "Course Schedule II",
+    "filename": "0210_Course_Schedule_II.md",
+    "difficulty": "Medium",
+    "primary": "Topological sort",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 211,
+    "title": "Design Add and Search Words Data Structure",
+    "filename": "0211_design_add_and_search_words_data_structure.md",
+    "difficulty": "Medium",
+    "primary": "Trie",
+    "secondary": [
+      "Graph DFS",
+      "Design (hash + structure)"
+    ]
+  },
+  {
+    "number": 212,
+    "title": "Word Search II",
+    "filename": "0212_Word_Search_II.md",
+    "difficulty": "Hard",
+    "primary": "Trie",
+    "secondary": [
+      "Backtracking",
+      "Matrix patterns"
+    ]
+  },
+  {
+    "number": 213,
+    "title": "House Robber II",
+    "filename": "0213_house_robber.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 216,
+    "title": "Combination Sum III",
+    "filename": "0216_combination_sum_iii.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 219,
+    "title": "Contains Duplicate II",
+    "filename": "0219_contains_duplicate_ii.md",
+    "difficulty": "Easy",
+    "primary": "Sliding window",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 221,
+    "title": "Maximal Square",
+    "filename": "0221_Maximal_Square.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Matrix patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 222,
+    "title": "Count Complete Tree Nodes",
+    "filename": "0222_count_complete_tree_nodes.md",
+    "difficulty": "Easy",
+    "primary": "Binary search",
+    "secondary": [
+      "Bit manipulation",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 224,
+    "title": "Basic Calculator",
+    "filename": "0224_basic_calculator.md",
+    "difficulty": "Hard",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 226,
+    "title": "Invert Binary Tree",
+    "filename": "0226_invert_binary_tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 227,
+    "title": "Basic Calculator II",
+    "filename": "0227_Basic_Calculator_II.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 228,
+    "title": "Summary Ranges",
+    "filename": "0228_summary_ranges.md",
+    "difficulty": "Easy",
+    "primary": "Array fundamentals",
+    "secondary": []
+  },
+  {
+    "number": 229,
+    "title": "Majority Element II",
+    "filename": "0229_Majority_Element_II.md",
+    "difficulty": "Medium",
+    "primary": "Sorting + greedy",
+    "secondary": [
+      "Hash map lookup",
+      "Hash map / counting"
+    ]
+  },
+  {
+    "number": 230,
+    "title": "Kth Smallest Element in a BST",
+    "filename": "0230_kth_smallest_element_in_a_bst.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 234,
+    "title": "Palindrome Linked List",
+    "filename": "0234_Palindrome_Linked_List.md",
+    "difficulty": "Easy",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Stack / parsing",
+      "Two pointers"
+    ]
+  },
+  {
+    "number": 235,
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "filename": "0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 237,
+    "title": "Delete Node in a Linked List",
+    "filename": "0237_Delete_Node_in_a_Linked_List.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": []
+  },
+  {
+    "number": 238,
+    "title": "Product of Array Except Self",
+    "filename": "0238_product_of_array_except_self.md",
+    "difficulty": "Medium",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 260,
+    "title": "Single Number III",
+    "filename": "0260_Single_Number_III.md",
+    "difficulty": "Medium",
+    "primary": "Bit manipulation",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 282,
+    "title": "Expression Add Operators",
+    "filename": "0282_Expression_Add_Operators.md",
+    "difficulty": "Hard",
+    "primary": "Backtracking",
+    "secondary": [
+      "String patterns",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 283,
+    "title": "Move Zeroes",
+    "filename": "0283_move_zeroes.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 284,
+    "title": "Peeking Iterator",
+    "filename": "0284_Peeking_Iterator.md",
+    "difficulty": "Medium",
+    "primary": "Design (hash + structure)",
+    "secondary": [
+      "BST iterator",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 289,
+    "title": "Game of Life",
+    "filename": "0289_Game_of_Life.md",
+    "difficulty": "Medium",
+    "primary": "Matrix patterns",
+    "secondary": [
+      "Simulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 290,
+    "title": "Word Pattern",
+    "filename": "0290_word_pattern.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 297,
+    "title": "Serialize and Deserialize Binary Tree",
+    "filename": "0297_serialize_deserialize_binary_tree.md",
+    "difficulty": "Hard",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Design (hash + structure)"
+    ]
+  },
+  {
+    "number": 299,
+    "title": "Bulls and Cows",
+    "filename": "0299_bulls_and_cows.md",
+    "difficulty": "Medium",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Hash map / counting",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 300,
+    "title": "Longest Increasing Subsequence",
+    "filename": "0300_Longest_Increasing_Subsequence.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Dynamic programming",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 303,
+    "title": "Range Sum Query - Immutable",
+    "filename": "0303_Range_Sum_Query-Immutable.md",
+    "difficulty": "Easy",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "Design (hash + structure)",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 309,
+    "title": "Best Time to Buy and Sell Stock with Cooldown",
+    "filename": "0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 316,
+    "title": "Remove Duplicate Letters",
+    "filename": "0316_remove_duplicate_letters.md",
+    "difficulty": "Medium",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "Stack / parsing",
+      "Greedy"
+    ]
+  },
+  {
+    "number": 322,
+    "title": "Coin Change",
+    "filename": "0322_coin_change.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Graph BFS",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 328,
+    "title": "Odd Even Linked List",
+    "filename": "0328_Odd_Even_Linked_List.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": []
+  },
+  {
+    "number": 331,
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "filename": "0331_Verify_Preorder_Serialization_of_a_Binary_Tree.md",
+    "difficulty": "Medium",
+    "primary": "Tree DFS / BFS",
+    "secondary": [
+      "Stack / parsing",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 334,
+    "title": "Increasing Triplet Subsequence",
+    "filename": "0334_increasing_triplet_subsequence.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 337,
+    "title": "House Robber III",
+    "filename": "0337_House_Robber_III.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 338,
+    "title": "Counting Bits",
+    "filename": "0338_Counting_Bits.md",
+    "difficulty": "Easy",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Bit manipulation"
+    ]
+  },
+  {
+    "number": 344,
+    "title": "Reverse String",
+    "filename": "0344_reverse_string.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 347,
+    "title": "Top K Frequent Elements",
+    "filename": "0347_Top_K_Frequent_Elements.md",
+    "difficulty": "Medium",
+    "primary": "Heap / quickselect",
+    "secondary": [
+      "Sorting + greedy",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 378,
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "filename": "0378_Kth_Smallest_Element_in_a_Sorted_Matrix.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Heap / quickselect",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 380,
+    "title": "Insert Delete GetRandom O(1)",
+    "filename": "0380_Insert_Delete_GetRandom_O(1).md",
+    "difficulty": "Medium",
+    "primary": "Design (hash + structure)",
+    "secondary": [
+      "Hash map lookup",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 382,
+    "title": "Linked List Random Node",
+    "filename": "0382_linked_list_random_node.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Reservoir sampling (advanced)",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 389,
+    "title": "Find the Difference",
+    "filename": "0389_find_the_difference.md",
+    "difficulty": "Easy",
+    "primary": "Bit manipulation",
+    "secondary": [
+      "Sorting + greedy",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 392,
+    "title": "Is Subsequence",
+    "filename": "0392_Is_Subsequence.md",
+    "difficulty": "Easy",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Two pointers",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 394,
+    "title": "Decode String",
+    "filename": "0394_Decode_String.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns",
+      "Recursion / DFS"
+    ]
+  },
+  {
+    "number": 399,
+    "title": "Evaluate Division",
+    "filename": "0399_evaluate_divison.md",
+    "difficulty": "Medium",
+    "primary": "Union-Find",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 402,
+    "title": "Remove K Digits",
+    "filename": "0402_Remove_K_Digits.md",
+    "difficulty": "Medium",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "Stack / parsing",
+      "Greedy"
+    ]
+  },
+  {
+    "number": 404,
+    "title": "Sum of Left Leaves",
+    "filename": "0404_sum_of_left_leaves.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 406,
+    "title": "Queue Reconstruction by Height",
+    "filename": "0406_Queue_Reconstruction_by_Height.md",
+    "difficulty": "Medium",
+    "primary": "Segment tree (advanced)",
+    "secondary": [
+      "Fenwick tree (advanced)",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 410,
+    "title": "Split Array Largest Sum",
+    "filename": "0410_Split_Array_Largest_Sum.md",
+    "difficulty": "Hard",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "Binary search",
+      "Dynamic programming"
+    ]
+  },
+  {
+    "number": 413,
+    "title": "Arithmetic Slices",
+    "filename": "0413_Arithmetic_Slices.md",
+    "difficulty": "Medium",
+    "primary": "Sliding window",
+    "secondary": [
+      "Dynamic programming",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 416,
+    "title": "Partition Equal Subset Sum",
+    "filename": "0416_Partition_Equal_Subset_Sum.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 424,
+    "title": "Longest Repeating Character Replacement",
+    "filename": "0424_Longest_Repeating_Character_Replacement.md",
+    "difficulty": "Medium",
+    "primary": "Sliding window",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 429,
+    "title": "N-ary Tree Level Order Traversal",
+    "filename": "0429_N-ary_Tree_Level_Order_Traversal.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 430,
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "filename": "0430_Flatten_a_Multilevel_Doubly_Linked_List.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 435,
+    "title": "Non-overlapping Intervals",
+    "filename": "0435_non_overlapping_interval.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Greedy",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 437,
+    "title": "Path Sum III",
+    "filename": "0437_Path_Sum_III.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 438,
+    "title": "Find All Anagrams in a String",
+    "filename": "0438_Find_All_Anagrams_in_a_String.md",
+    "difficulty": "Medium",
+    "primary": "Sliding window",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 442,
+    "title": "Find All Duplicates in an Array",
+    "filename": "0442_Find_All_Duplicates_in_an_Array.md",
+    "difficulty": "Medium",
+    "primary": "Sorting + greedy",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 445,
+    "title": "Add Two Numbers II",
+    "filename": "0445_add_two_numbers_ii.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Stack / parsing",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 448,
+    "title": "Find All Numbers Disappeared in an Array",
+    "filename": "0448_Find_All_Numbers_Disappeared_in_an_Array.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 450,
+    "title": "Delete Node in a BST",
+    "filename": "0450_delete_node_in_bst.md",
+    "difficulty": "Medium",
+    "primary": "BST properties",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 451,
+    "title": "Sort Characters By Frequency",
+    "filename": "0451_Sort_Characters_By_Frequency.md",
+    "difficulty": "Medium",
+    "primary": "Heap / quickselect",
+    "secondary": [
+      "Sorting + greedy",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 452,
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "filename": "0452_minimum_number_of_arrows_to_burst_balloons.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "Sorting + greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 454,
+    "title": "4Sum II",
+    "filename": "0454_4Sum_ii.md",
+    "difficulty": "Medium",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 456,
+    "title": "132 Pattern",
+    "filename": "0456_132_pattern.md",
+    "difficulty": "Medium",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "Binary search",
+      "Stack / parsing"
+    ]
+  },
+  {
+    "number": 459,
+    "title": "Repeated Substring Pattern",
+    "filename": "0459_repeated_substring_pattern.md",
+    "difficulty": "Easy",
+    "primary": "String patterns",
+    "secondary": [
+      "String matching (advanced)"
+    ]
+  },
+  {
+    "number": 461,
+    "title": "Hamming Distance",
+    "filename": "0461_Hamming_Distance.md",
+    "difficulty": "Easy",
+    "primary": "Bit manipulation",
+    "secondary": []
+  },
+  {
+    "number": 485,
+    "title": "Max Consecutive Ones",
+    "filename": "0485_Max_Consecutive_Ones.md",
+    "difficulty": "Easy",
+    "primary": "Array fundamentals",
+    "secondary": []
+  },
+  {
+    "number": 495,
+    "title": "Teemo Attacking",
+    "filename": "0495_teemo_attacking.md",
+    "difficulty": "Easy",
+    "primary": "Simulation",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 496,
+    "title": "Next Greater Element I",
+    "filename": "0496_Next_Greater_Element_I.md",
+    "difficulty": "Easy",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "Stack / parsing",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 497,
+    "title": "Random Point in Non-overlapping Rectangles",
+    "filename": "0497_random_point_in_non_overlapping_rectangle.md",
+    "difficulty": "Medium",
+    "primary": "Reservoir sampling (advanced)",
+    "secondary": [
+      "Prefix / suffix sums",
+      "Binary search"
+    ]
+  },
+  {
+    "number": 509,
+    "title": "Fibonacci Number",
+    "filename": "0509_fibonacci_number.md",
+    "difficulty": "Easy",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Math patterns",
+      "Recursion / DFS"
+    ]
+  },
+  {
+    "number": 525,
+    "title": "Contiguous Array",
+    "filename": "0525_continguous_array.md",
+    "difficulty": "Medium",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 526,
+    "title": "Beautiful Arrangement",
+    "filename": "0526_beautiful_arrangement.md",
+    "difficulty": "Medium",
+    "primary": "Bitmask DP",
+    "secondary": [
+      "Dynamic programming",
+      "Backtracking"
+    ]
+  },
+  {
+    "number": 532,
+    "title": "K-diff Pairs in an Array",
+    "filename": "0532_k_diff_pairs_in_an_array.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Two pointers",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 538,
+    "title": "Convert BST to Greater Tree",
+    "filename": "0538_Convert_BST_to_Greater_Tree.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 540,
+    "title": "Single Element in a Sorted Array",
+    "filename": "0540_Single_Element_in_a_Sorted_Array.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 542,
+    "title": "01 Matrix",
+    "filename": "0542_01_Matrix.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Graph BFS",
+      "Matrix patterns"
+    ]
+  },
+  {
+    "number": 543,
+    "title": "Diameter of Binary Tree",
+    "filename": "0543_Diameter_of_Binary_Tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 560,
+    "title": "Subarray Sum Equals K",
+    "filename": "0560_Subarray_Sum_Equals_K.md",
+    "difficulty": "Medium",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 563,
+    "title": "Binary Tree Tilt",
+    "filename": "0563_binary_tree_tilt.md",
+    "difficulty": "Easy",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 565,
+    "title": "Array Nesting",
+    "filename": "0565_Array_Nesting.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 567,
+    "title": "Permutation in String",
+    "filename": "0567_Permutation_in_String.md",
+    "difficulty": "Medium",
+    "primary": "Sliding window",
+    "secondary": [
+      "Two pointers",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 581,
+    "title": "Shortest Unsorted Continuous Subarray",
+    "filename": "0581_Shortest_Unsorted_Continuous_Subarray.md",
+    "difficulty": "Medium",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "Stack / parsing",
+      "Two pointers"
+    ]
+  },
+  {
+    "number": 593,
+    "title": "Valid Square",
+    "filename": "0593_valid_square.md",
+    "difficulty": "Medium",
+    "primary": "Math patterns",
+    "secondary": [
+      "Geometry (advanced)"
+    ]
+  },
+  {
+    "number": 598,
+    "title": "Range Addition II",
+    "filename": "0598_Range_Addition_II.md",
+    "difficulty": "Easy",
+    "primary": "Math patterns",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 605,
+    "title": "Can Place Flowers",
+    "filename": "0605_can_place_flowers.md",
+    "difficulty": "Easy",
+    "primary": "Greedy",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 647,
+    "title": "Palindromic Substrings",
+    "filename": "0647_palindromic_substrings.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Two pointers",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 653,
+    "title": "Two Sum IV - Input is a BST",
+    "filename": "0653_Two_Sum_IV_-_Input_is_a_BST.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "BST properties"
+    ]
+  },
+  {
+    "number": 662,
+    "title": "Maximum Width of Binary Tree",
+    "filename": "0662_maximum_width_of_binary_tree.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 669,
+    "title": "Trim a Binary Search Tree",
+    "filename": "0669_trim_a_binary_search_tree.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 678,
+    "title": "Valid Parenthesis String",
+    "filename": "0678_valid_parenthesis_string.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Stack / parsing",
+      "Greedy"
+    ]
+  },
+  {
+    "number": 680,
+    "title": "Valid Palindrome II",
+    "filename": "0680_valid_palindrome_ii.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "Greedy",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 695,
+    "title": "Max Area of Island",
+    "filename": "0695_Max_Area_of_Island.md",
+    "difficulty": "Medium",
+    "primary": "Union-Find",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 700,
+    "title": "Search in a Binary Search Tree",
+    "filename": "0700_search_in_a_binary_search_tree.md",
+    "difficulty": "Easy",
+    "primary": "BST properties",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 701,
+    "title": "Insert into a Binary Search Tree",
+    "filename": "0701_insert_into_a_binary_search_tree.md",
+    "difficulty": "Medium",
+    "primary": "BST properties",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 703,
+    "title": "Kth Largest Element in a Stream",
+    "filename": "0703_Kth_Largest_Element_in_a_Stream.md",
+    "difficulty": "Easy",
+    "primary": "Heap / quickselect",
+    "secondary": [
+      "Design (hash + structure)",
+      "BST properties"
+    ]
+  },
+  {
+    "number": 704,
+    "title": "Binary Search",
+    "filename": "0704_binary_search.md",
+    "difficulty": "Easy",
+    "primary": "Binary search",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 713,
+    "title": "Subarray Product Less Than K",
+    "filename": "0713_subarray_product_less_than_k.md",
+    "difficulty": "Medium",
+    "primary": "Sliding window",
+    "secondary": [
+      "Prefix / suffix sums",
+      "Binary search"
+    ]
+  },
+  {
+    "number": 714,
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "filename": "0714_best_time_to_buy_sell_stock_with_transaction_fee.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 718,
+    "title": "Maximum Length of Repeated Subarray",
+    "filename": "0718_Maximum_Length_of_Repeated_Subarray.md",
+    "difficulty": "Medium",
+    "primary": "Rolling hash (advanced)",
+    "secondary": [
+      "Sliding window",
+      "Binary search"
+    ]
+  },
+  {
+    "number": 724,
+    "title": "Find Pivot Index",
+    "filename": "0724_find_pivot_index.md",
+    "difficulty": "Easy",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 725,
+    "title": "Split Linked List in Parts",
+    "filename": "0725_Split_Linked_List_in_Parts.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": []
+  },
+  {
+    "number": 735,
+    "title": "Asteroid Collision",
+    "filename": "0735_asteroid_collision.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "Simulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 739,
+    "title": "Daily Temperatures",
+    "filename": "0739_Daily_Temperatures.md",
+    "difficulty": "Medium",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "Stack / parsing",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 740,
+    "title": "Delete and Earn",
+    "filename": "0740_Delete_and_Earn.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 746,
+    "title": "Min Cost Climbing Stairs",
+    "filename": "0746_Min_Cost_Climbing_Stairs.md",
+    "difficulty": "Easy",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 763,
+    "title": "Partition Labels",
+    "filename": "0763_partition_labels.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Greedy",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 785,
+    "title": "Is Graph Bipartite?",
+    "filename": "0785_is_graph_bipartite.md",
+    "difficulty": "Medium",
+    "primary": "Union-Find",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 797,
+    "title": "All Paths From Source to Target",
+    "filename": "0797_All_Paths_From_Source_to_Target.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 799,
+    "title": "Champagne Tower",
+    "filename": "0799_Champagne_Tower.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": []
+  },
+  {
+    "number": 814,
+    "title": "Binary Tree Pruning",
+    "filename": "0814_Binary_Tree_Pruning.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 820,
+    "title": "Short Encoding of Words",
+    "filename": "0820_short_encoding_of_words.md",
+    "difficulty": "Medium",
+    "primary": "Trie",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 824,
+    "title": "Goat Latin",
+    "filename": "0824_goat_latin.md",
+    "difficulty": "Easy",
+    "primary": "String patterns",
+    "secondary": []
+  },
+  {
+    "number": 827,
+    "title": "Making A Large Island",
+    "filename": "0827_Making_A_Large_Island.md",
+    "difficulty": "Hard",
+    "primary": "Union-Find",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 832,
+    "title": "Flipping an Image",
+    "filename": "0832_flipping_an_image.md",
+    "difficulty": "Easy",
+    "primary": "Bit manipulation",
+    "secondary": [
+      "Two pointers",
+      "Matrix patterns"
+    ]
+  },
+  {
+    "number": 835,
+    "title": "Image Overlap",
+    "filename": "0835_image_overlap.md",
+    "difficulty": "Medium",
+    "primary": "Matrix patterns",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 838,
+    "title": "Push Dominoes",
+    "filename": "0838_Push_Dominoes.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Two pointers",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 844,
+    "title": "Backspace String Compare",
+    "filename": "0844_backspace_string_compare.md",
+    "difficulty": "Easy",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "Two pointers",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 845,
+    "title": "Longest Mountain in Array",
+    "filename": "0845_longest_mountain_in_array.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Two pointers",
+      "Enumeration"
+    ]
+  },
+  {
+    "number": 847,
+    "title": "Shortest Path Visiting All Nodes",
+    "filename": "0847_Shortest_Path_Visiting_All_Nodes.md",
+    "difficulty": "Hard",
+    "primary": "Bitmask DP",
+    "secondary": [
+      "Dynamic programming",
+      "Graph BFS"
+    ]
+  },
+  {
+    "number": 848,
+    "title": "Shifting Letters",
+    "filename": "0848_Shifting_Letters.md",
+    "difficulty": "Medium",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "String patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 849,
+    "title": "Maximize Distance to Closest Person",
+    "filename": "0849_maximize_distance_to_closest_person.md",
+    "difficulty": "Medium",
+    "primary": "Array fundamentals",
+    "secondary": []
+  },
+  {
+    "number": 856,
+    "title": "Score of Parentheses",
+    "filename": "0856_Score_of_Parentheses.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 859,
+    "title": "Buddy Strings",
+    "filename": "0859_buddy_strings.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 865,
+    "title": "Smallest Subtree with all the Deepest Nodes",
+    "filename": "0865_smallest_subtree_with_all_the_deepest_nodes.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 876,
+    "title": "Middle of the Linked List",
+    "filename": "0876_middle_of_linked_list.md",
+    "difficulty": "Easy",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers"
+    ]
+  },
+  {
+    "number": 881,
+    "title": "Boats to Save People",
+    "filename": "0881_boats_to_save_people.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Greedy",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 895,
+    "title": "Maximum Frequency Stack",
+    "filename": "0895_Maximum_Frequency_Stack.md",
+    "difficulty": "Hard",
+    "primary": "Design (hash + structure)",
+    "secondary": [
+      "Stack / parsing",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 897,
+    "title": "Increasing Order Search Tree",
+    "filename": "0897_increasing_order_search_tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 905,
+    "title": "Sort Array By Parity",
+    "filename": "0905_sort_array_by_parity.md",
+    "difficulty": "Easy",
+    "primary": "Two pointers",
+    "secondary": [
+      "Sorting + greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 923,
+    "title": "3Sum With Multiplicity",
+    "filename": "0923_3Sum_With_Multiplicity.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Sorting + greedy",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 933,
+    "title": "Number of Recent Calls",
+    "filename": "0933_number_of_recent_calls.md",
+    "difficulty": "Easy",
+    "primary": "Design (hash + structure)",
+    "secondary": [
+      "BFS / queue simulation",
+      "Design (data stream)"
+    ]
+  },
+  {
+    "number": 938,
+    "title": "Range Sum of BST",
+    "filename": "0938_range_sum_of_bst.md",
+    "difficulty": "Easy",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 941,
+    "title": "Valid Mountain Array",
+    "filename": "0941_valid_mountain_array.md",
+    "difficulty": "Easy",
+    "primary": "Array fundamentals",
+    "secondary": []
+  },
+  {
+    "number": 946,
+    "title": "Validate Stack Sequences",
+    "filename": "0946_Validate_Stack_Sequences.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "Simulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 948,
+    "title": "Bag of Tokens",
+    "filename": "0948_bag_of_tokens.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Greedy",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 949,
+    "title": "Largest Time for Given Digits",
+    "filename": "0949_largest_time_for_given_digits.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "String patterns",
+      "Enumeration"
+    ]
+  },
+  {
+    "number": 967,
+    "title": "Numbers With Same Consecutive Differences",
+    "filename": "0967_numbers_with_same_consecutive_differences.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Graph BFS"
+    ]
+  },
+  {
+    "number": 969,
+    "title": "Pancake Sorting",
+    "filename": "0969_pancake_sorting.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Greedy",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 973,
+    "title": "K Closest Points to Origin",
+    "filename": "0973_K_Closest_Points_to_Origin.md",
+    "difficulty": "Medium",
+    "primary": "Heap / quickselect",
+    "secondary": [
+      "Sorting + greedy",
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 978,
+    "title": "Longest Turbulent Subarray",
+    "filename": "0978_Longest_Turbulent_Subarray.md",
+    "difficulty": "Medium",
+    "primary": "Sliding window",
+    "secondary": [
+      "Dynamic programming",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 980,
+    "title": "Unique Paths III",
+    "filename": "0980_unique_paths_iii.md",
+    "difficulty": "Hard",
+    "primary": "Backtracking",
+    "secondary": [
+      "Bit manipulation",
+      "Matrix patterns"
+    ]
+  },
+  {
+    "number": 983,
+    "title": "Minimum Cost For Tickets",
+    "filename": "0983_minimum_cost_for_tickets.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 986,
+    "title": "Interval List Intersections",
+    "filename": "0986_Interval_List_Intersections.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Intervals / sweep line",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 987,
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "filename": "0987_vertical_order_traversal_of_a_binary_tree.md",
+    "difficulty": "Hard",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 991,
+    "title": "Broken Calculator",
+    "filename": "0991_Broken_Calculator.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 993,
+    "title": "Cousins in Binary Tree",
+    "filename": "0993_Cousins_in_Binary_Tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 994,
+    "title": "Rotting Oranges",
+    "filename": "0994_rotting_oranges.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Matrix patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 997,
+    "title": "Find the Town Judge",
+    "filename": "0997_Find_the_Town_Judge.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS/DFS",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1007,
+    "title": "Minimum Domino Rotations For Equal Row",
+    "filename": "1007_minimum_domino_rotations_for_equal_row.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1008,
+    "title": "Construct Binary Search Tree from Preorder Traversal",
+    "filename": "1008_construct_binary_search_tree_from_preorder_traversal.md",
+    "difficulty": "Medium",
+    "primary": "Monotonic stack",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 1009,
+    "title": "Complement of Base 10 Integer",
+    "filename": "1009_complement_of_base_10_integer.md",
+    "difficulty": "Easy",
+    "primary": "Bit manipulation",
+    "secondary": []
+  },
+  {
+    "number": 1010,
+    "title": "Pairs of Songs With Total Durations Divisible by 60",
+    "filename": "1010_pairs_of_songs_with_total_durations_divisible_by_60.md",
+    "difficulty": "Medium",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Hash map / counting",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1022,
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "filename": "1022_sum_of_root_to_left_binary_numbers.md",
+    "difficulty": "Easy",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 1026,
+    "title": "Maximum Difference Between Node and Ancestor",
+    "filename": "1026_maximum_difference_between_node_and_ancestor.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 1029,
+    "title": "Two City Scheduling",
+    "filename": "1029_two_city_scheduling.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "Sorting + greedy",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1032,
+    "title": "Stream of Characters",
+    "filename": "1032_Stream_of_Characters.md",
+    "difficulty": "Hard",
+    "primary": "Trie",
+    "secondary": [
+      "Design (hash + structure)",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1037,
+    "title": "Valid Boomerang",
+    "filename": "1037_valid_boomerang.md",
+    "difficulty": "Easy",
+    "primary": "Math patterns",
+    "secondary": [
+      "Geometry (advanced)",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1041,
+    "title": "Robot Bounded In Circle",
+    "filename": "1041_robot_bounded_in_circle.md",
+    "difficulty": "Medium",
+    "primary": "String patterns",
+    "secondary": [
+      "Math patterns",
+      "Simulation"
+    ]
+  },
+  {
+    "number": 1046,
+    "title": "Last Stone Weight",
+    "filename": "1046_last_stone_weight.md",
+    "difficulty": "Easy",
+    "primary": "Heap / quickselect",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1047,
+    "title": "Remove All Adjacent Duplicates In String",
+    "filename": "1047_Remove_All_Adjacent_Duplicates_In_String.md",
+    "difficulty": "Easy",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1094,
+    "title": "Car Pooling",
+    "filename": "1094_car_pooling.md",
+    "difficulty": "Medium",
+    "primary": "Prefix / suffix sums",
+    "secondary": [
+      "Heap / quickselect",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 1143,
+    "title": "Longest Common Subsequence",
+    "filename": "1143_longest_common_subsequence.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1202,
+    "title": "Smallest String With Swaps",
+    "filename": "1202_Smallest_String_With_Swaps.md",
+    "difficulty": "Medium",
+    "primary": "Union-Find",
+    "secondary": [
+      "Graph BFS",
+      "Graph DFS"
+    ]
+  },
+  {
+    "number": 1209,
+    "title": "Remove All Adjacent Duplicates in String II",
+    "filename": "1209_Remove_All_Adjacent_Duplicates_in_String_II.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1217,
+    "title": "Minimum Cost to Move Chips to The Same Position",
+    "filename": "1217_minimum_cost_to_move_chips_to_the_same_position.md",
+    "difficulty": "Easy",
+    "primary": "Greedy",
+    "secondary": [
+      "Math patterns",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1235,
+    "title": "Maximum Profit in Job Scheduling",
+    "filename": "1235_Maximum_Profit_in_Job_Scheduling.md",
+    "difficulty": "Hard",
+    "primary": "Binary search",
+    "secondary": [
+      "Dynamic programming",
+      "Sorting + greedy"
+    ]
+  },
+  {
+    "number": 1239,
+    "title": "Maximum Length of a Concatenated String with Unique Characters",
+    "filename": "1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Bit manipulation",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1249,
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "filename": "1249_Minimum_Remove_to_Make_Valid_Parentheses.md",
+    "difficulty": "Medium",
+    "primary": "Stack / parsing",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1260,
+    "title": "Shift 2D Grid",
+    "filename": "1260_Shift_2D_Grid.md",
+    "difficulty": "Easy",
+    "primary": "Matrix patterns",
+    "secondary": [
+      "Simulation",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1275,
+    "title": "Find Winner on a Tic Tac Toe Game",
+    "filename": "1275_Find_Winner_on_a_Tic_Tac_Toe_Game.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Matrix patterns",
+      "Simulation"
+    ]
+  },
+  {
+    "number": 1283,
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "filename": "1283_find_the_smallest_divisor_given_a_threshold.md",
+    "difficulty": "Medium",
+    "primary": "Binary search",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1286,
+    "title": "Iterator for Combination",
+    "filename": "1286_Iterator_for_Combination.md",
+    "difficulty": "Medium",
+    "primary": "Backtracking",
+    "secondary": [
+      "Design (hash + structure)",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1288,
+    "title": "Remove Covered Intervals",
+    "filename": "1288_remove_covered_intervals.md",
+    "difficulty": "Medium",
+    "primary": "Sorting + greedy",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1290,
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "filename": "1290_convert_binary_number_in_a_linked_list_to_integer.md",
+    "difficulty": "Easy",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Math patterns"
+    ]
+  },
+  {
+    "number": 1291,
+    "title": "Sequential Digits",
+    "filename": "1291_sequential_digits.md",
+    "difficulty": "Medium",
+    "primary": "Enumeration",
+    "secondary": []
+  },
+  {
+    "number": 1299,
+    "title": "Replace Elements with Greatest Element on Right Side",
+    "filename": "1299_replace_elements_with_greatest_element_on_right_side.md",
+    "difficulty": "Easy",
+    "primary": "Array fundamentals",
+    "secondary": []
+  },
+  {
+    "number": 1304,
+    "title": "Find N Unique Integers Sum up to Zero",
+    "filename": "1304_find_n_unique_integers_sum_up_to_zero.md",
+    "difficulty": "Easy",
+    "primary": "Math patterns",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1305,
+    "title": "All Elements in Two Binary Search Trees",
+    "filename": "1305_all_elements_in_two_binary_search_trees.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "BST properties",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 1306,
+    "title": "Jump Game III",
+    "filename": "1306_Jump_Game_III.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1328,
+    "title": "Break a Palindrome",
+    "filename": "1328_Break_a_Palindrome.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1339,
+    "title": "Maximum Product of Splitted Binary Tree",
+    "filename": "1339_Maximum_Product_of_Splitted_Binary_Tree.md",
+    "difficulty": "Medium",
+    "primary": "Graph DFS",
+    "secondary": [
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 1359,
+    "title": "Count All Valid Pickup and Delivery Options",
+    "filename": "1359_Count_All_Valid_Pickup_and_Delivery_Options.md",
+    "difficulty": "Hard",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Math patterns",
+      "Combinatorics"
+    ]
+  },
+  {
+    "number": 1379,
+    "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+    "filename": "1379_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.md",
+    "difficulty": "Easy",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 1396,
+    "title": "Design Underground System",
+    "filename": "1396_Design_Underground_System.md",
+    "difficulty": "Medium",
+    "primary": "Design (hash + structure)",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1446,
+    "title": "Consecutive Characters",
+    "filename": "1446_consective_characters.md",
+    "difficulty": "Easy",
+    "primary": "String patterns",
+    "secondary": []
+  },
+  {
+    "number": 1448,
+    "title": "Count Good Nodes in Binary Tree",
+    "filename": "1448_Count_Good_Nodes_in_Binary_Tree.md",
+    "difficulty": "Medium",
+    "primary": "Graph BFS",
+    "secondary": [
+      "Graph DFS",
+      "Tree DFS / BFS"
+    ]
+  },
+  {
+    "number": 1461,
+    "title": "Check If a String Contains All Binary Codes of Size K",
+    "filename": "1461_Check_If_a_String_Contains_All_Binary_Codes_of_Size_K.md",
+    "difficulty": "Medium",
+    "primary": "Rolling hash (advanced)",
+    "secondary": [
+      "Bit manipulation",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 1492,
+    "title": "The kth Factor of n",
+    "filename": "1492_the_kth_factor_of_n.md",
+    "difficulty": "Medium",
+    "primary": "Math patterns",
+    "secondary": []
+  },
+  {
+    "number": 1510,
+    "title": "Stone Game IV",
+    "filename": "1510_stone_game_iv.md",
+    "difficulty": "Hard",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Math patterns",
+      "Game theory (advanced)"
+    ]
+  },
+  {
+    "number": 1539,
+    "title": "Kth Missing Positive Number",
+    "filename": "1539_kth_missing_positive_number.md",
+    "difficulty": "Easy",
+    "primary": "Binary search",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1584,
+    "title": "Min Cost to Connect All Points",
+    "filename": "1584_Min_Cost_to_Connect_All_Points.md",
+    "difficulty": "Medium",
+    "primary": "Union-Find",
+    "secondary": [
+      "Graph BFS/DFS",
+      "MST (advanced)"
+    ]
+  },
+  {
+    "number": 1640,
+    "title": "Check Array Formation Through Concatenation",
+    "filename": "1640_check_array_formation_through_concatenation.md",
+    "difficulty": "Easy",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1641,
+    "title": "Count Sorted Vowel Strings",
+    "filename": "1641_count_sorted_vowel_strings.md",
+    "difficulty": "Medium",
+    "primary": "Dynamic programming",
+    "secondary": [
+      "Math patterns",
+      "Combinatorics"
+    ]
+  },
+  {
+    "number": 1649,
+    "title": "Create Sorted Array through Instructions",
+    "filename": "1649_create_sorted_array_through_instructions.md",
+    "difficulty": "Hard",
+    "primary": "Segment tree (advanced)",
+    "secondary": [
+      "Fenwick tree (advanced)",
+      "Binary search"
+    ]
+  },
+  {
+    "number": 1662,
+    "title": "Check If Two String Arrays are Equivalent",
+    "filename": "1662_check_if_two_string_arrays_are_equivalent.md",
+    "difficulty": "Easy",
+    "primary": "String patterns",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 1663,
+    "title": "Smallest String With A Given Numeric Value",
+    "filename": "1663_Smallest_String_With_A_Given_Numeric_Value.md",
+    "difficulty": "Medium",
+    "primary": "Greedy",
+    "secondary": [
+      "String patterns"
+    ]
+  },
+  {
+    "number": 1675,
+    "title": "Minimize Deviation in Array",
+    "filename": "1675_Minimize_Deviation_in_Array.md",
+    "difficulty": "Hard",
+    "primary": "Heap / quickselect",
+    "secondary": [
+      "Greedy",
+      "Ordered set (advanced)"
+    ]
+  },
+  {
+    "number": 1679,
+    "title": "Max Number of K-Sum Pairs",
+    "filename": "1679_max_number_of_k_sum_pairs.md",
+    "difficulty": "Medium",
+    "primary": "Two pointers",
+    "secondary": [
+      "Sorting + greedy",
+      "Hash map lookup"
+    ]
+  },
+  {
+    "number": 1721,
+    "title": "Swapping Nodes in a Linked List",
+    "filename": "1721_Swapping_Nodes_in_a_Linked_List.md",
+    "difficulty": "Medium",
+    "primary": "Linked list patterns",
+    "secondary": [
+      "Two pointers"
+    ]
+  },
+  {
+    "number": 2610,
+    "title": "Convert an Array Into a 2D Array With Conditions",
+    "filename": "2610_Convert_an_Array_Into_a_2D_Array_With_Conditions.md",
+    "difficulty": "Medium",
+    "primary": "Hash map lookup",
+    "secondary": [
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 2657,
+    "title": "Find the Prefix Common Array of Two Arrays",
+    "filename": "2657_Find_the_Prefix_Common_Array_of_Two_Arrays.md",
+    "difficulty": "Medium",
+    "primary": "Bit manipulation",
+    "secondary": [
+      "Hash map lookup",
+      "Array fundamentals"
+    ]
+  },
+  {
+    "number": 3043,
+    "title": "Find the Length of the Longest Common Prefix",
+    "filename": "3043_Find_the_Length_of_the_Longest_Common_Prefix.md",
+    "difficulty": "Medium",
+    "primary": "Trie",
+    "secondary": [
+      "Hash map lookup",
+      "String patterns"
+    ]
+  }
+]

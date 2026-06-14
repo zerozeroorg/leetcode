@@ -3,12 +3,15 @@
 
 from __future__ import annotations
 
+import json
 import re
 from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "STUDY_INDEX.md"
+TOPIC_TECHNIQUES = ROOT / "scripts" / "topic_techniques.json"
+TECHNIQUES_DOC = "docs/interview_techniques.md"
 
 PROBLEM_FILE_RE = re.compile(r"^(\d{4})_.+\.md$", re.IGNORECASE)
 HEADING_RE = re.compile(r"^(?:#{2,3}\s+)?(\d+)\.\s+(.+)$")
@@ -81,11 +84,42 @@ def sort_problems(problems: list[dict]) -> list[dict]:
     )
 
 
-def render_index(grouped: dict[str, dict[str, list[dict]]]) -> str:
+def link_target(filename: str) -> str:
+    if "(" in filename or ")" in filename:
+        return f"<{filename}>"
+    return filename
+
+
+def load_topic_techniques() -> dict[str, dict]:
+    if not TOPIC_TECHNIQUES.exists():
+        return {}
+    return json.loads(TOPIC_TECHNIQUES.read_text(encoding="utf-8"))
+
+
+def render_topic_summary(topic: str, topic_techniques: dict[str, dict]) -> list[str]:
+    entry = topic_techniques.get(topic)
+    if not entry:
+        return []
+    techniques = entry.get("techniques", [])
+    anchor = entry.get("doc_anchor", "")
+    if not techniques:
+        return []
+    summary = " · ".join(techniques)
+    if anchor:
+        summary += f" — [details]({TECHNIQUES_DOC}#{anchor})"
+    return [f"**Must-know:** {summary}", ""]
+
+
+def render_index(
+    grouped: dict[str, dict[str, list[dict]]],
+    topic_techniques: dict[str, dict],
+) -> str:
     lines = [
         "# LeetCode Study Index",
         "",
         "Problems grouped by topic and difficulty for interview prep.",
+        "",
+        f"See also: [Interview Techniques]({TECHNIQUES_DOC}) — must-know patterns and algorithms.",
         "",
         f"Total problems: {len(list_problem_files())}",
         "",
@@ -94,6 +128,7 @@ def render_index(grouped: dict[str, dict[str, list[dict]]]) -> str:
     for topic in sorted(grouped.keys(), key=lambda t: (t == "Uncategorized", t.lower())):
         lines.append(f"## {topic}")
         lines.append("")
+        lines.extend(render_topic_summary(topic, topic_techniques))
         by_difficulty = grouped[topic]
         for difficulty in ["Easy", "Medium", "Hard", "Unknown"]:
             problems = by_difficulty.get(difficulty, [])
@@ -102,7 +137,8 @@ def render_index(grouped: dict[str, dict[str, list[dict]]]) -> str:
             lines.append(f"### {difficulty}")
             for problem in sort_problems(problems):
                 label = f"{problem['number']}. {problem['title']}"
-                lines.append(f"- [{label}]({problem['filename']})")
+                target = link_target(problem["filename"])
+                lines.append(f"- [{label}]({target})")
             lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
@@ -119,7 +155,8 @@ def main() -> None:
         for topic in topics:
             grouped[topic][problem["difficulty"]].append(problem)
 
-    OUTPUT.write_text(render_index(grouped), encoding="utf-8")
+    topic_techniques = load_topic_techniques()
+    OUTPUT.write_text(render_index(grouped, topic_techniques), encoding="utf-8")
     print(f"Wrote {OUTPUT} with {len(list_problem_files())} problems across {len(grouped)} topics.")
 
 
