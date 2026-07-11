@@ -2,7 +2,7 @@
 
 Must-know patterns and algorithms for coding interviews, mapped to problems in this repo.
 
-See also: [STUDY_INDEX.md](../STUDY_INDEX.md) (problems by topic) · [tips.md](tips.md) (heuristics) · [graph_notes.md](graph_notes.md) · [bits_notes.md](bits_notes.md)
+See also: [STUDY_INDEX.md](../STUDY_INDEX.md) (problems by topic) · [interview_gaps_checklist.md](interview_gaps_checklist.md) (coverage backlog) · [tips.md](tips.md) (heuristics) · [graph_notes.md](graph_notes.md) · [bits_notes.md](bits_notes.md)
 
 ---
 
@@ -31,6 +31,32 @@ See also: [STUDY_INDEX.md](../STUDY_INDEX.md) (problems by topic) · [tips.md](t
 **★ Must-do:** [1. Two Sum](../0001_Two_Sum.md) · [49. Group Anagrams](../0049_group_anagrams.md) · [560. Subarray Sum Equals K](../0560_Subarray_Sum_Equals_K.md)
 
 **Also practice:** [219. Contains Duplicate II](../0219_contains_duplicate_ii.md) · [347. Top K Frequent Elements](../0347_Top_K_Frequent_Elements.md) · [442. Find All Duplicates](../0442_Find_All_Duplicates_in_an_Array.md)
+
+---
+
+## Boyer-Moore voting algorithm {#boyer-moore-voting}
+
+**Trigger:** Find element(s) appearing more than ⌊n/k⌋ times in O(n) time and O(1) space (majority / super-majority).
+
+**How it works:** Treat votes as a running tally. Maintain a `candidate` and `count`. On each element:
+- If `count == 0`, set `candidate = num` and `count = 1`
+- Else if `num == candidate`, increment `count`
+- Else decrement `count`
+
+For **> n/2** (Majority Element), one candidate survives — return it (guaranteed to exist when assumed).
+
+For **> n/3** (Majority Element II), track **two** candidates with two counters; unrelated numbers decrement both. Then **verify** each candidate with a second pass — at most 2 elements can exceed n/3.
+
+**Variants:**
+- k = 2 → one candidate (169)
+- k = 3 → two candidates + verification pass (229)
+- General k → at most k−1 candidates (rare in interviews)
+
+**Pitfalls:** Always verify candidates when problem does not guarantee existence. Do not confuse with the string-search Boyer-Moore algorithm.
+
+**★ Must-do:** [169. Majority Element](../0169_Majority_Element.md) · [229. Majority Element II](../0229_Majority_Element_II.md)
+
+**Alternative:** Hash map frequency count — simpler but O(n) space.
 
 ---
 
@@ -455,6 +481,11 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 - [526. Beautiful Arrangement](../0526_beautiful_arrangement.md) (Medium)
 - [847. Shortest Path Visiting All Nodes](../0847_Shortest_Path_Visiting_All_Nodes.md) (Hard)
 
+### Boyer-Moore voting
+
+- [169. Majority Element](../0169_Majority_Element.md) (Easy)
+- [229. Majority Element II](../0229_Majority_Element_II.md) (Medium)
+
 ### Design (hash + structure)
 
 - [155. Min Stack](../0155_min_stack.md) (Easy)
@@ -718,8 +749,6 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 ### Sorting + greedy
 
 - [49. Group Anagrams](../0049_group_anagrams.md) (Medium)
-- [169. Majority Element](../0169_Majority_Element.md) (Easy)
-- [229. Majority Element II](../0229_Majority_Element_II.md) (Medium)
 - [442. Find All Duplicates in an Array](../0442_Find_All_Duplicates_in_an_Array.md) (Medium)
 - [1288. Remove Covered Intervals](../1288_remove_covered_intervals.md) (Medium)
 
@@ -907,7 +936,7 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 | 155 | [Min Stack](../0155_min_stack.md) | Design (hash + structure) |
 | 160 | [Intersection of Two Linked Lists](../0160_intersection_of_two_linked_lists.md) | Linked list patterns |
 | 165 | [Compare Version Numbers](../0165_compare_version_numbers.md) | Two pointers |
-| 169 | [Majority Element](../0169_Majority_Element.md) | Sorting + greedy |
+| 169 | [Majority Element](../0169_Majority_Element.md) | Boyer-Moore voting |
 | 173 | [Binary Search Tree Iterator](../0173_binary_search_tree_iterator.md) | Design (hash + structure) |
 | 174 | [Dungeon Game](../0174_Dungeon_Game.md) | Dynamic programming |
 | 179 | [Largest Number](../0179_largest_number.md) | Greedy |
@@ -931,7 +960,7 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 | 226 | [Invert Binary Tree](../0226_invert_binary_tree.md) | Graph BFS |
 | 227 | [Basic Calculator II](../0227_Basic_Calculator_II.md) | Stack / parsing |
 | 228 | [Summary Ranges](../0228_summary_ranges.md) | Array fundamentals |
-| 229 | [Majority Element II](../0229_Majority_Element_II.md) | Sorting + greedy |
+| 229 | [Majority Element II](../0229_Majority_Element_II.md) | Boyer-Moore voting |
 | 230 | [Kth Smallest Element in a BST](../0230_kth_smallest_element_in_a_bst.md) | Graph DFS |
 | 234 | [Palindrome Linked List](../0234_Palindrome_Linked_List.md) | Linked list patterns |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](../0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md) | Graph DFS |
@@ -1123,4 +1152,3 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 | 2610 | [Convert an Array Into a 2D Array With Conditions](../2610_Convert_an_Array_Into_a_2D_Array_With_Conditions.md) | Hash map lookup |
 | 2657 | [Find the Prefix Common Array of Two Arrays](../2657_Find_the_Prefix_Common_Array_of_Two_Arrays.md) | Bit manipulation |
 | 3043 | [Find the Length of the Longest Common Prefix](../3043_Find_the_Length_of_the_Longest_Common_Prefix.md) | Trie |
-

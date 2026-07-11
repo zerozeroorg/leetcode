@@ -8,7 +8,7 @@ Total problems: 310
 
 ## Array
 
-**Must-know:** Hash map for complement/frequency · Two pointers on sorted arrays · In-place marking for O(1) space — [details](docs/interview_techniques.md#hash-map-lookup)
+**Must-know:** Hash map for complement/frequency · Boyer-Moore voting for majority · In-place marking for O(1) space — [details](docs/interview_techniques.md#hash-map-lookup)
 
 ### Easy
 - [1. Two Sum](0001_Two_Sum.md)
@@ -431,7 +431,7 @@ Total problems: 310
 
 ## Counting
 
-**Must-know:** Frequency map or array · Prefix counts for range queries — [details](docs/interview_techniques.md#hash-map-lookup)
+**Must-know:** Frequency map or array · Boyer-Moore voting for majority elements · Prefix counts for range queries — [details](docs/interview_techniques.md#boyer-moore-voting)
 
 ### Easy
 - [169. Majority Element](0169_Majority_Element.md)

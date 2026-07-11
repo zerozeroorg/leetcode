@@ -69,6 +69,11 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 - [526. Beautiful Arrangement](../0526_beautiful_arrangement.md) (Medium)
 - [847. Shortest Path Visiting All Nodes](../0847_Shortest_Path_Visiting_All_Nodes.md) (Hard)
 
+### Boyer-Moore voting
+
+- [169. Majority Element](../0169_Majority_Element.md) (Easy)
+- [229. Majority Element II](../0229_Majority_Element_II.md) (Medium)
+
 ### Design (hash + structure)
 
 - [155. Min Stack](../0155_min_stack.md) (Easy)
@@ -332,8 +337,6 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 ### Sorting + greedy
 
 - [49. Group Anagrams](../0049_group_anagrams.md) (Medium)
-- [169. Majority Element](../0169_Majority_Element.md) (Easy)
-- [229. Majority Element II](../0229_Majority_Element_II.md) (Medium)
 - [442. Find All Duplicates in an Array](../0442_Find_All_Duplicates_in_an_Array.md) (Medium)
 - [1288. Remove Covered Intervals](../1288_remove_covered_intervals.md) (Medium)
 
@@ -521,7 +524,7 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 | 155 | [Min Stack](../0155_min_stack.md) | Design (hash + structure) |
 | 160 | [Intersection of Two Linked Lists](../0160_intersection_of_two_linked_lists.md) | Linked list patterns |
 | 165 | [Compare Version Numbers](../0165_compare_version_numbers.md) | Two pointers |
-| 169 | [Majority Element](../0169_Majority_Element.md) | Sorting + greedy |
+| 169 | [Majority Element](../0169_Majority_Element.md) | Boyer-Moore voting |
 | 173 | [Binary Search Tree Iterator](../0173_binary_search_tree_iterator.md) | Design (hash + structure) |
 | 174 | [Dungeon Game](../0174_Dungeon_Game.md) | Dynamic programming |
 | 179 | [Largest Number](../0179_largest_number.md) | Greedy |
@@ -545,7 +548,7 @@ Every indexed problem mapped to a primary technique. Secondary tags omitted for 
 | 226 | [Invert Binary Tree](../0226_invert_binary_tree.md) | Graph BFS |
 | 227 | [Basic Calculator II](../0227_Basic_Calculator_II.md) | Stack / parsing |
 | 228 | [Summary Ranges](../0228_summary_ranges.md) | Array fundamentals |
-| 229 | [Majority Element II](../0229_Majority_Element_II.md) | Sorting + greedy |
+| 229 | [Majority Element II](../0229_Majority_Element_II.md) | Boyer-Moore voting |
 | 230 | [Kth Smallest Element in a BST](../0230_kth_smallest_element_in_a_bst.md) | Graph DFS |
 | 234 | [Palindrome Linked List](../0234_Palindrome_Linked_List.md) | Linked list patterns |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](../0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md) | Graph DFS |

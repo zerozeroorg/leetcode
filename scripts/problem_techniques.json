@@ -1000,10 +1000,10 @@
     "title": "Majority Element",
     "filename": "0169_Majority_Element.md",
     "difficulty": "Easy",
-    "primary": "Sorting + greedy",
+    "primary": "Boyer-Moore voting",
     "secondary": [
-      "Hash map lookup",
-      "Hash map / counting"
+      "Sorting + greedy",
+      "Hash map lookup"
     ]
   },
   {
@@ -1254,10 +1254,10 @@
     "title": "Majority Element II",
     "filename": "0229_Majority_Element_II.md",
     "difficulty": "Medium",
-    "primary": "Sorting + greedy",
+    "primary": "Boyer-Moore voting",
     "secondary": [
-      "Hash map lookup",
-      "Hash map / counting"
+      "Sorting + greedy",
+      "Hash map lookup"
     ]
   },
   {

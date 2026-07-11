@@ -103,6 +103,8 @@ OVERRIDES: dict[int, str] = {
     560: "Prefix / suffix sums",
     739: "Monotonic stack",
     876: "Linked list patterns",
+    169: "Boyer-Moore voting",
+    229: "Boyer-Moore voting",
 }
 
 PERSONAL_TAGS = {"revisit", "unsolved", "non-intuitive", "non intuitive", "backwards"}

@@ -1,6 +1,6 @@
 {
   "Array": {
-    "techniques": ["Hash map for complement/frequency", "Two pointers on sorted arrays", "In-place marking for O(1) space"],
+    "techniques": ["Hash map for complement/frequency", "Boyer-Moore voting for majority", "In-place marking for O(1) space"],
     "doc_anchor": "hash-map-lookup"
   },
   "Backtracking": {
@@ -44,8 +44,8 @@
     "doc_anchor": "advanced-patterns"
   },
   "Counting": {
-    "techniques": ["Frequency map or array", "Prefix counts for range queries"],
-    "doc_anchor": "hash-map-lookup"
+    "techniques": ["Frequency map or array", "Boyer-Moore voting for majority elements", "Prefix counts for range queries"],
+    "doc_anchor": "boyer-moore-voting"
   },
   "Data Stream": {
     "techniques": ["Heap for running top-k or median", "Hash map + linked list for LRU-style access"],

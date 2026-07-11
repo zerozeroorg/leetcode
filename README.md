@@ -11,6 +11,7 @@ Use these for coding interview prep. If you have questions, comments or suggesti
 **Study guides:**
 - [STUDY_INDEX.md](STUDY_INDEX.md) — all 310 problems grouped by topic and difficulty
 - [docs/interview_techniques.md](docs/interview_techniques.md) — must-know patterns and algorithms for interviews
+- [docs/interview_gaps_checklist.md](docs/interview_gaps_checklist.md) — prioritized backlog of missing topics and problems
 
 ## Overall Approach
 
