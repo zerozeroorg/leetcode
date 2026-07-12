@@ -42,37 +42,12 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 ### Solution
 A better way:
-- Create a hash table of num -> index
-- Then iterate array again and get target - num
-- If it exists in the hash table and it does not equal to current index, then we have a match!
+- Iterate the array. As you iterate, check if the difference between the target and current number is in the lookup
+- If it is, then you have found its complement - return current num's index and the complement index via lookup
+- If it is not, store the current num -> index so that if you iterate later in the array and it is a complement of another number, you found the answer
 
 You don't have to build the hash table right away. You can go through each num and calculate the difference. If the difference is not in the hash table (meaning I haven't encountered it yet) then store the current num's index into the hash table.
-```
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        """
-            Since I have to return the indices, I cannot sort them.
-            So use a map that stores lookup[target - num] = [index]
-            
-            Then iterate the array again and check if a num exists in the
-            lookup. If it does, return that index, and the lookup index.
-        """
-        lookup = collections.defaultdict(list)
-        length = len(nums)
-        
-        for i in range(length):
-            num = nums[i]
-            lookup[target - num].append(i)
-        
-        for i in range(length):
-            num = nums[i]
-            possible = len(lookup[num])
-            if possible == 0:
-                continue
-            if possible > 1:
-                return [lookup[num][0], lookup[num][1]]
-            elif i not in lookup[num]:
-                return [i, lookup[num][0]]
+
                 
         
         return None
