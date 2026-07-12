@@ -48,7 +48,14 @@ A better way:
 
 You don't have to build the hash table right away. You can go through each num and calculate the difference. If the difference is not in the hash table (meaning I haven't encountered it yet) then store the current num's index into the hash table.
 
-                
+```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        num_map = {}  # Value => Index
         
-        return None
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in num_map:
+                return [num_map[complement], i]
+            num_map[num] = i
 ```
