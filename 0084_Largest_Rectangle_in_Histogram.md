@@ -58,13 +58,19 @@ class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         """
             use a monotonic stack
-            the idea is that having an increasing size
-            of rectangles in the stack will tell you that the max
-            rectangle size is current rectangle * number of rectangles
-            between the left and right side.
+            the idea is that by having an increasing size
+            of rectangles in the stack, it will tell you that a rectangle can be formed
+            from one element -> to the right element:
+
+            [1, 2, 3]
+
+            - For 1, I can go all the way to the right to form a 1x3 rectangle
+            - For 2, I can go all the way to the righ to from a 2x2 rectangle
+            - For 3, I can just form a 3x1 rectangle
             
-            Once a smaller rectangle is placed, then you can do the calculation
-            mentioned above.
+            Once a smaller rectangle is placed, pop the heights until the stack is monotonically increasing
+            and as you pop, you can do the rectangle calculation of popped_height * (curr_index - 1 - popped_height_index)
+            The curr_index - 1 is there because the curr_index is a smaller rectangle so we can't use its index
             
             If after going through the rectangles, there are some left in the stack
             then pop it off and calculate rectangle size from end to the first rectangle
