@@ -19,7 +19,7 @@ Constraints:
 ```
 1 <= s.length <= 1000
 s consists of lowercase English letters.
-`` 
+``` 
 
 Note: This question is the same as 316: https://leetcode.com/problems/remove-duplicate-letters/
 
