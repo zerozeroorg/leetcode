@@ -33,6 +33,8 @@ nums2.length == n
 - Sorting
 
 ### Solution:
+To achieve constant space and linear time, we can have two pointers: one at the end of `nums2` and the other at the end of `nums1` minus the length of the zeroes (or length of nums2). We will also have a pointer at the end of nums1, `ptr`, to start the num placement. Since thy are both sorted, we take the biggest one of each and put it where `ptr` is located. Continue until both arrays reach the beginning of their respective arrays.
+
 ```
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
