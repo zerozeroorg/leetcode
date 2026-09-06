@@ -1,5 +1,5 @@
 ### 3045. Count Prefix and Suffix Pairs II
-
+Hard
 You are given a 0-indexed string array words.
 
 Let's define a boolean function isPrefixAndSuffix that takes two strings, str1 and str2:
